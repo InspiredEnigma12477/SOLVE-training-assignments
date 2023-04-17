@@ -1,0 +1,7 @@
+C:\Users\AUMNI\source\repos\FirstConsoleApp\FirstConsoleApp\obj\Debug\Assignment 1 - Calculator.csproj.AssemblyReference.cache
+C:\Users\AUMNI\source\repos\FirstConsoleApp\FirstConsoleApp\obj\Debug\Assignment 1 - Calculator.csproj.CoreCompileInputs.cache
+C:\Users\AUMNI\source\repos\FirstConsoleApp\FirstConsoleApp\obj\Debug\FirstConsoleApp.exe
+C:\Users\AUMNI\source\repos\FirstConsoleApp\FirstConsoleApp\obj\Debug\FirstConsoleApp.pdb
+C:\Users\AUMNI\source\repos\FirstConsoleApp\FirstConsoleApp\bin\Debug\FirstConsoleApp.exe.config
+C:\Users\AUMNI\source\repos\FirstConsoleApp\FirstConsoleApp\bin\Debug\FirstConsoleApp.exe
+C:\Users\AUMNI\source\repos\FirstConsoleApp\FirstConsoleApp\bin\Debug\FirstConsoleApp.pdb

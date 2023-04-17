@@ -8,17 +8,17 @@ namespace FirstConsoleApp
 {
     class Program
     {
-        static int Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("Hello World!!...");
             Console.WriteLine("Enter the Name: ");
             string name = Console.ReadLine();
-            Console.Write(name);
+            Console.Write("Welcome  " + name);
 
-            start();
+            cal_start();
 
             Console.ReadKey();
-            return 0;
+
             /*
              By convention, a return value of 0 is used to indicate a successful program execution. 
             However, it is not necessary to include a return 0; statement in C# because the compiler 
@@ -28,38 +28,57 @@ namespace FirstConsoleApp
         }
 
 
-        public static void start()
-        {
+        public static void cal_start()
+        { 
             Calculator cal = new Calculator();
 
-            Console.WriteLine("***********MENU******************");
-            Console.WriteLine("1. Additon ");
-            Console.WriteLine("2. Subtraction ");
-            Console.WriteLine("3. Multiplication ");
-            Console.WriteLine("4. Division ");
-            Console.Write("Task : ");
-            int choice = Console.Read();
-            switch (choice)
+            int choice;
+            do
             {
-                case 1:
-                    Console.WriteLine("inside case 1");
-                    cal.add();
-                    break;
-                case 2:
-                    cal.sub();
-                    break;
-                default:
-                    Console.WriteLine("Not Working!!");
-            }
+                Console.WriteLine("\n*****MENU*****");
+                Console.WriteLine("1. Additon ");
+                Console.WriteLine("2. Subtraction ");
+                Console.WriteLine("3. Multiplication ");
+                Console.WriteLine("4. Division ");
+                Console.WriteLine("99. Exit ");
+                Console.WriteLine("****************");
+                Console.Write("Task : ");
+                choice = (int.Parse(Console.ReadLine()));
+                Console.Write(choice + "\n");
+                switch (choice)
+                {
+                    case 1:
+                        Console.WriteLine("Addition ");
+                        Console.WriteLine("= " + cal.add());
+                        break;
+                    case 2:
+                        Console.WriteLine("Subtraction ");
+                        Console.WriteLine("= " + cal.sub());
+                        break;
+                    case 3:
+                        Console.WriteLine("Multiplication ");
+                        Console.WriteLine("= " + cal.mul());
+                        break;
+                    case 4:
+                        Console.WriteLine("Division ");
+                        Console.WriteLine("= " + cal.div());
+                        break;
+                    case 99:
+                        Console.WriteLine("Thank You !! ");
+                        break;
+                    default:
+                        Console.WriteLine("Not Working!!");
+                        break;
+                }
+            } while (choice != 99);
         }
     }
-    
-    
+
+
     class Calculator
     {
-        public int add()
+        public static List<int> input()
         {
-            Console.Write("Inside Plain add() : ");
             List<int> numbers = new List<int>();
 
             while (true)
@@ -71,11 +90,16 @@ namespace FirstConsoleApp
                 if (int.TryParse(input, out int number))
                     numbers.Add(number);
                 else
-                    Console.Write("Enter valid Integer");
+                    Console.WriteLine("Enter valid Integer");
             }
-            Calculator cal = new Calculator();
-            int sum = cal.add(numbers.ToArray());
-            return sum;
+            foreach(int i in numbers){
+                Console.Write(i + " ");
+            }
+            return numbers;
+        }
+        public int add()
+        { 
+            return add(Calculator.input().ToArray());
         }
         public int add(int num)
         {
@@ -91,23 +115,40 @@ namespace FirstConsoleApp
         }
         public int sub()
         {
-            int result = 0;
-            List<int> numbers = new List<int>();
-
-            while (true)
-            {
-                Console.Write("Enter number or ('done' to finish) : ");
-                string input = Console.ReadLine();
-                if (input == "done")
-                    break;
-                if (int.TryParse(input, out int number))
-                    numbers.Add(number);
-                else
-                    Console.Write("Enter valid Integer");
-            }
-            Calculator cal = new Calculator();
-            int sum = cal.add(numbers.ToArray());
-            return result;
+            Console.Write("Enter Number 1: ");
+            int num1 = int.Parse(Console.ReadLine());
+            Console.Write("Enter Number 2: ");
+            int num2 = int.Parse(Console.ReadLine());
+            Console.Write(num1 + " " + num2);
+            return sub(num1, num2);
+        }
+        public int sub(int num1, int num2)
+        {
+            return  Math.Abs(num1 - num2);
+        }
+        public int mul()
+        {
+            return mul(Calculator.input().ToArray());
+        }
+        public int mul(int[] numbers)
+        {
+            int mul = 1;
+            foreach (int num in numbers)
+                mul *= num;
+            return mul;
+        }
+        public int div()
+        {
+            Console.Write("Try to give num1 greater\nEnter Two Number 1: ");
+            int num1 = int.Parse(Console.ReadLine());
+            Console.Write("Enter Number 2: ");
+            int num2 = int.Parse(Console.ReadLine());
+            Console.Write(num1 + " " + num2);
+            return div(num1, num2);
+        }
+        public int div(int num1, int num2)
+        { 
+            return (num1 == 0 || num2 == 0) ? -11 : Math.Abs(num1 / num2);
         }
     }
 
