@@ -1,4 +1,4 @@
-[![Solve](https://solvefixedinco.wpengine.com/wp-content/uploads/2022/09/Loog_main.svg)](https://solvefixedinco.wpengine.com/wp-content/uploads/2022/09/Loog_main.svg)
+[![Solve](https://solvefixedinco.wpengine.com/wp-content/uploads/2022/09/Loog_main.svg)](https://solvefixedincome.com/)
 # Solve-training-assignments
 ## Assignments 
   Calculator App [Code](https://github.com/InspiredEnigma12477/Solve-training-assignments/blob/master/FirstConsoleApp/FirstConsoleApp/Program.cs)
