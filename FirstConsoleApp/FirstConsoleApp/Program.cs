@@ -105,7 +105,7 @@ namespace FirstConsoleApp
         {
             return ++num;
         }
-        public int add(int[] numbers)
+        public int add(params int[] numbers)
         {
             int sum = 0;
             foreach (int num in numbers)
@@ -130,7 +130,7 @@ namespace FirstConsoleApp
         {
             return mul(Calculator.input().ToArray());
         }
-        public int mul(int[] numbers)
+        public int mul(params int[] numbers)
         {
             int mul = 1;
             foreach (int num in numbers)

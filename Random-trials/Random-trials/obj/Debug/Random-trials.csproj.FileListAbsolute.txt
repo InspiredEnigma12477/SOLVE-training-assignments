@@ -1,0 +1,7 @@
+C:\Users\AUMNI\source\repos\Random-trials\Random-trials\bin\Debug\Random-trials.exe.config
+C:\Users\AUMNI\source\repos\Random-trials\Random-trials\bin\Debug\Random-trials.exe
+C:\Users\AUMNI\source\repos\Random-trials\Random-trials\bin\Debug\Random-trials.pdb
+C:\Users\AUMNI\source\repos\Random-trials\Random-trials\obj\Debug\Random-trials.csproj.AssemblyReference.cache
+C:\Users\AUMNI\source\repos\Random-trials\Random-trials\obj\Debug\Random-trials.csproj.CoreCompileInputs.cache
+C:\Users\AUMNI\source\repos\Random-trials\Random-trials\obj\Debug\Random-trials.exe
+C:\Users\AUMNI\source\repos\Random-trials\Random-trials\obj\Debug\Random-trials.pdb
