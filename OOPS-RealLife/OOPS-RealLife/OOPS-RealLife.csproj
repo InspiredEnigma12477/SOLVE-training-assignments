@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B43B224E-9621-4BA9-B43E-C230A3D85754}</ProjectGuid>
+    <ProjectGuid>{ED9C43D3-7C29-4DDA-9759-2C9F3891BE7D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Random_trials</RootNamespace>
-    <AssemblyName>Random-trials</AssemblyName>
+    <RootNamespace>OOPS_RealLife</RootNamespace>
+    <AssemblyName>OOPS-RealLife</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Bank.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
