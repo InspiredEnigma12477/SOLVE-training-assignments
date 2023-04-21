@@ -11,7 +11,7 @@ namespace Solve.Training.School.ConsoleApp.Model
         private int studentID { get; set; }
         private string gradeLevel { get; set; }
 
-        public Student(string name, int age, string gender, string bloodGroup int studentID, string gradeLevel): base(name, age, gender, bloodGroup)
+        public Student(string name, int age, string gender, string bloodGroup, int studentID, string gradeLevel): base(name, age, gender, bloodGroup)
         { 
             this.studentID = studentID;
             this.gradeLevel = gradeLevel;
@@ -23,6 +23,10 @@ namespace Solve.Training.School.ConsoleApp.Model
             Console.WriteLine($"Student ID: {studentID}, Grade Level: {gradeLevel} ");
         }
 
+        public override string ToString()
+        {
+            return base.ToString() + $"Student ID: {studentID}, Grade Level: {gradeLevel} ";
+        }
         public abstract void Attend();
 
         public abstract void DoHomework();

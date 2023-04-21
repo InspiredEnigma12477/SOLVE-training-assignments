@@ -6,20 +6,33 @@ using System.Threading.Tasks;
 
 namespace Solve.Training.School.ConsoleApp.Model
 {
-    class Solve_School
+    class Solve_School : School
     {
         List<GradStudent> stu;
 
         public Solve_School()
         {
-            List<GradStudent> stu = new List<GradStudent>();
+            Console.WriteLine("Default Constructor of Solve School");
         }
-
-        public void addStu()
+        public Solve_School( List<GradStudent> stu)
         {
-            stu.Add(new HighSchoolStudent(""));
+            this.stu = stu;
         }
 
+        public override void getAllInfo()
+        {
+            stu.ToString();
+        }
+
+        public override string ToString()
+        {
+            foreach (GradStudent s in stu)
+            {
+                Console.WriteLine(s.ToString());
+            }
+
+            return base.ToString();
+        }
 
     }
 }

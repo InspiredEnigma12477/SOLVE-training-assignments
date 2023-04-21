@@ -43,8 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\HighSchoolStudent.cs" />
+    <Compile Include="Model\GradStudent.cs" />
     <Compile Include="Model\IStudentBehavior.cs" />
+    <Compile Include="Model\Solve-School.cs" />
     <Compile Include="Model\Student.cs" />
     <Compile Include="Model\Person.cs" />
     <Compile Include="Model\School.cs" />

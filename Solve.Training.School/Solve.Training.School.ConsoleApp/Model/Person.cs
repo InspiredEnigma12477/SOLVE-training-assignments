@@ -13,14 +13,17 @@ namespace Solve.Training.School.ConsoleApp.Model
         private string gender { get; set; }
         private string bloodGroup { get; set; }
 
-        Person(string name, int age, string gender, string bloodGroup)
+        public Person(string name, int age, string gender, string bloodGroup)
         {
             this.name = name;
             this.age = age;
             this.gender = gender;
             this.bloodGroup = bloodGroup;
         }
-
+        public override string ToString()
+        {
+            return base.ToString() + $"Name = {name}, Gender = {gender}, bloodGroup = {bloodGroup} ";
+        }
         public virtual void getAllInfo()
         {
             Console.WriteLine($"Name = {name}, Gender = {gender}, bloodGroup = {bloodGroup} ");

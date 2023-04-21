@@ -29,6 +29,11 @@ namespace Solve.Training.School.ConsoleApp.Model
             base.getAllInfo();
             Console.WriteLine("School: Grad School");
         }
+
+        public override string ToString()
+        {
+            return base.ToString();
+        }
     }
 
 }

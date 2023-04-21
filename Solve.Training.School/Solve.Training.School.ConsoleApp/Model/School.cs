@@ -13,6 +13,11 @@ namespace Solve.Training.School.ConsoleApp.Model
         private string board { get; set; }
         private int noOfStudents { get; set; }
 
+        public School()
+        {
+            Console.WriteLine("Inside default constructor");
+        }
+
         School(string name, string address, string board, int noOfStudents)
         {
             this.name = name;
@@ -21,7 +26,11 @@ namespace Solve.Training.School.ConsoleApp.Model
             this.noOfStudents = noOfStudents;
         }
 
-        public virtual void display()
+        public override string ToString()
+        {
+            return base.ToString() + $"Name = {name}, Address = {address}, Board = {board}, NoOfStudents = {noOfStudents} ";
+        }
+        public virtual void getAllInfo()
         {
             Console.WriteLine($"Name = {name}, Address = {address}, Board = {board}, NoOfStudents = {noOfStudents} ");
         }
