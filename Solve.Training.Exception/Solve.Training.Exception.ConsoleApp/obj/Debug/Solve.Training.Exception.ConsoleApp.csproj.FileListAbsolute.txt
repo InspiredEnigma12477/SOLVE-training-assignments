@@ -1,0 +1,7 @@
+C:\Users\AUMNI\source\repos\Solve.Training.Exception\Solve.Training.Exception.ConsoleApp\bin\Debug\Solve.Training.Exception.ConsoleApp.exe.config
+C:\Users\AUMNI\source\repos\Solve.Training.Exception\Solve.Training.Exception.ConsoleApp\bin\Debug\Solve.Training.Exception.ConsoleApp.exe
+C:\Users\AUMNI\source\repos\Solve.Training.Exception\Solve.Training.Exception.ConsoleApp\bin\Debug\Solve.Training.Exception.ConsoleApp.pdb
+C:\Users\AUMNI\source\repos\Solve.Training.Exception\Solve.Training.Exception.ConsoleApp\obj\Debug\Solve.Training.Exception.ConsoleApp.csproj.AssemblyReference.cache
+C:\Users\AUMNI\source\repos\Solve.Training.Exception\Solve.Training.Exception.ConsoleApp\obj\Debug\Solve.Training.Exception.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\AUMNI\source\repos\Solve.Training.Exception\Solve.Training.Exception.ConsoleApp\obj\Debug\Solve.Training.Exception.ConsoleApp.exe
+C:\Users\AUMNI\source\repos\Solve.Training.Exception\Solve.Training.Exception.ConsoleApp\obj\Debug\Solve.Training.Exception.ConsoleApp.pdb
