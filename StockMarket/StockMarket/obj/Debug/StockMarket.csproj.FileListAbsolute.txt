@@ -1,0 +1,2 @@
+C:\Users\AUMNI\source\repos\StockMarket\StockMarket\obj\Debug\StockMarket.csproj.AssemblyReference.cache
+C:\Users\AUMNI\source\repos\StockMarket\StockMarket\obj\Debug\StockMarket.csproj.CoreCompileInputs.cache

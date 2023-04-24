@@ -10,6 +10,10 @@ namespace Random_trials
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Range for the integral Datatypes");
+            Random_trials.DataTypes.RangeOfTypes.RangeOfType();
+
+
             Console.WriteLine("Trying the diff between int[][]  || int[,] ");
             RectangularArray();
             JaggedArray();
