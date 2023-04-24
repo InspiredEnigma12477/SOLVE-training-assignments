@@ -9,19 +9,19 @@ namespace StockMarket.Models
     public class Stock
     {
         [Key]
-        private Guid StockId { get; set; }
+        public Guid StockId { get; set; }
         [Required]
         [StringLength(20)]
-        private string StockName { get; set; }
+        public string StockName { get; set; }
         [Required]
-        [StringLength(5)]
-        private string StockSymbol { get; set; }
-        [Required]
-        [StringLength(20)]
-        private double Price { get; set; }
+        [StringLength(15)]
+        public string StockSymbol { get; set; }
         [Required]
         [StringLength(20)]
-        private DateTime CreationDate { get; set; }
+        public double Price { get; set; }
+        [Required]
+        [StringLength(20)]
+        public DateTime CreationDate { get; set; }
 
     }
 }

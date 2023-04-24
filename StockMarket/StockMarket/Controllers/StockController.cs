@@ -1,40 +1,45 @@
-﻿using System;
+﻿using StockMarket.DataAccessLayer;
+using StockMarket.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Web.Http;
 
 namespace StockMarket.Controllers
 {
-    [Route("")]
     public class StockController : ApiController
     {
-        // GET api/values
-        public IEnumerable<string> Get()
+        private readonly StockMarketContext db = new StockMarketContext();
+
+
+        public IHttpActionResult Get()
         {
-            return new string[] { "value1", "value2" };
+            List<Stock> allStocks = DbManager.GetAllStocks();
+            Console.WriteLine("Get all stocks");
+            allStocks.ForEach(stock =>
+            {
+                Console.WriteLine(stock);
+            });
+            return Json(allStocks);
         }
 
-        // GET api/values/5
-        public string Get(int id)
+        public IHttpActionResult GetStockById(int id)
         {
-            return "value";
+            var stock = db.Stocks.Find(id);
+            if (stock == null)
+            {
+                return BadRequest($"Stock Doesn't exist of {id}");
+            }
+            return Json(stock);
         }
 
-        // POST api/values
-        public void Post([FromBody] string value)
+        protected override void Dispose(bool disposing)
         {
-        }
-
-        // PUT api/values/5
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/values/5
-        public void Delete(int id)
-        {
+            if (disposing)
+            {
+                db.Dispose();
+            }
+            base.Dispose(disposing);
         }
     }
 }
