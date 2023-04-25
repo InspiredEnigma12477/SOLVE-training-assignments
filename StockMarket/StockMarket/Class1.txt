@@ -1,5 +1,5 @@
 ﻿CREATE TABLE stocks (
-  StockId CHAR(36) NOT NULL,
+  StockId int NOT NULL,
   StockName VARCHAR(50) NOT NULL,
   StockSymbol VARCHAR(15) NOT NULL,
   Price DECIMAL(10, 2) NOT NULL,
@@ -9,16 +9,16 @@ PRIMARY KEY (StockId)
 
 INSERT INTO stocks (StockId, StockName, StockSymbol, Price, CreationDate)
 VALUES
-('1', 'Reliance Industries Ltd', 'RELIANCE', '2102.65', '2023-04-24'),
-('2', 'Tata Consultancy Services Ltd', 'TCS', '3124.05', '2023-04-24'),
-('3', 'HDFC Bank Ltd', 'HDFCBANK', '1454.95', '2023-04-24'),
-('4', 'Hindustan Unilever Ltd', 'HINDUNILVR', '2580.55', '2023-04-24'),
-('5', 'Infosys Ltd', 'INFY', '1440.75', '2023-04-24'),
-('6', 'ICICI Bank Ltd', 'ICICIBANK', '758.15', '2023-04-24'),
-('7', 'Kotak Mahindra Bank Ltd', 'KOTAKBANK', '1988.55', '2023-04-24'),
-('8', 'Bajaj Finance Ltd', 'BAJFINANCE', '7327.25', '2023-04-24'),
-('9', 'Axis Bank Ltd', 'AXISBANK', '780.75', '2023-04-24'),
-('10', 'State Bank of India', 'SBIN', '461.95', '2023-04-24');
+(1, 'Reliance Industries Ltd', 'RELIANCE', '2102.65', '2023-04-24'),
+(2, 'Tata Consultancy Services Ltd', 'TCS', '3124.05', '2023-04-24'),
+(3, 'HDFC Bank Ltd', 'HDFCBANK', '1454.95', '2023-04-24'),
+(4, 'Hindustan Unilever Ltd', 'HINDUNILVR', '2580.55', '2023-04-24'),
+(5, 'Infosys Ltd', 'INFY', '1440.75', '2023-04-24'),
+(6, 'ICICI Bank Ltd', 'ICICIBANK', '758.15', '2023-04-24'),
+(7, 'Kotak Mahindra Bank Ltd', 'KOTAKBANK', '1988.55', '2023-04-24'),
+(8, 'Bajaj Finance Ltd', 'BAJFINANCE', '7327.25', '2023-04-24'),
+(9, 'Axis Bank Ltd', 'AXISBANK', '780.75', '2023-04-24'),
+(10, 'State Bank of India', 'SBIN', '461.95', '2023-04-24');
 
 
 

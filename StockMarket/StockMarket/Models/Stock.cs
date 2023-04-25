@@ -9,7 +9,7 @@ namespace StockMarket.Models
     public class Stock
     {
         [Key]
-        public Guid StockId { get; set; }
+        public int StockId { get; set; }
         [Required]
         [StringLength(20)]
         public string StockName { get; set; }
@@ -18,10 +18,33 @@ namespace StockMarket.Models
         public string StockSymbol { get; set; }
         [Required]
         [StringLength(20)]
-        public double Price { get; set; }
+        public string Price { get; set; }
         [Required]
         [StringLength(20)]
-        public DateTime CreationDate { get; set; }
+        public string CreationDate { get; set; }
+
+        public Stock()
+        {
+            
+        }
+        public Stock(int id, string name, string symbol, string price, string date)
+        {
+            this.StockId = id;
+            this.StockName = name;
+            this.StockSymbol = symbol;
+            this.Price = price;
+            this.CreationDate = date;
+
+        }
+        public Stock(string id, string name, string symbol, string price, string date)
+        {
+            this.StockId = int.Parse(id);
+            this.StockName = name;
+            this.StockSymbol = symbol;
+            this.Price = price;
+            this.CreationDate = date;
+
+        }
 
     }
 }
