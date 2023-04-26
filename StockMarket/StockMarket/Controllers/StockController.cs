@@ -1,10 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using StockMarket.DataAccessLayer;
 using StockMarket.Models;
+using StockMarket.Utils;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Web.Http;
 
 namespace StockMarket.Controllers
@@ -35,15 +38,23 @@ namespace StockMarket.Controllers
             return Ok(true);
         }
 
-        public IHttpActionResult InsertOneStock(Stock stock1)
+        public IHttpActionResult InsertOneStock(Stock stock)
         {
-            var status = DbManager.InsertOneStock(stock1);
-            if (status == false)
+            new StreamWriter("D:\\trail4_stocks.txt").WriteLine(stock.ToString());
+
+            List<ErrorMessage> validationErrors = Validation.ValidateStock(stock);
+            if (validationErrors.Any())
             {
-                return BadRequest($"Insertion was unsuccessful");
+                var response = new { success = false, errors = validationErrors };
+                return Content(HttpStatusCode.BadRequest, response);
             }
-            else
-                return Ok(true);
+
+            new StreamWriter("D:\\trail1_stocks.txt").WriteLine(stock.ToString());
+            if (!DbManager.InsertOneStock(stock))
+                return Content(HttpStatusCode.InternalServerError, new { success = false, message = "Failed to insert stock into database." });
+
+            return Content(HttpStatusCode.OK, new { success = true, message = "Inserted stock into database." });
+
         }
 
         public IHttpActionResult GetStockById(int id)

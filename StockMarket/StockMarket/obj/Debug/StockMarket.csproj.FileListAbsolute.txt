@@ -298,3 +298,5 @@ C:\Users\AUMNI\source\repos\StockMarket\StockMarket\bin\MySqlConnector.xml
 C:\Users\AUMNI\source\repos\StockMarket\StockMarket\bin\Pomelo.EntityFrameworkCore.MySql.xml
 C:\Users\AUMNI\source\repos\StockMarket\StockMarket\bin\System.Text.Json.xml
 C:\Users\AUMNI\source\repos\StockMarket\StockMarket\bin\System.ValueTuple.xml
+C:\Users\AUMNI\source\repos\StockMarket\StockMarket\bin\Newtonsoft.Json.Schema.dll
+C:\Users\AUMNI\source\repos\StockMarket\StockMarket\bin\Newtonsoft.Json.Schema.xml

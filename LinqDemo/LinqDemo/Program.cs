@@ -13,6 +13,12 @@ namespace LinqDemo
         {
             List<Employee> list = Utils.Populate();
 
+            var now = DateTime.Now;
+            var utcNow = DateTime.UtcNow;
+
+            Console.WriteLine($"Local Now: {now}");
+            Console.WriteLine($"UTC Now: {utcNow}");
+
             function1(list);
             function2(list);
             function3(list);

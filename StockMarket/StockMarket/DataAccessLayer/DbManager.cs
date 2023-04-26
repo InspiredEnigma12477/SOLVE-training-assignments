@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.IO;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Web;
 using MySql.Data.MySqlClient;
 using StockMarket.Models;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace StockMarket.DataAccessLayer
 {
@@ -39,7 +41,7 @@ namespace StockMarket.DataAccessLayer
                     int id = int.Parse(reader["StockId"].ToString());
                     string stockName = reader["StockName"].ToString();
                     string stockSymbol = reader["StockSymbol"].ToString();
-                    string price = reader["Price"].ToString();
+                    double price = double.Parse(reader["Price"].ToString());
                     string creationDate = reader["CreationDate"].ToString();
 
                     Stock stock = new Stock
@@ -48,7 +50,7 @@ namespace StockMarket.DataAccessLayer
                         StockName = stockName,
                         StockSymbol = stockSymbol,
                         Price = price,
-                        CreationDate = creationDate
+                        CreationDate = DateTime.Parse(creationDate)
                     };
                     allStocks.Add(stock);
                 }
@@ -70,6 +72,7 @@ namespace StockMarket.DataAccessLayer
         #region Put Methods
         public static bool InsertOneStock(Stock stock)
         {
+            new StreamWriter("D:\\trail_stocks.txt").WriteLine(stock.ToString());
             bool status = false;
             string query = $"INSERT INTO stocks (StockId, StockName, StockSymbol, Price, CreationDate) VALUES( {stock.StockId}, '{stock.StockName}', '{stock.StockSymbol}', {stock.Price}, '{stock.CreationDate}')";
             MySqlConnection con = DatabaseConnection.Instance.GetConnection();
@@ -124,40 +127,23 @@ namespace StockMarket.DataAccessLayer
         public static Stock StockById(int id)
         {
             MySqlConnection con = DatabaseConnection.Instance.GetConnection();
-            Stock stock;
-            try{
-                MySqlCommand cmd = new MySqlCommand();
-                cmd.Connection = con;
-
-                string query = $"SELECT * FROM stocks Where StockId ={id}";
-                cmd.CommandText = query;
-                con.Open();
+            string query = $"SELECT * FROM stocks Where StockId ={id}";
+            try
+            {
                 MySqlCommand command = new MySqlCommand(query, con);
-                MySqlDataReader reader = command.ExecuteReader();
-                while (reader.Read())
-                {
-                    int id1 = int.Parse(reader["StockId"].ToString());
-                    string stockName = reader["StockName"].ToString();
-                    string stockSymbol = reader["StockSymbol"].ToString();
-                    string price = reader["Price"].ToString();
-                    string creationDate = reader["CreationDate"].ToString();
+                con.Open();
 
-                    if (id1 == id)
+                MySqlDataReader reader = command.ExecuteReader();
+                if (reader.Read())
+                {
+                    return new Stock
                     {
-                        stock = new Stock
-                        {
-                            StockId = id,
-                            StockName = stockName,
-                            StockSymbol = stockSymbol,
-                            Price = price,
-                            CreationDate = creationDate
-                        };
-                        return stock;
-                    }
-                    else
-                    {
-                        return null;
-                    }
+                        StockId = int.Parse(reader["StockId"].ToString()),
+                        StockName = reader["StockName"].ToString(),
+                        StockSymbol = reader["StockSymbol"].ToString(),
+                        Price = double.Parse(reader["Price"].ToString()),
+                        CreationDate = DateTime.Parse(reader["CreationDate"].ToString())
+                    };
                 }
             }
             catch (Exception e)
@@ -177,7 +163,7 @@ namespace StockMarket.DataAccessLayer
             try
             {
                 Stock stock = StockById(id);
-                if(stock == null)
+                if (stock == null)
                 {
                     return null;
                 }
@@ -188,9 +174,9 @@ namespace StockMarket.DataAccessLayer
                     con.Open();
                     cmd.ExecuteNonQuery();
 
-                    return stock ;
+                    return stock;
                 }
-                
+
 
             }
             catch (Exception ee)
@@ -203,6 +189,33 @@ namespace StockMarket.DataAccessLayer
             }
 
             return null;
+        }
+
+
+        public static bool IsStockExist(string StockSymbol)
+        {
+            bool status = false;
+            string query = $"Select COUNT(*) FROM stocks WHERE StockSymbol = '{StockSymbol}'";
+            MySqlConnection con = DatabaseConnection.Instance.GetConnection();
+            try
+            {
+                con.Open();
+                MySqlCommand command = new MySqlCommand(query, con);
+                int count = Convert.ToInt32(command.ExecuteScalar());
+                status = count > 0;
+
+            }
+            catch (Exception ee)
+            {
+                Console.WriteLine(ee.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+
+            return status;
+
         }
     }
 }

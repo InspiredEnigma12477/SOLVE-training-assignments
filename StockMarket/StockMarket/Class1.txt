@@ -28,3 +28,4 @@ Drop table stocks;
 use SolveTraining;
 desc Stocks;
 select * from Stocks;
+
