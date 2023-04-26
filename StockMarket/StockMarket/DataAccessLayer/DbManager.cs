@@ -16,6 +16,8 @@ namespace StockMarket.DataAccessLayer
 
         public DbManager() { }
 
+
+        #region Get Methods
         public static List<Stock> GetAllStocks()
         {
             List<Stock> allStocks = new List<Stock>();
@@ -63,6 +65,9 @@ namespace StockMarket.DataAccessLayer
             return allStocks;
         }
 
+        #endregion
+
+        #region Put Methods
         public static bool InsertOneStock(Stock stock)
         {
             bool status = false;
@@ -88,6 +93,8 @@ namespace StockMarket.DataAccessLayer
             return status;
 
         }
+
+        #endregion
         public static bool UpdateStockById(Stock stock)
         {
             bool status = false;
