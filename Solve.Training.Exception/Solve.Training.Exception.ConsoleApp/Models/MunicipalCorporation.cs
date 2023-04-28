@@ -54,6 +54,7 @@ namespace Solve.Training.ExceptionCode.ConsoleApp.Models
                 double request = double.Parse(Console.ReadLine());
                 this.fund_requested = request;
                 Console.ForegroundColor = ConsoleColor.White;
+
                 if (base.ThresholdAmount < fund_requested && this.CorporationBudget < fund_requested)
                 {
                     throw ex;

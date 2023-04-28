@@ -14,7 +14,7 @@ namespace Solve.Training.ExceptionCode.ConsoleApp.Models
 
         public CentralGovernment()
         {
-            Console.Write("Ministry Name Please:  ");
+            Console.Write("Central Government : Ministry Name Please:  ");
             this.Ministries_Name = Console.ReadLine();
             this.ThresholdAmount = 2_000_000_000;
 

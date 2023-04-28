@@ -22,10 +22,7 @@ namespace StockMarket.Models
         [Range(0.01, 1000000, ErrorMessage = "Price must be between 0.01 and 1000000")]
         public double Price { get; set; }
         [Required(ErrorMessage = "Creation date is required")]
-        public DateTime CreationDate { get; set; }
-
-        private readonly Dictionary<int, string> _validationErrors = new Dictionary<int, string>();
-
+        public DateTime CreationDate { get; set; } = DateTime.Now;
 
         public Stock()
         {
@@ -37,21 +34,11 @@ namespace StockMarket.Models
             this.StockName = name;
             this.StockSymbol = symbol;
             this.Price = price;
-            var now = DateTime.Now;
-            this.CreationDate = now;
-            
-
-            new StreamWriter("D:\\trail_stocks.txt").WriteLine(this.ToString());
-
         }
 
         public override string ToString()
         {
             return $"StockId: {StockId}, StockName: {StockName}, StockSymbol: {StockSymbol}, Price: {Price}, CreationDate: {CreationDate}";
-        }
-        public Dictionary<int, string> GetValidationErrors()
-        {
-            return this._validationErrors;
         }
 
     }

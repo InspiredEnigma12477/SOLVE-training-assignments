@@ -40,7 +40,10 @@ namespace StockMarket.Controllers
 
         public IHttpActionResult InsertOneStock(Stock stock)
         {
-            new StreamWriter("D:\\trail4_stocks.txt").WriteLine(stock.ToString());
+            using (StreamWriter writer = new StreamWriter("D:\\error.txt"))
+            {
+                writer.WriteLine(stock.ToString());
+            }
 
             List<ErrorMessage> validationErrors = Validation.ValidateStock(stock);
             if (validationErrors.Any())
@@ -49,7 +52,6 @@ namespace StockMarket.Controllers
                 return Content(HttpStatusCode.BadRequest, response);
             }
 
-            new StreamWriter("D:\\trail1_stocks.txt").WriteLine(stock.ToString());
             if (!DbManager.InsertOneStock(stock))
                 return Content(HttpStatusCode.InternalServerError, new { success = false, message = "Failed to insert stock into database." });
 

@@ -46,6 +46,7 @@ namespace Solve.Training.ExceptionCode.ConsoleApp.Models
                 Console.WriteLine($"Requested Amount {funds}  want to add some more");
                 double request = double.Parse(Console.ReadLine());
                 this.fund_requested = funds + request;
+
                 if(fund_requested > base.ThresholdAmount && this.StateBudget < fund_requested)
                 {
                     Exception exception = new Exception();

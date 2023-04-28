@@ -13,13 +13,8 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 namespace StockMarket.DataAccessLayer
 {
     public class DbManager
-    {
-        public static Guid StockId { get; private set; }
-
+    { 
         public DbManager() { }
-
-
-        #region Get Methods
         public static List<Stock> GetAllStocks()
         {
             List<Stock> allStocks = new List<Stock>();
@@ -66,15 +61,13 @@ namespace StockMarket.DataAccessLayer
 
             return allStocks;
         }
-
-        #endregion
-
-        #region Put Methods
         public static bool InsertOneStock(Stock stock)
         {
-            new StreamWriter("D:\\trail_stocks.txt").WriteLine(stock.ToString());
             bool status = false;
-            string query = $"INSERT INTO stocks (StockId, StockName, StockSymbol, Price, CreationDate) VALUES( {stock.StockId}, '{stock.StockName}', '{stock.StockSymbol}', {stock.Price}, '{stock.CreationDate}')";
+            stock.CreationDate = DateTime.Now;
+
+            string query = $"INSERT INTO stocks (StockName, StockSymbol, Price, CreationDate) VALUES('{stock.StockName}', '{stock.StockSymbol}', {stock.Price}, NOW())";
+
             MySqlConnection con = DatabaseConnection.Instance.GetConnection();
             try
             {
@@ -96,12 +89,10 @@ namespace StockMarket.DataAccessLayer
             return status;
 
         }
-
-        #endregion
         public static bool UpdateStockById(Stock stock)
         {
             bool status = false;
-            string query = $"UPDATE stocks SET StockName = '{stock.StockName}',StockSymbol = '{stock.StockSymbol}', Price ={stock.Price},CreationDate = '{stock.CreationDate}' WHERE StockId = {stock.StockId}";
+            string query = $"UPDATE stocks SET StockName = '{stock.StockName}',StockSymbol = '{stock.StockSymbol}', Price ={stock.Price} WHERE StockId = {stock.StockId}";
             MySqlConnection con = DatabaseConnection.Instance.GetConnection();
             try
             {
@@ -123,7 +114,6 @@ namespace StockMarket.DataAccessLayer
             return status;
 
         }
-
         public static Stock StockById(int id)
         {
             MySqlConnection con = DatabaseConnection.Instance.GetConnection();
@@ -156,7 +146,6 @@ namespace StockMarket.DataAccessLayer
             }
             return null;
         }
-
         public static Stock DeleteStockById(int id)
         {
             MySqlConnection con = DatabaseConnection.Instance.GetConnection();
@@ -169,7 +158,7 @@ namespace StockMarket.DataAccessLayer
                 }
                 if (stock.StockId == id)
                 {
-                    string query = " DELETE FROM stocks WHERE StockId =" + id;
+                    string query = "DELETE FROM stocks WHERE StockId =" + id;
                     MySqlCommand cmd = new MySqlCommand(query, con);
                     con.Open();
                     cmd.ExecuteNonQuery();
@@ -190,9 +179,7 @@ namespace StockMarket.DataAccessLayer
 
             return null;
         }
-
-
-        public static bool IsStockExist(string StockSymbol)
+        public static bool IsStockSymbolExist(string StockSymbol)
         {
             bool status = false;
             string query = $"Select COUNT(*) FROM stocks WHERE StockSymbol = '{StockSymbol}'";
@@ -217,5 +204,31 @@ namespace StockMarket.DataAccessLayer
             return status;
 
         }
+        public static bool IsStockNameExist(string StockName)
+        {
+            bool status = false;
+            string query = $"Select COUNT(*) FROM stocks WHERE StockName = '{StockName}'";
+            MySqlConnection con = DatabaseConnection.Instance.GetConnection();
+            try
+            {
+                con.Open();
+                MySqlCommand command = new MySqlCommand(query, con);
+                int count = Convert.ToInt32(command.ExecuteScalar());
+                status = count > 0;
+
+            }
+            catch (Exception ee)
+            {
+                Console.WriteLine(ee.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+
+            return status;
+
+        }
+
     }
 }

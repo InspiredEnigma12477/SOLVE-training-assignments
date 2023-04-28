@@ -612,8 +612,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
-    <Compile Include="Utils\ErrorCodes.cs" />
-    <Compile Include="Utils\ErrorHelper.cs" />
+    <Compile Include="DataTransferObject\StockDTO.cs" />
     <Compile Include="Utils\ErrorMessage.cs" />
     <Compile Include="Utils\RegexPatterns.cs" />
     <Compile Include="Utils\SchemaValidation.cs" />

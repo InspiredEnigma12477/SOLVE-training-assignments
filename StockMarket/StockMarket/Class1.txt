@@ -1,10 +1,10 @@
 ﻿CREATE TABLE stocks (
-  StockId int NOT NULL,
+  StockId int NOT NULL AUTO_INCREMENT,
   StockName VARCHAR(50) NOT NULL,
   StockSymbol VARCHAR(15) NOT NULL,
   Price DECIMAL(10, 2) NOT NULL,
   CreationDate DATE NOT NULL,
-PRIMARY KEY (StockId)
+  PRIMARY KEY (StockId)
 );
 
 INSERT INTO stocks (StockId, StockName, StockSymbol, Price, CreationDate)
