@@ -9,14 +9,15 @@ using System.Globalization;
 using StockMarket.DataAccessLayer;
 using System.Windows.Forms;
 using System.IO;
+using StockMarket.DataTransferObject;
 
 namespace StockMarket.Models
 {
     public class DataValidation
     {
         private static List<ErrorMessage> errors = new List<ErrorMessage>();
-        private static Stock checkStock = null;
-        public static List<ErrorMessage> ValidateData(Stock stock)
+        private static StockDTO checkStock = null;
+        public static List<ErrorMessage> ValidateData(StockDTO stock)
         {
             if (stock.StockId < 1)
                 errors.Add(ErrorMessages.Errors[100]);
@@ -46,8 +47,8 @@ namespace StockMarket.Models
                 }
             }
 
-            if (stock.Price == null)
-                errors.Add(ErrorMessages.Errors[105]);
+            /*if (stock.Price == null)
+                errors.Add(ErrorMessages.Errors[105]);*/
 
             if (stock.Price < 0)
                 errors.Add(ErrorMessages.Errors[106]);
@@ -62,7 +63,7 @@ namespace StockMarket.Models
             return errors;
         }
 
-        public static List<ErrorMessage> InsertionData(Stock stock)
+        public static List<ErrorMessage> InsertionData(StockDTO stock)
         {
             checkStock = stock;
             StockName();
@@ -71,7 +72,7 @@ namespace StockMarket.Models
 
             return errors;
         }
-        public static List<ErrorMessage> UpdationData(Stock stock)
+        public static List<ErrorMessage> UpdationData(StockDTO stock)
         {
             checkStock = stock;
             StockId();

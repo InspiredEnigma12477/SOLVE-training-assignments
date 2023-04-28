@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using StockMarket.DataAccessLayer;
+using StockMarket.DataTransferObject;
 using StockMarket.Models;
 using StockMarket.Utils;
 using System;
@@ -12,7 +13,7 @@ using System.Web.Http;
 
 namespace StockMarket.Controllers
 {
-
+    [ApiController]
     public class StockController : ApiController
     {
         private readonly StockMarketContext db = new StockMarketContext();
@@ -38,13 +39,8 @@ namespace StockMarket.Controllers
             return Ok(true);
         }
 
-        public IHttpActionResult InsertOneStock(Stock stock)
+        public IHttpActionResult InsertOneStock(StockDTO stock)
         {
-            using (StreamWriter writer = new StreamWriter("D:\\error.txt"))
-            {
-                writer.WriteLine(stock.ToString());
-            }
-
             List<ErrorMessage> validationErrors = Validation.ValidateStock(stock);
             if (validationErrors.Any())
             {
@@ -52,7 +48,7 @@ namespace StockMarket.Controllers
                 return Content(HttpStatusCode.BadRequest, response);
             }
 
-            if (!DbManager.InsertOneStock(stock))
+            if (!DbManager.InsertOneStock(new Stock(stock)))
                 return Content(HttpStatusCode.InternalServerError, new { success = false, message = "Failed to insert stock into database." });
 
             return Content(HttpStatusCode.OK, new { success = true, message = "Inserted stock into database." });
