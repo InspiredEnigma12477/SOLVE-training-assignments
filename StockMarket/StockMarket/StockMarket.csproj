@@ -615,6 +615,7 @@
     <Compile Include="DataTransferObject\StockDTO.cs" />
     <Compile Include="Utils\ErrorMessage.cs" />
     <Compile Include="Utils\RegexPatterns.cs" />
+    <Compile Include="Utils\Schemas.cs" />
     <Compile Include="Utils\SchemaValidation.cs" />
     <Compile Include="Utils\SchemaValidationErrors.cs" />
     <Compile Include="Utils\Validation.cs" />

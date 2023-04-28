@@ -1,74 +1,79 @@
 ﻿using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Web;
 using Newtonsoft.Json.Schema;
+using Microsoft.AspNetCore.Mvc;
+using StockMarket.DataTransferObject;
+using StockMarket.Models;
+using System.ComponentModel.DataAnnotations;
+using System.Text.RegularExpressions;
+using System.IO;
 
 namespace StockMarket.Utils
 {
     public class SchemaValidation
     {
-        /*public static Dictionary<int, string> ValidateJsonSchema(string json)
+        public static List<ErrorMessage> ValidateJsonSchema(JObject stock)
         {
-            var errors = new Dictionary<int, string>();
-            var schemaJson = @"
-            {
-                ""type"": ""object"",
-                ""properties"": {
-                    ""stockId"": { ""type"": ""integer"" },
-                    ""stockName"": { ""type"": ""string"" },
-                    ""stockSymbol"": { ""type"": ""string"" },
-                    ""price"": { ""type"": ""number"",""minimum"": 0},
-                    ""creationDate"": { ""type"": ""string"",""format"": ""date-time""}
-                },
-                ""required"": [ ""stockName"", ""stockSymbol"", ""price""],
-                ""additionalProperties"": false
-            }";
-            var schema = JSchema.Parse(schemaJson);
+            List<ErrorMessage> ReturnErrors = new List<ErrorMessage>();
 
-            try
+            string jsonString = JsonConvert.SerializeObject(stock);
+            JSchema schema = JSchema.Parse(Schemas.JSONInsertNewSchema);
+
+            JObject json = JObject.Parse(jsonString);
+            bool isValid = json.IsValid(schema, out IList<string> errors);
+
+            
+            //bool isValid1 = json.IsValid(schema, out IList<string> errors123);
+
+            
+
+            if (!isValid)
             {
-                var jsonInput = JObject.Parse(json);
-                if (!jsonInput.IsValid(schema))
+                List<int> errorCodes = new List<int>();
+                JToken errorSchema = JToken.Parse(schema.ToString());
+                JToken errorMessages = errorSchema.SelectToken("$.errorMessage");
+
+                foreach (string error in errors)
                 {
-                    foreach (var error in jsonInput.SchemaValidationErrors)
+                    /*JToken errorToken = JToken.Parse(error);
+                    string errorProperty = errorToken["property"].ToString();
+                    string errorMessage = errorMessages.SelectToken($"$.{errorProperty}").ToString();
+                    int errorCode = int.Parse(errorMessage.Substring(errorMessage.IndexOf("[") + 1, errorMessage.IndexOf("]") - errorMessage.IndexOf("[") - 1));
+                    errorCodes.Add(errorCode);*/
+                    try
                     {
-                        int errorCode;
-                        string errorMessage;
-                        switch (error.Schema.Type)
-                        {
-                            case JSchemaType.String:
-                                errorCode = 101; // Invalid string value
-                                errorMessage = $"Invalid string value for property '{error.PropertyName}'";
-                                break;
-                            case JSchemaType.Integer:
-                                errorCode = 102; // Invalid integer value
-                                errorMessage = $"Invalid integer value for property '{error.PropertyName}'";
-                                break;
-                            case JSchemaType.Number:
-                                errorCode = 103; // Invalid number value
-                                errorMessage = $"Invalid number value for property '{error.PropertyName}'";
-                                break;
-                            default:
-                                errorCode = 100; // Unknown validation error
-                                errorMessage = $"Unknown validation error for property '{error.PropertyName}'";
-                                break;
-                        }
-                        errors.Add(errorCode, errorMessage);
+                        JToken errorToken = JToken.Parse(error);
+                        string errorProperty = errorToken["property"].ToString();
+                        string errorMessage = errorMessages.SelectToken($"$.{errorProperty}").ToString();
+                        int errorCode = int.Parse(errorMessage.Substring(errorMessage.IndexOf("[") + 1, errorMessage.IndexOf("]") - errorMessage.IndexOf("[") - 1));
+                        errorCodes.Add(errorCode);
+                    }
+                    catch (Newtonsoft.Json.JsonReaderException)
+                    {
+                        errorCodes.Add(136); // Add an error code for invalid JSON data
                     }
                 }
-            }
-            catch (JsonReaderException ex)
-            {
-                errors.Add(104, "Invalid JSON format: " + ex.Message);
-            }
-            return errors;
-        }
-        */
 
+                foreach (int errorCode in errorCodes)
+                {
+                    ReturnErrors.Add(ErrorMessages.Errors[errorCode]);
+                }
+            }
+            using (StreamWriter writer = new StreamWriter("D:\\error1.txt"))
+            {
+                foreach(ErrorMessage error in ReturnErrors)
+                {
+                    writer.WriteLine(error.ToString());
+                }
+            }
+            return ReturnErrors;
+        }
     }
 }
 

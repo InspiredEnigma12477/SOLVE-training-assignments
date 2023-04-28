@@ -5,6 +5,7 @@ using System.Web;
 using System.ComponentModel.DataAnnotations;
 using System.IO;
 using System.Text;
+using StockMarket.DataTransferObject;
 
 namespace StockMarket.Models
 {
@@ -40,6 +41,13 @@ namespace StockMarket.Models
         {
             return $"StockId: {StockId}, StockName: {StockName}, StockSymbol: {StockSymbol}, Price: {Price}, CreationDate: {CreationDate}";
         }
-
+        public Stock(StockDTO stock)
+        {
+            StockId = stock.StockId;
+            StockName = stock.StockName;
+            StockSymbol = stock.StockSymbol;
+            Price = stock.Price;
+            CreationDate = stock.CreationDate;
+        }
     }
 }
