@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "KPocsLipWg3kNSzlF4lLyhZfsIWZoH1krm66M2ZOb6w=",
+  "Source": "StockMarketAPI",
+  "BasePath": "_content/StockMarketAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
