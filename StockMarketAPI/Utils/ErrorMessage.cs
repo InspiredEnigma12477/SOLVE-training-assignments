@@ -1,5 +1,5 @@
 ﻿
-namespace StockMarket.Utils
+namespace StockMarketAPI.Utils
 {
     public class ErrorMessage
     {
@@ -42,7 +42,7 @@ namespace StockMarket.Utils
             { 124, new ErrorMessage { Code = 124, Message = "Required property \"StockName\", \"StockSymbol\", \"Price\" not found in JSON." } },
             { 125, new ErrorMessage { Code = 125, Message = "StockName should be string." } },
             { 126, new ErrorMessage { Code = 126, Message = "StockSymbol should be string." } },
-            { 127, new ErrorMessage { Code = 127, Message = "Invalid format for property '{propertyName}'. Expected format: {expectedFormat}." } },
+            { 127, new ErrorMessage { Code = 127, Message = "Invalid format for Math Function, Expected {AVG,MIN,MAX}." } },
             { 128, new ErrorMessage { Code = 128, Message = "Property '{propertyName}' is not allowed." } },
             { 129, new ErrorMessage { Code = 129, Message = "'{propertyName}' must be a positive number." } },
             { 130, new ErrorMessage { Code = 130, Message = "'{propertyName}' must be a non-negative number." } },

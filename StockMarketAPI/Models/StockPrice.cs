@@ -2,8 +2,8 @@
 {
     public class StockPrice
     {
-        int StockId { get; set; }
-        public int Price { get; set; }
+        public int StockId { get; set; }
+        public double Price { get; set; }
         public DateTime AtTime { get; set; }
 
         public StockPrice() { }
@@ -13,6 +13,10 @@
             StockId = stockId;
             Price = price;
             AtTime = atTime;
+        }
+        public override string ToString()
+        {
+            return $"{{ {StockId}, {Price}, {AtTime} }}";
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
 
-namespace StockMarket.DataAccessLayer
+namespace StockMarketAPI.DataAccessLayer
 {
     public class DatabaseConnection
     {

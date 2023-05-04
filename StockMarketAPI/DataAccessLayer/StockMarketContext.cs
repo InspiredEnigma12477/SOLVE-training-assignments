@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using StockMarket.Models;
+using StockMarketAPI.Models;
 
-namespace StockMarket.DataAccessLayer
+namespace StockMarketAPI.DataAccessLayer
 {
     public class StockMarketContext : DbContext
     {

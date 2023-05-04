@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace StockMarket.Models
+﻿
+namespace StockMarketAPI.Models
 {
     public class Class1
     {

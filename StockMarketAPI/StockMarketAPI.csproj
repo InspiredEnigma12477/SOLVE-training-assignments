@@ -16,4 +16,12 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\AUMNI\source\repos\StockMarketAPI\Utils\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\AUMNI\source\repos\StockMarketAPI\Utils\.editorconfig" />
+  </ItemGroup>
+
 </Project>

@@ -1,10 +1,10 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json.Schema;
-using StockMarket.DataTransferObject;
-using StockMarket.Models;
+using StockMarketAPI.DataTransferObject;
+using StockMarketAPI.Models;
 
-namespace StockMarket.Utils
+namespace StockMarketAPI.Utils
 {
     public class SchemaValidation
     {
@@ -18,7 +18,7 @@ namespace StockMarket.Utils
             JObject json = JObject.Parse(jsonString);
             bool isValid = json.IsValid(schema, out IList<string> errors);
 
-            if (!isValid)
+            /*if (!isValid)
             {
                 List<int> errorCodes = new List<int>();
                 JToken errorSchema = JToken.Parse(schema.ToString());
@@ -72,7 +72,7 @@ namespace StockMarket.Utils
                 {
                     ReturnErrors.Add(ErrorMessages.Errors[errorCode]);
                 }
-            }
+            }*/
 
             if(!ReturnErrors.Any())
                 ReturnErrors.AddRange(DataValidation.InsertionData(new StockDTO().ConvertToStockDTO(stock)));

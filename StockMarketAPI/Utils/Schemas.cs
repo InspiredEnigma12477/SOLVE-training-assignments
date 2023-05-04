@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace StockMarket.Utils
+namespace StockMarketAPI.Utils
 {
     public static class Schemas
     {
@@ -37,34 +37,29 @@ namespace StockMarket.Utils
     }";
 
         public static readonly string JSONInsertNewSchema = @"{
-    ""$schema"": ""http://json-schema.org/draft-07/schema#"",
-    ""type"": ""object"",
-    ""properties"": {
-        ""StockName"": {
-            ""type"": ""string""
-        },
-        ""StockSymbol"": {
-            ""type"": ""string""
-        },
-        ""Price"": {
-            ""type"": ""number""
+            ""$schema"": ""http://json-schema.org/draft-07/schema#"",
+            ""type"": ""object"",
+            ""properties"": {
+                ""StockName"": {
+                    ""type"": ""string""
+                },
+                ""StockSymbol"": {
+                    ""type"": ""string""
+                }
+            },
+            ""required"": [""StockName"", ""StockSymbol""],
+            ""errorMessage"": {
+                ""required"": {
+                    ""StockName"": {""enum"": [101]},
+                    ""StockSymbol"": {""enum"": [102]}
+                },
+                ""type"": {
+                    ""StockName"": {""enum"": [125]},
+                    ""StockSymbol"": {""enum"": [126]}
+                }
+            }
         }
-    },
-    ""required"": [""StockName"", ""StockSymbol"", ""Price""],
-    ""errorMessage"": {
-        ""required"": {
-            ""StockName"": {""enum"": [101]},
-            ""StockSymbol"": {""enum"": [102]},
-            ""Price"": {""enum"": [105]}
-        },
-        ""type"": {
-            ""StockName"": {""enum"": [125]},
-            ""StockSymbol"": {""enum"": [126]},
-            ""Price"": {""enum"": [121]}
-        }
-    }
-}
-";
+        ";
 
     }
 }

@@ -1,14 +1,8 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using StockMarket.Models;
-using StockMarket.Utils;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Web;
 
-namespace StockMarket.DataTransferObject
+namespace StockMarketAPI.DataTransferObject
 {
     public class StockDTO
     {
@@ -27,10 +21,10 @@ namespace StockMarket.DataTransferObject
         public string StockSymbol { get; set; }
 
 
-        [JsonProperty("Price")]
+        /*[JsonProperty("Price")]
         [Required(ErrorMessage = "Price is required")]
         [Range(0.01, 1000000, ErrorMessage = "Price must be between 0.01 and 1000000")]
-        public double Price { get; set; }
+        public double Price { get; set; }*/
 
 
         [JsonProperty("CreationDate")]

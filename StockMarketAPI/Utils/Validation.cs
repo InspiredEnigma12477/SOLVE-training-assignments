@@ -1,13 +1,5 @@
 ﻿using Newtonsoft.Json.Linq;
-using StockMarket.DataTransferObject;
-using StockMarket.Models;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Web;
-
-namespace StockMarket.Utils
+namespace StockMarketAPI.Utils
 {
     public class Validation
     {

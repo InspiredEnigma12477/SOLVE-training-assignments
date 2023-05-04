@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace StockMarket.Utils
+namespace StockMarketAPI.Utils
 {
     public class SchemaValidationErrors
     {

@@ -1,8 +1,8 @@
-﻿using StockMarket.Utils;
-using StockMarket.DataAccessLayer;
-using StockMarket.DataTransferObject;
+﻿using StockMarketAPI.Utils;
+using StockMarketAPI.DataAccessLayer;
+using StockMarketAPI.DataTransferObject;
 
-namespace StockMarket.Models
+namespace StockMarketAPI.Models
 {
     public class DataValidation
     {
@@ -61,7 +61,7 @@ namespace StockMarket.Models
 
             StockName();
             StockSymbol();
-            Price();
+            //Price();
 
             return errors;
         }
@@ -73,7 +73,7 @@ namespace StockMarket.Models
             StockId();
             StockName();
             StockSymbol();
-            Price();
+            //Price();
 
             return errors;
         }
@@ -123,8 +123,8 @@ namespace StockMarket.Models
         {
             //if (checkStock.Price == null)
                 //errors.Add(ErrorMessages.Errors[105]);
-            if (checkStock.Price < 0)
-                errors.Add(ErrorMessages.Errors[106]);
+/*            if (checkStock.Price < 0)
+                errors.Add(ErrorMessages.Errors[106]);*/
         }
 
         public static List<ErrorMessage> ValidateData1(Stock stock)
