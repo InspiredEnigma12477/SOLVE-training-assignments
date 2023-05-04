@@ -17,6 +17,7 @@ namespace Solve.Training.ExceptionCode.ConsoleApp.Models
         {
             Console.Write("State Government wants to know which Municipal Corporation this is ");
             this.Municipality_Name = Console.ReadLine();
+            MunicipalCorporation((string)this.Municipality_Name);
             this.CorporationBudget = 2_000_000;
         }
 

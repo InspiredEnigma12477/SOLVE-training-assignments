@@ -13,11 +13,7 @@ namespace StockMarket.Utils
     {
         public static List<ErrorMessage> ValidateStock(JObject stock)
         {
-            List<ErrorMessage> errors = new List<ErrorMessage>();
-            errors.AddRange(SchemaValidation.ValidateJsonSchema(stock));
-            errors.AddRange(DataValidation.InsertionData(new StockDTO().ConvertToStockDTO(stock)));
-
-            return errors;
+            return SchemaValidation.ValidateJsonSchema(stock);  
         }
     }
 }

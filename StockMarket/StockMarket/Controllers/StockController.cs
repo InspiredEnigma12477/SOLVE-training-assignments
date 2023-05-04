@@ -14,7 +14,7 @@ using System.Web.Http;
 
 namespace StockMarket.Controllers
 {
-    [ApiController]
+    
     public class StockController : ApiController
     {
         private readonly StockMarketContext db = new StockMarketContext();

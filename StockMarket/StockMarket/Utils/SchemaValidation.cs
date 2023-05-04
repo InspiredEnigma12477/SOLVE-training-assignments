@@ -28,10 +28,13 @@ namespace StockMarket.Utils
             JObject json = JObject.Parse(jsonString);
             bool isValid = json.IsValid(schema, out IList<string> errors);
 
-            
-            //bool isValid1 = json.IsValid(schema, out IList<string> errors123);
-
-            
+            using (StreamWriter writer = new StreamWriter("D:\\errorJson.txt"))
+            {
+                foreach (string error in errors)
+                {
+                    writer.WriteLine(error);
+                }
+            }
 
             if (!isValid)
             {
@@ -41,11 +44,6 @@ namespace StockMarket.Utils
 
                 foreach (string error in errors)
                 {
-                    /*JToken errorToken = JToken.Parse(error);
-                    string errorProperty = errorToken["property"].ToString();
-                    string errorMessage = errorMessages.SelectToken($"$.{errorProperty}").ToString();
-                    int errorCode = int.Parse(errorMessage.Substring(errorMessage.IndexOf("[") + 1, errorMessage.IndexOf("]") - errorMessage.IndexOf("[") - 1));
-                    errorCodes.Add(errorCode);*/
                     try
                     {
                         JToken errorToken = JToken.Parse(error);
@@ -53,6 +51,34 @@ namespace StockMarket.Utils
                         string errorMessage = errorMessages.SelectToken($"$.{errorProperty}").ToString();
                         int errorCode = int.Parse(errorMessage.Substring(errorMessage.IndexOf("[") + 1, errorMessage.IndexOf("]") - errorMessage.IndexOf("[") - 1));
                         errorCodes.Add(errorCode);
+
+                        if (error.Contains("Invalid type. Expected String "))
+                        {
+                            string propertyName = error.Substring(error.LastIndexOf("Path '") + 6);
+                            propertyName = propertyName.Substring(0, propertyName.IndexOf('\''));
+                            int ErrorCode = 0;
+                            if(propertyName.Equals("StockName"))
+                            {
+                                ErrorCode = 125;
+                            }
+                            if (propertyName.Equals("StockSymbol"))
+                            {
+                                ErrorCode = 126;
+                            }
+                            ReturnErrors.Add(ErrorMessages.Errors[ErrorCode]);
+                            
+                        }
+                        else if (error.Contains("Invalid type. Expected Number "))
+                        {
+                            string propertyName = error.Substring(error.LastIndexOf("Path '") + 6);
+                            propertyName = propertyName.Substring(0, propertyName.IndexOf('\''));
+                            int ErrorCode = 0;
+                            if (propertyName.Equals("Price"))
+                            {
+                                ErrorCode = 121;
+                            }
+                            ReturnErrors.Add(ErrorMessages.Errors[ErrorCode]);
+                        }
                     }
                     catch (Newtonsoft.Json.JsonReaderException)
                     {
@@ -65,13 +91,8 @@ namespace StockMarket.Utils
                     ReturnErrors.Add(ErrorMessages.Errors[errorCode]);
                 }
             }
-            using (StreamWriter writer = new StreamWriter("D:\\error1.txt"))
-            {
-                foreach(ErrorMessage error in ReturnErrors)
-                {
-                    writer.WriteLine(error.ToString());
-                }
-            }
+            if(!ReturnErrors.Any())
+                ReturnErrors.AddRange(DataValidation.InsertionData(new StockDTO().ConvertToStockDTO(stock)));
             return ReturnErrors;
         }
     }
