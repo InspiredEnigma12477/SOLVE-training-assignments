@@ -58,3 +58,4 @@ C:\Users\AUMNI\source\repos\StockMarketAPI\obj\Debug\net7.0\refint\StockMarketAP
 C:\Users\AUMNI\source\repos\StockMarketAPI\obj\Debug\net7.0\StockMarketAPI.pdb
 C:\Users\AUMNI\source\repos\StockMarketAPI\obj\Debug\net7.0\StockMarketAPI.genruntimeconfig.cache
 C:\Users\AUMNI\source\repos\StockMarketAPI\obj\Debug\net7.0\ref\StockMarketAPI.dll
+C:\Users\AUMNI\source\repos\StockMarketAPI\bin\Debug\net7.0\log4net.config

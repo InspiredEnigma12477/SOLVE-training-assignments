@@ -3,6 +3,10 @@ using StockMarketAPI.DataAccessLayer;
 using StockMarketAPI.Models;
 using StockMarketAPI.DataTransferObject;
 using StockMarketAPI.Utils;
+using log4net.Config;
+using log4net.Core;
+using log4net;
+using System.Reflection;
 
 namespace StockMarketAPI.Controllers
 {
@@ -13,6 +17,14 @@ namespace StockMarketAPI.Controllers
         #region Variables and Methods
 
         private readonly StockMarketContext db = new StockMarketContext();
+
+        private void LogError(string message)
+        {
+            var logRepository = LogManager.GetRepository(Assembly.GetEntryAssembly());
+            XmlConfigurator.Configure(logRepository, new FileInfo("log4net.config"));
+            ILog _logger = LogManager.GetLogger(typeof(LoggerManager));
+            _logger.Info(message);
+        }
 
         private readonly ILogger<StockController> _logger;
 
@@ -28,6 +40,7 @@ namespace StockMarketAPI.Controllers
         [Route("GetAllStocks")]
         public IActionResult GetAllStocks()
         {
+            LogError("Get All Stocks Called");
             return new JsonResult(DbManager.GetAllStocks());
         }
 
