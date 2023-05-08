@@ -1,0 +1,15 @@
+C:\Users\AUMNI\source\repos\VechileMS\obj\Debug\net7.0\VechileMS.csproj.AssemblyReference.cache
+C:\Users\AUMNI\source\repos\VechileMS\obj\Debug\net7.0\VechileMS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AUMNI\source\repos\VechileMS\obj\Debug\net7.0\VechileMS.AssemblyInfoInputs.cache
+C:\Users\AUMNI\source\repos\VechileMS\obj\Debug\net7.0\VechileMS.AssemblyInfo.cs
+C:\Users\AUMNI\source\repos\VechileMS\obj\Debug\net7.0\VechileMS.csproj.CoreCompileInputs.cache
+C:\Users\AUMNI\source\repos\VechileMS\bin\Debug\net7.0\VechileMS.exe
+C:\Users\AUMNI\source\repos\VechileMS\bin\Debug\net7.0\VechileMS.deps.json
+C:\Users\AUMNI\source\repos\VechileMS\bin\Debug\net7.0\VechileMS.runtimeconfig.json
+C:\Users\AUMNI\source\repos\VechileMS\bin\Debug\net7.0\VechileMS.dll
+C:\Users\AUMNI\source\repos\VechileMS\bin\Debug\net7.0\VechileMS.pdb
+C:\Users\AUMNI\source\repos\VechileMS\obj\Debug\net7.0\VechileMS.dll
+C:\Users\AUMNI\source\repos\VechileMS\obj\Debug\net7.0\refint\VechileMS.dll
+C:\Users\AUMNI\source\repos\VechileMS\obj\Debug\net7.0\VechileMS.pdb
+C:\Users\AUMNI\source\repos\VechileMS\obj\Debug\net7.0\VechileMS.genruntimeconfig.cache
+C:\Users\AUMNI\source\repos\VechileMS\obj\Debug\net7.0\ref\VechileMS.dll

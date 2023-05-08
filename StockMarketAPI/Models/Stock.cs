@@ -41,7 +41,7 @@ namespace StockMarketAPI.Models
 
         public override string ToString()
         {
-            return $"StockId: {StockId}, StockName: {StockName}, StockSymbol: {StockSymbol}, CreationDate: {CreationDate}";
+            return $"{{ StockId: {StockId}, StockName: {StockName}, StockSymbol: {StockSymbol}, CreationDate: {CreationDate} }}";
         }
         public Stock(StockDTO stock)
         {
