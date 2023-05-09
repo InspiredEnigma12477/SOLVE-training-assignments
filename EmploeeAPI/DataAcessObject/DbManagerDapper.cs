@@ -8,9 +8,12 @@ namespace EmploeeAPI.DataAcessObject
     public class DbManagerDapper
     {
         public DbManagerDapper() { }
-        public List<Employee> GetEmployees()
+        /*public List<Employee> GetEmployees()
         {
-            using(IDbConnection connection = new SqlClient.SqlConnection.cnnVal)
-        }
+            using(IDbConnection connection = new SqlClientFactory)
+            {
+
+            }
+        }*/
     }
 }

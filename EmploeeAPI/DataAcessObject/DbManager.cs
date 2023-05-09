@@ -53,19 +53,34 @@ namespace EmployeeMarket.DataAccessLayer
 
             return allEmployees;
         }
-        public static bool InsertOneEmployee(Employee Employee)
+        public static List<object> GetHighestSalaryByCity()
         {
-            bool status = false;
-            string query = $"INSERT INTO Employees (Name, Department, City, Salary) VALUES('{Employee.Name}', '{Employee.Department}', {Employee.City}, {Employee.Salary})";
+            List<object> allEmployees = new List<object>();
 
             MySqlConnection con = DatabaseConnection.Instance.GetConnection();
             try
             {
                 con.Open();
-                MySqlCommand command = new MySqlCommand(query, con);
-                command.ExecuteNonQuery();
-                status = true;
 
+                MySqlCommand cmd = new MySqlCommand();
+                cmd.Connection = con;
+
+                string query = "SELECT City, MAX(Salary) \"Highestsalary\" FROM Employees Group by City";
+                cmd.CommandText = query;
+
+                MySqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    var salary = double.Parse(reader["Highestsalary"].ToString());
+                    var city = reader["City"].ToString();
+
+                    var Employee = new
+                    {
+                        Salary = salary,
+                        City = city
+                    };
+                    allEmployees.Add(Employee);
+                }
             }
             catch (Exception ee)
             {
@@ -76,8 +91,30 @@ namespace EmployeeMarket.DataAccessLayer
                 con.Close();
             }
 
-            return status;
+            return allEmployees;
+        }
+        public static bool InsertOneEmployee(Employee Employee)
+        {
+            bool status = false;
+            string query = $"INSERT INTO Employees (Name, Department, City, Salary) VALUES('{Employee.Name}', '{Employee.Department}', '{Employee.City}', {Employee.Salary})";
 
+            MySqlConnection con = DatabaseConnection.Instance.GetConnection();
+            try
+            {
+                con.Open();
+                MySqlCommand command = new MySqlCommand(query, con);
+                command.ExecuteNonQuery();
+                status = true;
+            }
+            catch (Exception ee)
+            {
+                Console.WriteLine(ee.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+            return status;
         }
         public static bool UpdateEmployeeById(Employee Employee)
         {
@@ -107,7 +144,7 @@ namespace EmployeeMarket.DataAccessLayer
         public static Employee EmployeeById(int id)
         {
             MySqlConnection con = DatabaseConnection.Instance.GetConnection();
-            string query = $"SELECT * FROM Employees Where EmployeeId ={id}";
+            string query = $"SELECT * FROM Employees Where Id ={id}";
             try
             {
                 MySqlCommand command = new MySqlCommand(query, con);
@@ -137,15 +174,47 @@ namespace EmployeeMarket.DataAccessLayer
             }
             return null;
         }
-        public static Employee DeleteEmployeeById(int id)
+        public static Employee EmployeesId(Employee emp)
         {
+            MySqlConnection con = DatabaseConnection.Instance.GetConnection();
+            string query = $"SELECT * FROM Employees Where Name = '{emp.Name}' AND Department = '{emp.Department}' AND City = '{emp.City}' AND Salary = {emp.Salary}";
+            try
+            {
+                MySqlCommand command = new MySqlCommand(query, con);
+                con.Open();
+
+                MySqlDataReader reader = command.ExecuteReader();
+                if (reader.Read())
+                {
+                    return new Employee
+                    {
+                        Id = int.Parse(reader["Id"].ToString()),
+                        Name = reader["Name"].ToString(),
+                        Department = reader["Department"].ToString(),
+                        Salary = double.Parse(reader["Salary"].ToString()),
+                        City = reader["City"].ToString()
+                    };
+                }
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+            finally
+            {
+                con.Close();
+            }
+            return null;
+        }
+        public static bool DeleteEmployeeById(int id)
+        { 
             MySqlConnection con = DatabaseConnection.Instance.GetConnection();
             try
             {
                 Employee Employee = EmployeeById(id);
                 if (Employee == null)
                 {
-                    return null;
+                    return false;
                 }
                 if (Employee.Id == id)
                 {
@@ -153,8 +222,7 @@ namespace EmployeeMarket.DataAccessLayer
                     MySqlCommand cmd = new MySqlCommand(query, con);
                     con.Open();
                     cmd.ExecuteNonQuery();
-
-                    return Employee;
+                    return true;
                 }
 
 
@@ -162,13 +230,14 @@ namespace EmployeeMarket.DataAccessLayer
             catch (Exception ee)
             {
                 Console.WriteLine(ee.Message);
+                return false;
             }
             finally
             {
                 con.Close();
             }
 
-            return null;
+            return false;
         }
     }
 }

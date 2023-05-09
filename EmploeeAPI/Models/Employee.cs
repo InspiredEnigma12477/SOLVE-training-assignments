@@ -17,8 +17,16 @@
 			Salary = salary;
 		}
 
+		public Employee(EmployeeDTO emp)
+		{
+			Name = emp.Name;
+			Department = emp.Department;
+			City = emp.City;
+			Salary = emp.Salary;
+		}
 		public Employee()
 		{
+
 		}
 	}
 }

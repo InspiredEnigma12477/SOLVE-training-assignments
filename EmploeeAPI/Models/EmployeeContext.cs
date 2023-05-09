@@ -5,12 +5,12 @@ using System.Data.Entity;
 
 namespace EmploeeAPI.Models
 {
-    [DbConfigurationType(typeof(MySqlEFConfiguration))]
+    /*[DbConfigurationType(typeof(MySqlEFConfiguration))]
     public class EmployeeContext : DbContext
     {
         EmployeeContext(DbConnection) : base(options) { }
 
         public DbSet<Employee> Employees { get; set; }
 
-    }
+    }*/
 }
