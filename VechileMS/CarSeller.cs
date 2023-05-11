@@ -9,7 +9,7 @@ namespace VechileMS
     public class CarSeller
     {
         private List<Vehicle> vehicles;
-
+        /*
         public CarSeller()
         {
             this.vehicles = new List<Vehicle>();
@@ -48,7 +48,7 @@ namespace VechileMS
         public List<Vehicle> GetVehiclesByTransmissionType(string transmissionType)
         {
             return this.vehicles.Where(v => v.TransmissionType == transmissionType).ToList();
-        }
+        }*/
     }
 
 }
