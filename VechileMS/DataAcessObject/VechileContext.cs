@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using VechileMS.Models;
 
-namespace VechileMS
+namespace VechileMS.DataAcessLogic
 {
     public class VechileContext : DbContext
     {
@@ -8,7 +9,7 @@ namespace VechileMS
         {
             optionsBuilder.UseSqlServer(@"Server=localhost;Database=SolveTraining;user=root;password=1234567890;");
         }
-        public DbSet<Vehicle> Vehicles {get; set; }
-        
+        public DbSet<Vehicle> Vehicles { get; set; }
+
     }
 }

@@ -7,31 +7,33 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace VechileMS
+namespace VechileMS.Models
 {
     public abstract class Vehicle
-    { 
+    {
+        private static int count = 0;
+
         [Key]
-        public int Id { get; protected set; }
+        public int Id;
 
         [Required]
         [StringLength(50)]
-        public string Model { get; protected set; }
+        public string Model { get; set; }
 
         [Required]
         [StringLength(50)]
-        public string Brand { get; protected set; }
+        public string Brand { get; set; }
 
         [Required]
         [StringLength(50)]
-        public string Type { get; protected set; }
+        public string Type { get; set; }
 
         [Required]
         [StringLength(50)]
-        public string TransmissionType { get; protected set; }
+        public string TransmissionType { get; set; }
 
         [Required]
-        public int LaunchYear { get; protected set; }
+        public int LaunchYear { get; set; }
 
         [Required]
         [StringLength(50)]
@@ -46,14 +48,15 @@ namespace VechileMS
         [Range(0, 100)]
         public float Discount { get; set; }
 
-        [NotMapped]
-        public string Note { get; set; }
+        //[NotMapped]
+        //public string Note { get; set; }
 
         public abstract void AddNote(string note);
 
-        public Vehicle()
+        public Vehicle(string vehicleType)
         {
-
+            Id = ++count;
+            VechileType = vehicleType;
         }
         public Vehicle(string vechileType, string model, string brand, string type, string transmissionType, string color, int launchYear, double price, float discount)
         {
@@ -69,14 +72,15 @@ namespace VechileMS
 
         public override string ToString()
         {
-            return $"Model: {Model}\n" +
-                   $"Brand: {Brand}\n" +
-                   $"Type: {Type}\n" +
-                   $"Transmission Type: {TransmissionType}\n" +
-                   $"Color: {Color}\n" +
-                   $"Launch Year: {LaunchYear}\n" +
-                   $"Price: {Price}\n" +
-                   $"Discount: {Discount}\n";
+            return $"\nVechile Id: {Id}" +
+                   $"\nBrand: {Brand}" +
+                   $"\nModel: {Model}" +
+                   $"\nType: {Type}" +
+                   $"\nTransmission Type: {TransmissionType}" +
+                   $"\nColor: {Color}" +
+                   $"\nLaunch Year: {LaunchYear}" +
+                   $"\nPrice: {Price}" +
+                   $"\nDiscount: {Discount}";
         }
     }
 

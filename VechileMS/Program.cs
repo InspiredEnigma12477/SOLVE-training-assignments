@@ -1,4 +1,6 @@
-﻿namespace VechileMS
+﻿using VechileMS.Utils;
+
+namespace VechileMS
 {
 	internal class Program
 	{

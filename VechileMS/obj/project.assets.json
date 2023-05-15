@@ -3462,24 +3462,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AUMNI\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "D:\\Users\\ssakore\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AUMNI\\source\\repos\\VechileMS\\VechileMS.csproj",
+      "projectUniqueName": "D:\\Users\\ssakore\\Desktop\\Repos\\SOLVE-training-assignments\\VechileMS\\VechileMS.csproj",
       "projectName": "VechileMS",
-      "projectPath": "C:\\Users\\AUMNI\\source\\repos\\VechileMS\\VechileMS.csproj",
-      "packagesPath": "C:\\Users\\AUMNI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AUMNI\\source\\repos\\VechileMS\\obj\\",
+      "projectPath": "D:\\Users\\ssakore\\Desktop\\Repos\\SOLVE-training-assignments\\VechileMS\\VechileMS.csproj",
+      "packagesPath": "D:\\Users\\ssakore\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\ssakore\\Desktop\\Repos\\SOLVE-training-assignments\\VechileMS\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\AUMNI\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "D:\\Users\\ssakore\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
