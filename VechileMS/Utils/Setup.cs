@@ -24,13 +24,13 @@ namespace VechileMS.Utils
                     Helper.AddVechile(list);
                     break;
                 case 2:
-                    Helper.RemoveVechile();
+                    Helper.DisplayVechile();
                     break;
                 case 3:
                     Helper.SearchVechile();
                     break;
                 case 4:
-                    Helper.DisplayVechile();
+                    Helper.RemoveVechile();
                     break;
                 case 5:
                     Helper.Exit();

@@ -11,20 +11,26 @@ namespace VechileMS.Models
 {
     public class DealerVehicle : Vehicle
     {
+        [Key]
+        public int Id { get; set; } // Primary key
         public DateTime SellingMonthAndYear { get; set; }
+        [MaxLength(10)]
         public string Number { get; set; }
         public string OwnerDetails { get; set; }
+        [MaxLength(255)]
         public string ServicingHistory { get; set; }
         public bool IsAccidental { get; set; } = false;
         public bool IsInServicing { get; set; } = false;
 
         public List<Note> Notes { get; set; }
         public DateTime ExpiryDate { get { return SellingMonthAndYear.AddYears(15); } }
-
+        public DealerVehicle()
+        {
+            Console.WriteLine("Dealer CAlled");
+        }
         public DealerVehicle(string vechileType) : base(vechileType)
         {
             Notes = new List<Note>();
-            //Notes = new Note();
             this.GetDetails();
         }
         public DealerVehicle(string vechhileType, string name, string brand, string type,
@@ -32,12 +38,9 @@ namespace VechileMS.Models
             ) : base(vechhileType, name, brand, type, transmissionType, color, launchYear, price, discount)
         {
             Notes = new List<Note>();
-            //Notes = new Note();
-
         }
         public override void AddNote(string note)
         {
-            //Notes.Add(note);
             Notes.Add(new Note(note));
         }
         public bool InServicing()

@@ -52,7 +52,10 @@ namespace VechileMS.Models
         //public string Note { get; set; }
 
         public abstract void AddNote(string note);
-
+        public Vehicle()
+        {
+            
+        }
         public Vehicle(string vehicleType)
         {
             Id = ++count;

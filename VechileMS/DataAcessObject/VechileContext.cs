@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System.Xml;
 using VechileMS.Models;
+using Pomelo.EntityFrameworkCore.MySql;
+using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 
 namespace VechileMS.DataAcessLogic
 {
@@ -8,24 +9,20 @@ namespace VechileMS.DataAcessLogic
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            //optionsBuilder.UseSqlServer(@"Server=localhost;Database=SolveTraining;user=root;password=1234567890;");
-            optionsBuilder.UseSqlServer(@"Server=localhost;Database=SolveTraining;Trusted_Connection=True;MultipleActiveResultSets=True");
+            optionsBuilder.UseMySQL(@"server=localhost;database=SolveTraining;uid=root;password=1234567890;",
+                mysqlOptions =>
+                {
+                    mysqlOptions.EnableRetryOnFailure(5, TimeSpan.FromSeconds(10), null); // Enable retry on failure                                                                          // Additional configuration options...
+                });
+            //optionsBuilder.UseSqlServer(@"Server=localhost:3306;Database=SolveTraining;Trusted_Connection=True;MultipleActiveResultSets=True");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<DealerVehicle>()
-                .HasMany(dv => dv.Notes)
-                .WithOne()
-                .HasForeignKey(n => n.Id);
-
-           /* modelBuilder.Entity<Note>()
-                .HasOne(n => n.Id)
-                .WithMany(dv => dv.Notes)
-                .HasForeignKey(n => n.DealerVehicleId);*/
+                .HasKey(dv => dv.Id);
         }
-
 
 
         public DbSet<DealerVehicle> Vehicles { get; set; }
