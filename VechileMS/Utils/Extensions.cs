@@ -40,7 +40,15 @@ namespace VechileMS.Utils
             Console.WriteLine($"Enter vehicle details:");
 
             Console.Write("Selling Month And Year (dd/MM/yyyy) : ");
-            vehicle.SellingMonthAndYear = DateTime.ParseExact(Console.ReadLine(), "dd/M/yyyy", CultureInfo.InvariantCulture);
+            string date = Console.ReadLine();
+            try
+            {
+                vehicle.SellingMonthAndYear = DateTime.ParseExact(date, "dd/M/yyyy", CultureInfo.InvariantCulture);
+            }
+            catch (System.FormatException ex)
+            {
+                vehicle.SellingMonthAndYear = DateTime.ParseExact(date, "dd-M-yyyy", CultureInfo.InvariantCulture);
+            }
             //DateTime.ParseExact(dateTimeString, "dd/MM/yyyy", CultureInfo.InvariantCulture);
 
             Console.Write("Number: ");

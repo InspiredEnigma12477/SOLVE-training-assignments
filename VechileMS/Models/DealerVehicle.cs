@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,23 +17,28 @@ namespace VechileMS.Models
         public string ServicingHistory { get; set; }
         public bool IsAccidental { get; set; } = false;
         public bool IsInServicing { get; set; } = false;
-        public virtual List<string> Notes { get; set; }
+
+        public List<Note> Notes { get; set; }
         public DateTime ExpiryDate { get { return SellingMonthAndYear.AddYears(15); } }
 
-        public DealerVehicle() : base("Car")
+        public DealerVehicle(string vechileType) : base(vechileType)
         {
-            Notes = new List<string>();
+            Notes = new List<Note>();
+            //Notes = new Note();
             this.GetDetails();
         }
         public DealerVehicle(string vechhileType, string name, string brand, string type,
             string transmissionType, string color, int launchYear, double price, float discount
             ) : base(vechhileType, name, brand, type, transmissionType, color, launchYear, price, discount)
         {
-            Notes = new List<string>();
+            Notes = new List<Note>();
+            //Notes = new Note();
+
         }
         public override void AddNote(string note)
         {
-            Notes.Add(note);
+            //Notes.Add(note);
+            Notes.Add(new Note(note));
         }
         public bool InServicing()
         {

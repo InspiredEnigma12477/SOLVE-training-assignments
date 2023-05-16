@@ -22,7 +22,7 @@ namespace VechileMS.Models.Entities
 
         }
 
-        public Truck() : base()
+        public Truck() : base("Truck")
         {
             Notes = new List<string>();
             this.GetInfo();

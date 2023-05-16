@@ -5,3 +5,4 @@ C:\Users\AUMNI\source\repos\Solve.Training.Exception\Solve.Training.Exception.Co
 C:\Users\AUMNI\source\repos\Solve.Training.Exception\Solve.Training.Exception.ConsoleApp\bin\Debug\Solve.Training.Exception.ConsoleApp.exe.config
 C:\Users\AUMNI\source\repos\Solve.Training.Exception\Solve.Training.Exception.ConsoleApp\bin\Debug\Solve.Training.Exception.ConsoleApp.exe
 C:\Users\AUMNI\source\repos\Solve.Training.Exception\Solve.Training.Exception.ConsoleApp\bin\Debug\Solve.Training.Exception.ConsoleApp.pdb
+C:\Users\AUMNI\source\repos\Solve.Training.Exception\Solve.Training.Exception.ConsoleApp\obj\Debug\Solve.Training.ExceptionCode.ConsoleApp.csproj.SuggestedBindingRedirects.cache

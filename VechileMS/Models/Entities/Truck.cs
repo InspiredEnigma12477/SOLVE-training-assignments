@@ -13,7 +13,7 @@ namespace VechileMS.Models.Entities
 
         }
 
-        public Bus() : base()
+        public Bus() : base("Bus")
         {
             Notes = new List<string>();
             this.GetInfo();
