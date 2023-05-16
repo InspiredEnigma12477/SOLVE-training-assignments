@@ -4,64 +4,51 @@
 }
 
 <h1>Display All Stocks</h1>
-<div class="containersss">
 
-    <div class="Advertisments">
-        <div class="fixedcontainer">
-            <a href="https://solvefixedincome.com/">
-            <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/yellow-green-and-red-black-history-banner-design-template-19f0d1584b31f00d1ee75330ba46a8ff_screen.jpg?ts=1664733160"
-                alt="">
-            </a>
-        </div>
-    </div>
 
-    <table class="stocks">
+<table class="stocks">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Symbol</th>
+        <th>CreationDate</th>
+        <th colspan="2" class="operations">Operation</th>
+    </tr>
+    @foreach (var stock in stocks)
+    {
         <tr>
-            <th>Id</th>
-            <th>Name</th>
-            <th>Symbol</th>
-            <th>CreationDate</th>
-            <th colspan="2" class="operations">Operation</th>
-        </tr>
-        @foreach (var stock in stocks)
-        {
-            <tr>
-                <td>@stock.StockId</td>
-                <td>@stock.StockName</td>
-                <td>@stock.StockSymbol</td>
-                <td>@stock.CreationDate</td>
-                
-                    @* <td class="operation"><a href="stock/@stock.StockId"><button
-                class="AllStockbutton">Update</button></a></td> *@
-                    <td class="operations"><a href="stock/@stock.StockId"><button class="AllStockbutton">Delete</button></a>
-                    </td>
-                    @*<td class="operation">
-
-                @using StockMarketMVC.Controllers
-                @using (Html.BeginForm("DeleteStock", "Stock", new { id = stock.StockId }, FormMethod.Post, new {
-                onsubmit =
-                "return confirm('Are you sure you want to delete this stock?');" }))
-                {}
+            <td>@stock.StockId</td>
+            <td>@stock.StockName</td>
+            <td>@stock.StockSymbol</td>
+            <td>@stock.CreationDate</td>
+            <td class="operations"><a href="DeleteStock/@stock.StockId"><button class="AllStockbutton">Delete</button></a>
+            </td>
+            @* <td class="operation">
+                @using (Html.BeginForm("DeleteStock", "Stock", new { id = stock.StockId }, FormMethod.Post, new
+                {
+                    onsubmit =
+               "return confirm('Are you sure you want to delete this stock?');"
+                }))
+                { }
                 @Html.AntiForgeryToken()
                 <button type="submit" class="AllStockbutton">Delete</button>
                 }
-                </td>*@
+            </td> *@
 
-               
-            </tr>
 
-            <script>
-                function deleteStock(id) {
-                    var resultDiv = document.getElementById("result-" + id);
-                    var url = "/Stock/DeleteStock/" + id;
-                    fetch(url, {
-                        method: "DELETE"
-                    })
-                        .then(response => response.text())
-                        .then(data => resultDiv.innerHTML = data)
-                        .catch(error => console.error(error));
-                }
-            </script>
-        }
-    </table>
-</div>
+        </tr>
+
+        <script>
+            function deleteStock(id) {
+                var resultDiv = document.getElementById("result-" + id);
+                var url = "/Stock/DeleteStock/" + id;
+                fetch(url, {
+                    method: "DELETE"
+                })
+                    .then(response => response.text())
+                    .then(data => resultDiv.innerHTML = data)
+                    .catch(error => console.error(error));
+            }
+        </script>
+    }
+</table>
