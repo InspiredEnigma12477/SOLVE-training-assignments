@@ -7,6 +7,9 @@ using log4net.Config;
 using log4net.Core;
 using log4net;
 using System.Reflection;
+using System.Net;
+using System.Net.Http;
+using System.Security.Policy;
 
 namespace StockMarketAPI.Controllers
 {
@@ -99,14 +102,21 @@ namespace StockMarketAPI.Controllers
         #region PUT
         [HttpPut]
         [Route("UpdateStockById")]
-        public IActionResult UpdateStockById(Stock stock1)
+        public HttpResponseMessage UpdateStockById(StockUpdateDTO stock1)
         {
+            using (StreamWriter writer = new StreamWriter("D:\\apiUpdate.txt"))
+            {
+                writer.WriteLine("Reached to update stock");
+            }
             var stock = DbManager.UpdateStockById(stock1);
             if (stock == false)
             {
-                return BadRequest($"Stock Doesn't exist of {stock1.StockId}");
+                return new HttpResponseMessage(HttpStatusCode.BadRequest)
+                {
+                    Content = new StringContent($"Stock Doesn't exist of {stock1.StockId}")
+                };
             }
-            return Ok(true);
+            return new HttpResponseMessage(HttpStatusCode.OK);
         }
         #endregion
 

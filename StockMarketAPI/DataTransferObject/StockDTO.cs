@@ -35,4 +35,10 @@ namespace StockMarketAPI.DataTransferObject
         }
 
     }
+    public class StockUpdateDTO
+    {
+        public int StockId { get; set; }
+        public string StockName { get; set; }
+        public string StockSymbol { get; set; }
+    }
 }

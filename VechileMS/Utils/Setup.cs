@@ -15,30 +15,31 @@ namespace VechileMS.Utils
 
 
 
-
-
-
-            switch (Helper.GetMenu())
+            bool ExitFlag = false;
+            do
             {
-                case 1:
-                    Helper.AddVechile(list);
-                    break;
-                case 2:
-                    Helper.DisplayVechile();
-                    break;
-                case 3:
-                    Helper.SearchVechile();
-                    break;
-                case 4:
-                    Helper.RemoveVechile();
-                    break;
-                case 5:
-                    Helper.Exit();
-                    break;
-                default:
-                    Console.WriteLine("Invalid Choice");
-                    break;
-            }
+                switch (Helper.GetMenu())
+                {
+                    case 1:
+                        Helper.AddVechile(list);
+                        break;
+                    case 2:
+                        Helper.DisplayVechile();
+                        break;
+                    case 3:
+
+                        break;
+                    case 4:
+
+                        break;
+                    case 99:
+                        ExitFlag = true;
+                        break;
+                    default:
+                        Console.WriteLine("Invalid Choice");
+                        break;
+                }
+            } while (!ExitFlag);
 
             Console.WriteLine("\n\nThank you for Using VMS");
 

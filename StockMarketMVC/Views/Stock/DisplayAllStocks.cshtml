@@ -21,34 +21,15 @@
             <td>@stock.StockName</td>
             <td>@stock.StockSymbol</td>
             <td>@stock.CreationDate</td>
-            <td class="operations"><a href="DeleteStock/@stock.StockId"><button class="AllStockbutton">Delete</button></a>
+            <td class="operations">
+                <a href="UpdateStock/@stock.StockId"><button class="AllStockbutton1">Update</button></a>
+                <a href="DeleteStock/@stock.StockId"><button class="AllStockbutton">Delete</button></a>
             </td>
-            @* <td class="operation">
-                @using (Html.BeginForm("DeleteStock", "Stock", new { id = stock.StockId }, FormMethod.Post, new
-                {
-                    onsubmit =
-               "return confirm('Are you sure you want to delete this stock?');"
-                }))
-                { }
-                @Html.AntiForgeryToken()
-                <button type="submit" class="AllStockbutton">Delete</button>
-                }
-            </td> *@
+      
 
 
         </tr>
 
-        <script>
-            function deleteStock(id) {
-                var resultDiv = document.getElementById("result-" + id);
-                var url = "/Stock/DeleteStock/" + id;
-                fetch(url, {
-                    method: "DELETE"
-                })
-                    .then(response => response.text())
-                    .then(data => resultDiv.innerHTML = data)
-                    .catch(error => console.error(error));
-            }
-        </script>
+       
     }
 </table>

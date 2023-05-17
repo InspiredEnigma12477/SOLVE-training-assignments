@@ -52,16 +52,26 @@ namespace VechileMS.Models
         //public string Note { get; set; }
 
         public abstract void AddNote(string note);
-        public Vehicle()
-        {
-            
-        }
+
+        public Vehicle() { }
+
         public Vehicle(string vehicleType)
         {
             Id = ++count;
             VechileType = vehicleType;
         }
-        public Vehicle(string vechileType, string model, string brand, string type, string transmissionType, string color, int launchYear, double price, float discount)
+
+        public Vehicle(
+            string vechileType,
+            string model,
+            string brand,
+            string type,
+            string transmissionType,
+            string color,
+            int launchYear,
+            double price,
+            float discount
+        )
         {
             VechileType = vechileType;
             Model = model;
@@ -72,19 +82,17 @@ namespace VechileMS.Models
             LaunchYear = launchYear;
         }
 
-
         public override string ToString()
         {
-            return $"\nVechile Id: {Id}" +
-                   $"\nBrand: {Brand}" +
-                   $"\nModel: {Model}" +
-                   $"\nType: {Type}" +
-                   $"\nTransmission Type: {TransmissionType}" +
-                   $"\nColor: {Color}" +
-                   $"\nLaunch Year: {LaunchYear}" +
-                   $"\nPrice: {Price}" +
-                   $"\nDiscount: {Discount}";
+            return $"\nVechileType			   : {VechileType}"
+                + $"\nBrand                   : {Brand}"
+                + $"\nModel                   : {Model}"
+                + $"\nType                    : {Type}"
+                + $"\nTransmission Type       : {TransmissionType}"
+                + $"\nColor                   : {Color}"
+                + $"\nLaunch Year             : {LaunchYear}"
+                + $"\nPrice                   : {Price}"
+                + $"\nDiscount                : {Discount}";
         }
     }
-
 }

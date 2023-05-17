@@ -1,4 +1,5 @@
 ﻿using MySql.Data.MySqlClient;
+using StockMarketAPI.DataTransferObject;
 using StockMarketAPI.Models;
 
 
@@ -459,7 +460,7 @@ namespace StockMarketAPI.DataAccessLayer
             return status;
 
         }
-        public static bool UpdateStockById(Stock stock)
+        public static bool UpdateStockById(StockUpdateDTO stock)
         {
             bool status = false;
             string query = $"UPDATE stocks SET StockName = '{stock.StockName}',StockSymbol = '{stock.StockSymbol}' WHERE StockId = {stock.StockId}";
