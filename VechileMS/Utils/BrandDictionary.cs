@@ -25,7 +25,7 @@ namespace VechileMS.Utils
             { 13, "Kia" },
             { 14, "BMW" },
             { 15, "Mercedes-Benz" },
-            { 16, "Audi" },
+            /*{ 16, "Audi" },
             { 17, "Aston Martin" },
             { 18, "Maserati" },
             { 19, "Mitsubishi" },
@@ -38,7 +38,7 @@ namespace VechileMS.Utils
             { 26, "Lamborghini" },
             { 27, "Bentley" },
             { 28, "Rolls-Royce" },
-            { 29, "Ferrari" }
+            { 29, "Ferrari" }*/
         };
 
     }

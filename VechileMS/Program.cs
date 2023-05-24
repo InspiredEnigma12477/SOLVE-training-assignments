@@ -7,8 +7,6 @@ namespace VechileMS
 		static void Main(string[] args)
 		{
 			new Setup();  
-			
-
 		}
 	}
 }

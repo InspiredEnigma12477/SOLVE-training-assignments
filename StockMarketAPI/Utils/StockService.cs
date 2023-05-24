@@ -18,19 +18,25 @@ namespace StockMarketAPI.Utils
             {
                 return null;
             }
-            switch (oprand.funName.ToUpper())
+            try
             {
-                case "AVG" :
-                    return new { AvgPrice = DbManager.StockByIdAvg(id, formattedDate) };
-                    break;
-                case "MIN":
-                    return new { MinPrice = DbManager.StockByIdMin(id, formattedDate) }; ;
-                    break;
-                case "MAX":
-                    return new { MaxPrice = DbManager.StockByIdMax(id, formattedDate) }; ;
-                    break;
-                default:
-                    return null;
+                switch (oprand.funName.ToUpper())
+                {
+                    case "AVG":
+                        return new { AvgPrice = DbManager.StockByIdAvg(id, formattedDate) };
+                        break;
+                    case "MIN":
+                        return new { MinPrice = DbManager.StockByIdMin(id, formattedDate) }; ;
+                        break;
+                    case "MAX":
+                        return new { MaxPrice = DbManager.StockByIdMax(id, formattedDate) }; ;
+                        break;
+                    default:
+                        return null;
+                }
+            }catch (Exception ex)
+            {
+                return ErrorMessages.Errors[130];
             }
             return null;
         }

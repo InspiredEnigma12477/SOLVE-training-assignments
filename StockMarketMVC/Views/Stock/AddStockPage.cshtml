@@ -1,21 +1,26 @@
 ﻿@{
     ViewData["Title"] = "Add Stock";
-
+    //var stocks = ViewBag.stocks ?? new List<Stock>();
+    @model StockViewModel
 }
 
 <h1>AddStock</h1>
 
 <div class="form">
-    <form action="/Stock/AddStock" method="post">
+    <form asp-controller="Stock" asp-action="AddStock" method="post">
         <div class="form-group">
             <label for="stockName">Stock Name</label>
-            <input type="text" class="form-control" id="stockName" name="stockName" placeholder="Enter Stock Name">
+            <input type="text" class="form-control" id="stockName" name="stockName" value="@Model.StockName" placeholder="Enter Stock Name">
         </div>
         <div class="form-group">
             <label for="stockSymbol">Stock Symbol</label>
-            <input type="text" class="form-control" id="stockSymbol" name="stockSymbol" placeholder="Enter Stock Symbol">
+            <input type="text" class="form-control" id="stockSymbol" name="stockSymbol" value="@Model.StockSymbol" placeholder="Enter Stock Symbol">
         </div>
 
         <button type="submit" class="btn btn-primary">Add Stock</button>
     </form>
 </div>
+
+
+
+@Html.Partial("DisplayAllStocks.cshtml")

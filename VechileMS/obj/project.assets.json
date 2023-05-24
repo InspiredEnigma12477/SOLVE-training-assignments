@@ -798,23 +798,6 @@
           }
         }
       },
-      "MySql.Data.EntityFrameworkCore/8.0.22": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "3.1.1",
-          "MySql.Data": "8.0.22"
-        },
-        "compile": {
-          "lib/netstandard2.1/MySql.Data.EntityFrameworkCore.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.1/MySql.Data.EntityFrameworkCore.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "MySql.EntityFrameworkCore/7.0.2": {
         "type": "package",
         "dependencies": {
@@ -2618,21 +2601,6 @@
         "runtimes/win-x64/native/krbcc64.dll"
       ]
     },
-    "MySql.Data.EntityFrameworkCore/8.0.22": {
-      "sha512": "o/+OMqQ0fw4f6COfRrbwqP0CKcqoFkCfb1Rl3mfgUcae3XqAkiA6t8rsjA1wnkxUvwfNYX+YM2w2Xa6u4QEUkA==",
-      "type": "package",
-      "path": "mysql.data.entityframeworkcore/8.0.22",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/MySql.Data.EntityFrameworkCore.dll",
-        "lib/netstandard2.0/MySql.Data.EntityFrameworkCore.xml",
-        "lib/netstandard2.1/MySql.Data.EntityFrameworkCore.dll",
-        "lib/netstandard2.1/MySql.Data.EntityFrameworkCore.xml",
-        "mysql.data.entityframeworkcore.8.0.22.nupkg.sha512",
-        "mysql.data.entityframeworkcore.nuspec"
-      ]
-    },
     "MySql.EntityFrameworkCore/7.0.2": {
       "sha512": "ySIsMm7VqZTc685eGT9FAMkS73qbRwx80L/3/cAsnfTOqRNQc+pBj8OO9k275wBfcE2DRJTgPC5LJcPF/58KMw==",
       "type": "package",
@@ -4383,7 +4351,6 @@
       "Microsoft.EntityFrameworkCore >= 7.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.5",
-      "MySql.Data.EntityFrameworkCore >= 8.0.22",
       "MySql.EntityFrameworkCore >= 7.0.2",
       "Pomelo.EntityFrameworkCore.MySql >= 7.0.0"
     ]
@@ -4449,10 +4416,6 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[7.0.5, )"
-          },
-          "MySql.Data.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "[8.0.22, )"
           },
           "MySql.EntityFrameworkCore": {
             "target": "Package",

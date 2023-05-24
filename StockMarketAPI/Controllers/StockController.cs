@@ -10,10 +10,13 @@ using System.Reflection;
 using System.Net;
 using System.Net.Http;
 using System.Security.Policy;
+using Microsoft.AspNetCore.Cors;
+using StockMarketAPI.Scrapper;
 
 namespace StockMarketAPI.Controllers
 {
     [ApiController]
+    [EnableCors]
     [Route("[controller]")]
     public class StockController : ControllerBase
     {
@@ -40,15 +43,35 @@ namespace StockMarketAPI.Controllers
         #region GET
 
         [HttpGet]
+        [Route("UpdatePricesOnline")]
+        public IActionResult UpdatePricesOnline()
+        {
+            LogError("Updating Price in DB Online");
+            if(StockPrice_Insertion.InsertPrice())
+                return StatusCode(StatusCodes.Status200OK);
+            return BadRequest(ErrorMessages.Errors[128]);
+
+        }
+
+        [HttpGet]
         [Route("GetAllStocks")]
         public IActionResult GetAllStocks()
         {
             LogError("Get All Stocks Called");
             return new JsonResult(DbManager.GetAllStocks());
+            
+        }
+        [HttpGet]
+        [Route("GetAllStocksWithPrice")]
+        public IActionResult GetAllStocksWithPrice()
+        {
+            LogError("Get All Stocks Called");
+            return new JsonResult(DbManager.GetAllStocksWithPrice());
+
         }
 
         [HttpGet]
-        [Route("StocksWithoutPrice")]
+        [Route("GetAllStocksWithoutPrice")]
         public IActionResult GetStocksWithoutPrice()
         {
             return new JsonResult(DbManager.StockWithoutPrice());
@@ -67,8 +90,32 @@ namespace StockMarketAPI.Controllers
         }
 
         [HttpGet]
+        [Route("StockbySymbol/{symbol}")]
+        public IActionResult GetStockBySymbol(string symbol)
+        {
+            var stock = DbManager.StockBySymbol(symbol);
+            if (stock == null)
+            {
+                return BadRequest($"Stock Doesn't exist of this symbol");
+            }
+            return new JsonResult(stock);
+        }
+
+        [HttpGet]
+        [Route("StockPriceOnline/{symbol}")]
+        public IActionResult GetStockPriceOnline(string symbol)
+        {
+            var stockPrice = StockPrice_Scraper.GetOnlineStockPrice(symbol.ToUpper());
+            if (stockPrice == null)
+            {
+                return BadRequest(ErrorMessages.Errors[129]);
+            }
+            return new JsonResult(new { StockSymbol = symbol.ToUpper(), StockPrice = stockPrice});
+        }
+
+        [HttpGet]
         [Route("StockByIdWithPrices/{id}")]
-        public IActionResult StockByIdWithPrices(int id)
+        public IActionResult StockByIdWithPrices(int id)    
         {
             var stock = DbManager.StockById(id);
             if (stock == null)
@@ -84,9 +131,15 @@ namespace StockMarketAPI.Controllers
         {
             var stock = DbManager.StockById(id);
             if (stock == null)
-                return BadRequest($"Stock Doesn't exist of {id}");
+                return BadRequest(ErrorMessages.Errors[131] );
 
             var operation = StockService.MathFunctions(id, oprand);
+
+            if(operation is ErrorMessage)
+            {
+                return StatusCode(StatusCodes.Status400BadRequest, operation);
+            }
+
             return StatusCode(StatusCodes.Status200OK,
                 operation == null ? ErrorMessages.Errors[127] : new
                 {
@@ -131,8 +184,8 @@ namespace StockMarketAPI.Controllers
             {
                 var response = new { success = false, errors = validationErrors };
                 return BadRequest(response);
-            }*/
-
+            }
+            */
             //if (!DbManager.InsertOneStock(new Stock(new StockDTO().ConvertToStockDTO(stock))))
             if (!DbManager.InsertOneStock(stock))
                 return StatusCode(StatusCodes.Status500InternalServerError, new { success = false, message = "Failed to insert stock into database." });

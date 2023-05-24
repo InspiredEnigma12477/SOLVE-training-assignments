@@ -54,6 +54,63 @@ namespace StockMarketAPI.DataAccessLayer
 
             return allStocks;
         }
+        public static List<StockWithPrice> GetAllStocksWithPrice()
+        {
+
+            List<StockWithPrice> allStocks = new List<StockWithPrice>();
+            using (StreamWriter writer = new StreamWriter("D:\\SQLStockWithprices.txt"))
+            {
+                writer.WriteLine("Inside");
+
+
+                MySqlConnection con = DatabaseConnection.Instance.GetConnection();
+                try
+                {
+                    con.Open();
+
+                    MySqlCommand cmd = new MySqlCommand();
+                    cmd.Connection = con;
+
+                    string query = "SELECT s.*, price FROM stocks AS s JOIN Stock_Price AS sp ON s.stockId = sp.stockId WHERE sp.priceAtTime = ( Select Max(PriceAtTime) FROM Stock_Price WHERE stockId = s.stockId)";
+                    cmd.CommandText = query;
+
+                    writer.WriteLine(query);
+
+                    MySqlDataReader reader = cmd.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        var id = int.Parse(reader["StockId"].ToString());
+                        var stockName = reader["StockName"].ToString();
+                        var stockSymbol = reader["StockSymbol"].ToString();
+                        var stockPrice = double.Parse(reader["Price"].ToString());
+                        var creationDate = reader["CreationDate"].ToString();
+
+                        writer.WriteLine(id + " " + stockName + " " + stockSymbol + " " + stockPrice + " " + creationDate);
+                        StockWithPrice stock = new StockWithPrice
+                        {
+                            StockId = id,
+                            StockName = stockName,
+                            StockSymbol = stockSymbol,
+                            StockPrice = stockPrice,
+                            CreationDate = DateTime.Parse(creationDate)
+                        };
+                        allStocks.Add(stock);
+                    }
+                }
+
+                catch (Exception ee)
+                {
+                    Console.WriteLine(ee.Message);
+                    writer.Write(ee.Message);
+                }
+                finally
+                {
+                    con.Close();
+                }
+            }
+
+            return allStocks;
+        }
         public static List<Stock> StockWithoutPrice()
         {
             List<Stock> allStocks = new List<Stock>();
@@ -282,7 +339,7 @@ namespace StockMarketAPI.DataAccessLayer
             }
             catch (Exception e)
             {
-                throw e;
+                throw new Exception();
             }
             finally
             {
@@ -293,6 +350,7 @@ namespace StockMarketAPI.DataAccessLayer
         public static double? StockByIdMin(int id, string date)
         {
             MySqlConnection con = DatabaseConnection.Instance.GetConnection();
+            //cast priceattime in date then compare
             string query = $"SELECT MIN(price) \"MIN_Price\" FROM stock_Price Where StockId ={id} AND PriceAtTime BETWEEN '{date} 00:00:00' AND '{date} 23:59:59'";
             try
             {
@@ -305,7 +363,7 @@ namespace StockMarketAPI.DataAccessLayer
             }
             catch (Exception e)
             {
-                throw e;
+                throw new Exception();
             }
             finally
             {
@@ -328,7 +386,7 @@ namespace StockMarketAPI.DataAccessLayer
             }
             catch (Exception e)
             {
-                throw e;
+                throw new Exception();
             }
             finally
             {
@@ -368,6 +426,40 @@ namespace StockMarketAPI.DataAccessLayer
             }
             return null;
         }
+        public static Stock StockBySymbol(string symbol)
+        {
+            MySqlConnection con = DatabaseConnection.Instance.GetConnection();
+            string query = $"SELECT * FROM stocks Where StockSymbol =\"{symbol}\"";
+            try
+            {
+                MySqlCommand command = new MySqlCommand(query, con);
+                con.Open();
+
+                MySqlDataReader reader = command.ExecuteReader();
+                if (reader.Read())
+                {
+                    return new Stock
+                    {
+                        StockId = int.Parse(reader["StockId"].ToString()),
+                        StockName = reader["StockName"].ToString(),
+                        StockSymbol = reader["StockSymbol"].ToString(),
+                        CreationDate = DateTime.Parse(reader["CreationDate"].ToString())
+                    };
+                }
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+            finally
+            {
+                con.Close();
+            }
+            return null;
+        }
+        #endregion
+
+        #region DELETE Methods
         public static Stock DeleteStockById(int id)
         {
             MySqlConnection con = DatabaseConnection.Instance.GetConnection();
@@ -378,8 +470,10 @@ namespace StockMarketAPI.DataAccessLayer
                 {
                     return null;
                 }
+
                 if (stock.StockId == id)
                 {
+                    DeleteStockPricesById(id);
                     string query = "DELETE FROM stocks WHERE StockId =" + id;
                     MySqlCommand cmd = new MySqlCommand(query, con);
                     con.Open();
@@ -387,8 +481,6 @@ namespace StockMarketAPI.DataAccessLayer
 
                     return stock;
                 }
-
-
             }
             catch (Exception ee)
             {
@@ -398,8 +490,28 @@ namespace StockMarketAPI.DataAccessLayer
             {
                 con.Close();
             }
-
             return null;
+        }
+        public static bool DeleteStockPricesById(int id)
+        {
+            MySqlConnection con = DatabaseConnection.Instance.GetConnection();
+            try
+            {
+                string query = "DELETE FROM stock_price WHERE StockId =" + id;
+                MySqlCommand cmd = new MySqlCommand(query, con);
+                con.Open();
+                cmd.ExecuteNonQuery();
+                return true;
+            }
+            catch (Exception ee)
+            {
+                Console.WriteLine(ee.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+            return false;
         }
         #endregion
 
@@ -537,6 +649,11 @@ namespace StockMarketAPI.DataAccessLayer
 
             return status;
 
+        }
+
+        internal static void InsertStockPriceById(object value)
+        {
+            throw new NotImplementedException();
         }
         #endregion
     }

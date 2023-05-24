@@ -1,6 +1,6 @@
 ﻿@{
     ViewData["Title"] = "All Stocks";
-    var stocks = ViewBag.stocks ?? new List<Stock>();
+    @model StockViewModel
 }
 
 <h1>Display All Stocks</h1>
@@ -14,7 +14,7 @@
         <th>CreationDate</th>
         <th colspan="2" class="operations">Operation</th>
     </tr>
-    @foreach (var stock in stocks)
+    @foreach (var stock in Model.Stocks)
     {
         <tr>
             <td>@stock.StockId</td>
@@ -22,14 +22,9 @@
             <td>@stock.StockSymbol</td>
             <td>@stock.CreationDate</td>
             <td class="operations">
-                <a href="UpdateStock/@stock.StockId"><button class="AllStockbutton1">Update</button></a>
-                <a href="DeleteStock/@stock.StockId"><button class="AllStockbutton">Delete</button></a>
+                <a href="UpdateStock/@stock.StockId"><button class="AllStockbutton1">Edit</button></a>
+                <a href="DeleteStock/@stock.StockId"><button id="deleteButton" class="AllStockbutton" onclick="return confirm('Are you sure you want to delete?');" );>Delete</button></a>
             </td>
-      
-
-
         </tr>
-
-       
     }
 </table>

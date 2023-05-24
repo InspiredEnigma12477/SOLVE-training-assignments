@@ -8,47 +8,50 @@ namespace VechileMS.Models
 {
     public class CarSeller
     {
-        private List<Vehicle> vehicles;
-        /*
+        private List<DealerVehicle> vehicles;
+
         public CarSeller()
         {
-            this.vehicles = new List<Vehicle>();
+            this.vehicles = new List<DealerVehicle>();
+        }
+        public CarSeller(List<DealerVehicle> list)
+        {
+            this.vehicles = list;
         }
 
-        public void AddVehicle(Vehicle vehicle)
+        public void AddVehicle(DealerVehicle vehicle)
         {
             this.vehicles.Add(vehicle);
         }
 
-        public Vehicle GetVehicleByNumber(string number)
+        public DealerVehicle GetVehicleByNumber(string number)
         {
             return this.vehicles.FirstOrDefault(v => v.Number == number);
         }
 
-        public List<Vehicle> GetVehiclesByMade(string made)
-        {
-            return this.vehicles.Where(v => v.Made == made).ToList();
-        }
-
-        public List<Vehicle> GetVehiclesByBrand(string brand)
+        public List<DealerVehicle> GetVehiclesByMade(string brand)
         {
             return this.vehicles.Where(v => v.Brand == brand).ToList();
         }
 
-        public List<Vehicle> GetVehiclesByColor(string color)
+        public List<DealerVehicle> GetVehiclesByBrand(string brand)
+        {
+            return this.vehicles.Where(v => v.Brand == brand).ToList();
+        }
+
+        public List<DealerVehicle> GetVehiclesByColor(string color)
         {
             return this.vehicles.Where(v => v.Color == color).ToList();
         }
 
-        public List<Vehicle> GetVehiclesByAccidentalStatus(bool isAccidental)
+        public List<DealerVehicle> GetVehiclesByAccidentalStatus(bool isAccidental)
         {
             return this.vehicles.Where(v => v.IsAccidental == isAccidental).ToList();
         }
 
-        public List<Vehicle> GetVehiclesByTransmissionType(string transmissionType)
+        public List<DealerVehicle> GetVehiclesByTransmissionType(string transmissionType)
         {
             return this.vehicles.Where(v => v.TransmissionType == transmissionType).ToList();
-        }*/
+        }
     }
-
 }

@@ -1,0 +1,17 @@
+C:\Users\AUMNI\source\repos\TrialScrapper\bin\Debug\net7.0\TrialScrapper.exe
+C:\Users\AUMNI\source\repos\TrialScrapper\bin\Debug\net7.0\TrialScrapper.deps.json
+C:\Users\AUMNI\source\repos\TrialScrapper\bin\Debug\net7.0\TrialScrapper.runtimeconfig.json
+C:\Users\AUMNI\source\repos\TrialScrapper\bin\Debug\net7.0\TrialScrapper.dll
+C:\Users\AUMNI\source\repos\TrialScrapper\bin\Debug\net7.0\TrialScrapper.pdb
+C:\Users\AUMNI\source\repos\TrialScrapper\bin\Debug\net7.0\HtmlAgilityPack.dll
+C:\Users\AUMNI\source\repos\TrialScrapper\obj\Debug\net7.0\TrialScrapper.csproj.AssemblyReference.cache
+C:\Users\AUMNI\source\repos\TrialScrapper\obj\Debug\net7.0\TrialScrapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AUMNI\source\repos\TrialScrapper\obj\Debug\net7.0\TrialScrapper.AssemblyInfoInputs.cache
+C:\Users\AUMNI\source\repos\TrialScrapper\obj\Debug\net7.0\TrialScrapper.AssemblyInfo.cs
+C:\Users\AUMNI\source\repos\TrialScrapper\obj\Debug\net7.0\TrialScrapper.csproj.CoreCompileInputs.cache
+C:\Users\AUMNI\source\repos\TrialScrapper\obj\Debug\net7.0\TrialScrapper.csproj.CopyComplete
+C:\Users\AUMNI\source\repos\TrialScrapper\obj\Debug\net7.0\TrialScrapper.dll
+C:\Users\AUMNI\source\repos\TrialScrapper\obj\Debug\net7.0\refint\TrialScrapper.dll
+C:\Users\AUMNI\source\repos\TrialScrapper\obj\Debug\net7.0\TrialScrapper.pdb
+C:\Users\AUMNI\source\repos\TrialScrapper\obj\Debug\net7.0\TrialScrapper.genruntimeconfig.cache
+C:\Users\AUMNI\source\repos\TrialScrapper\obj\Debug\net7.0\ref\TrialScrapper.dll

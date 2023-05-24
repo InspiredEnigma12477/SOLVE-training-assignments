@@ -27,10 +27,13 @@ namespace VechileMS.Utils
                         Helper.DisplayVechile();
                         break;
                     case 3:
-
+                        Helper.Filters();
                         break;
                     case 4:
-
+                        Helper.ModifyServicingStatus();
+                        break;
+                        case 5:
+                        Helper.DeleteVechile();
                         break;
                     case 99:
                         ExitFlag = true;
@@ -42,8 +45,6 @@ namespace VechileMS.Utils
             } while (!ExitFlag);
 
             Console.WriteLine("\n\nThank you for Using VMS");
-
-            Console.ReadKey();
         }
     }
 }

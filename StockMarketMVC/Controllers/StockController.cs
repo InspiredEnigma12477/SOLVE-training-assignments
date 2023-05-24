@@ -26,9 +26,16 @@ namespace StockMarketMVC.Controllers
 
         [HttpGet]
         [Route("AddStock")]
-        public IActionResult AddStockPage()
+        public async Task<IActionResult> AddStockPage()
         {
-            return View();
+            var stocks = await _stockService.GetAllStock();
+            var viewModel = new StockViewModel
+            {
+                Stocks = stocks
+            };
+            return View(viewModel);
+            /*ViewBag.stocks = await _stockService.GetAllStock();
+            return View();*/
         }
 
         [HttpPost]
@@ -36,7 +43,7 @@ namespace StockMarketMVC.Controllers
         public IActionResult AddStock(string stockName, string stockSymbol)
         {
             _stockService.AddStock(stockName, stockSymbol);
-            return RedirectToAction("DisplayAllStocks", "Stock");
+            return RedirectToAction("AddStockPage", "Stock");
         }
 
         [HttpGet]
@@ -65,8 +72,14 @@ namespace StockMarketMVC.Controllers
         [Route("DisplayAllStocks")]
         public async Task<IActionResult> DisplayAllStocks()
         {
-            ViewBag.stocks = await _stockService.GetAllStock();
-            return View();
+            var stocks = await _stockService.GetAllStock();
+            var viewModel = new StockViewModel
+            {
+                Stocks = stocks
+            };
+            return View(viewModel);
+            /*ViewBag.stocks = await _stockService.GetAllStock();
+            return View();*/
         }
 
         [HttpGet]

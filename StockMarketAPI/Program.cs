@@ -20,6 +20,10 @@ if (app.Environment.IsDevelopment())
 
 //app.UseMiddleware<HTTPLoggingMiddleware>();
 
+app.UseCors(builder => builder.WithOrigins("http://localhost:3000")
+                              .AllowAnyMethod()
+                              .AllowAnyHeader());
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

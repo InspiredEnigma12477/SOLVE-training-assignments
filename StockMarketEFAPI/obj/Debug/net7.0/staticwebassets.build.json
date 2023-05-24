@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "3TQ9JffhIAZ9IJ+CM8VPtqRpjEaMkJB61dXOPop6OWE=",
+  "Source": "StockMarketEFAPI",
+  "BasePath": "_content/StockMarketEFAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

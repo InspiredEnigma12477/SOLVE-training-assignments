@@ -1,0 +1,88 @@
+$accent-color-light: #FCFFE7;
+$accent-color-dark: #55788e;
+
+$accent-color-light1: #070513;
+$accent-color-light-40: #07051366;
+$accent-color-light-shadow: #0705131A;
+
+$accent-color-dark1: #2B3467;
+$accent-color-dark1-40: rgba(43, 52, 103, 0.4);
+$accent-color-dark1-shadow: rgba(43, 52, 103, 0.1);
+
+$accent-color-dark2: #00b3ff;
+
+$background-color-light: #ffffff;
+$background-color-dark: #2B3467;
+
+$text-color-light: #070513;
+$text-color-dark: #FFFFFF;
+
+$text-color-light1: #FFFFFF;
+$text-color-dark1: #0d0c22;
+
+$input-background-color-light: #dfe6e9;
+$input-background-color-dark: #2B3467;
+
+$input-background-color-onhover-light: #00b3ff;
+$input-background-color-onhover-dark: #2B3467;
+
+$mode: light; // or dark, depending on your preference
+
+body {
+  background-color: if($mode == light, $background-color-light, $background-color-dark);
+  color: if($mode == light, $text-color-light, $text-color-dark);
+
+
+  background-image: linear-gradient(120deg,#ffffff,#bcdef6);
+
+  background: linear-gradient(-45deg, #e53935, #e35d5b, #ee9ca7, #ffdde1);
+  background: linear-gradient(-45deg, #8e9eab, #abbabb,#eef2f3, #ffffff);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+// @keyframes body {
+//   0% {
+//     background-image: linear-gradient(0deg,#ffffff,#bcdef6);
+//   }
+//   50% {
+//     background-image: linear-gradient(180deg,#ffffff,#bcdef6);
+//   }
+//   100% {
+//     background-image: linear-gradient(360deg,#ffffff,#bcdef6);
+//   }  
+// }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.accent {
+  background-color: if($mode == light, $accent-color-light, $accent-color-dark);
+  color: if($mode == light, $text-color-light, $text-color-dark);
+}
+
+.mainContainer {
+  margin: 0 auto 0 auto;
+  padding: 50px 0 0 0;
+  width: 80%;
+  min-height: 96vh;
+}
+
+*{
+  ::selection{
+    background-color: if($mode == light, $accent-color-light1, $accent-color-dark1);
+    color: if($mode == light, $text-color-light1, $text-color-dark1);
+  }
+}
+

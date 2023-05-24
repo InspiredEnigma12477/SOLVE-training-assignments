@@ -1,7 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using VechileMS.Models;
-using Pomelo.EntityFrameworkCore.MySql;
-using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 
 namespace VechileMS.DataAcessLogic
 {
@@ -12,7 +10,7 @@ namespace VechileMS.DataAcessLogic
             optionsBuilder.UseMySQL(@"server=localhost;database=SolveTraining;uid=root;password=1234567890;",
                 mysqlOptions =>
                 {
-                    mysqlOptions.EnableRetryOnFailure(5, TimeSpan.FromSeconds(10), null); // Enable retry on failure                                                                          // Additional configuration options...
+                    mysqlOptions.EnableRetryOnFailure(5, TimeSpan.FromSeconds(10), null);                                                                     // Additional configuration options...
                 });
             //optionsBuilder.UseSqlServer(@"Server=localhost:3306;Database=SolveTraining;Trusted_Connection=True;MultipleActiveResultSets=True");
         }
@@ -26,7 +24,7 @@ namespace VechileMS.DataAcessLogic
 
 
         public DbSet<DealerVehicle> Vehicles { get; set; }
-        //public DbSet<string> Notes { get; set; }
+        public DbSet<Note> Note { get; set; }
 
     }
 }
