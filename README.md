@@ -7,6 +7,7 @@
 - StockMarket API [Code](https://github.com/InspiredEnigma12477/SOLVE-training-assignments/tree/master/StockMarketAPI)
 - Employee API [Code](https://github.com/InspiredEnigma12477/SOLVE-training-assignments/tree/master/EmploeeAPI)
 - Vechile MS [Code](https://github.com/InspiredEnigma12477/SOLVE-training-assignments/tree/master/VechileMS)
+- StockMarket React [Code](https://github.com/InspiredEnigma12477/SOLVE-training-assignments/tree/master/stockmarket-react/src)
 ## Random Things
   Diff Between JaggedArray and RectangularArray [Code](https://github.com/InspiredEnigma12477/Solve-training-assignments/blob/master/Random-trials/Random-trials/Program.cs)
   
