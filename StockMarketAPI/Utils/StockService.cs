@@ -2,6 +2,7 @@
 using StockMarketAPI.Utils;
 using StockMarketAPI.DataTransferObject;
 using static System.Runtime.InteropServices.JavaScript.JSType;
+using StockMarketAPI.Models;
 
 namespace StockMarketAPI.Utils
 {
@@ -40,5 +41,6 @@ namespace StockMarketAPI.Utils
             }
             return null;
         }
+
     }
 }

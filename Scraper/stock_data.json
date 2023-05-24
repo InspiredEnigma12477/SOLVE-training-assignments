@@ -1,0 +1,6570 @@
+[
+    {
+        "StockSymbol": "SYMBOL",
+        "StockName": "NAME OF COMPANY"
+    },
+    {
+        "StockSymbol": "20MICRONS",
+        "StockName": "20 Microns Limited"
+    },
+    {
+        "StockSymbol": "21STCENMGM",
+        "StockName": "21st Century Management Services Limited"
+    },
+    {
+        "StockSymbol": "3IINFOTECH",
+        "StockName": "3i Infotech Limited"
+    },
+    {
+        "StockSymbol": "3MINDIA",
+        "StockName": "3M India Limited"
+    },
+    {
+        "StockSymbol": "3PLAND",
+        "StockName": "3P Land Holdings Limited"
+    },
+    {
+        "StockSymbol": "5PAISA",
+        "StockName": "5Paisa Capital Limited"
+    },
+    {
+        "StockSymbol": "63MOONS",
+        "StockName": "63 moons technologies limited"
+    },
+    {
+        "StockSymbol": "A2ZINFRA",
+        "StockName": "A2Z Infra Engineering Limited"
+    },
+    {
+        "StockSymbol": "AARTIDRUGS",
+        "StockName": "Aarti Drugs Limited"
+    },
+    {
+        "StockSymbol": "AARTIIND",
+        "StockName": "Aarti Industries Limited"
+    },
+    {
+        "StockSymbol": "AARVEEDEN",
+        "StockName": "Aarvee Denims & Exports Limited"
+    },
+    {
+        "StockSymbol": "AAVAS",
+        "StockName": "Aavas Financiers Limited"
+    },
+    {
+        "StockSymbol": "ABAN",
+        "StockName": "Aban Offshore Limited"
+    },
+    {
+        "StockSymbol": "ABB",
+        "StockName": "ABB India Limited"
+    },
+    {
+        "StockSymbol": "ABBOTINDIA",
+        "StockName": "Abbott India Limited"
+    },
+    {
+        "StockSymbol": "ABCAPITAL",
+        "StockName": "Aditya Birla Capital Limited"
+    },
+    {
+        "StockSymbol": "ABFRL",
+        "StockName": "Aditya Birla Fashion and Retail Limited"
+    },
+    {
+        "StockSymbol": "ABMINTLTD",
+        "StockName": "ABM International Limited"
+    },
+    {
+        "StockSymbol": "ACC",
+        "StockName": "ACC Limited"
+    },
+    {
+        "StockSymbol": "ACCELYA",
+        "StockName": "Accelya Solutions India Limited"
+    },
+    {
+        "StockSymbol": "ACE",
+        "StockName": "Action Construction Equipment Limited"
+    },
+    {
+        "StockSymbol": "ADANIENT",
+        "StockName": "Adani Enterprises Limited"
+    },
+    {
+        "StockSymbol": "ADANIGAS",
+        "StockName": "Adani Gas Limited"
+    },
+    {
+        "StockSymbol": "ADANIGREEN",
+        "StockName": "Adani Green Energy Limited"
+    },
+    {
+        "StockSymbol": "ADANIPORTS",
+        "StockName": "Adani Ports and Special Economic Zone Limited"
+    },
+    {
+        "StockSymbol": "ADANIPOWER",
+        "StockName": "Adani Power Limited"
+    },
+    {
+        "StockSymbol": "ADANITRANS",
+        "StockName": "Adani Transmission Limited"
+    },
+    {
+        "StockSymbol": "ADFFOODS",
+        "StockName": "ADF Foods Limited"
+    },
+    {
+        "StockSymbol": "ADHUNIK",
+        "StockName": "Adhunik Metaliks Limited"
+    },
+    {
+        "StockSymbol": "ADHUNIKIND",
+        "StockName": "Adhunik Industries Limited"
+    },
+    {
+        "StockSymbol": "ADLABS",
+        "StockName": "Adlabs Entertainment Limited"
+    },
+    {
+        "StockSymbol": "ADORWELD",
+        "StockName": "Ador Welding Limited"
+    },
+    {
+        "StockSymbol": "ADROITINFO",
+        "StockName": "Adroit Infotech Limited"
+    },
+    {
+        "StockSymbol": "ADSL",
+        "StockName": "Allied Digital Services Limited"
+    },
+    {
+        "StockSymbol": "ADVANIHOTR",
+        "StockName": "Advani Hotels & Resorts (India) Limited"
+    },
+    {
+        "StockSymbol": "ADVENZYMES",
+        "StockName": "Advanced Enzyme Technologies Limited"
+    },
+    {
+        "StockSymbol": "AEGISCHEM",
+        "StockName": "Aegis Logistics Limited"
+    },
+    {
+        "StockSymbol": "AFFLE",
+        "StockName": "Affle (India) Limited"
+    },
+    {
+        "StockSymbol": "AGARIND",
+        "StockName": "Agarwal Industrial Corporation Limited"
+    },
+    {
+        "StockSymbol": "AGCNET",
+        "StockName": "AGC Networks Limited"
+    },
+    {
+        "StockSymbol": "AGRITECH",
+        "StockName": "Agri-Tech (India) Limited"
+    },
+    {
+        "StockSymbol": "AGROPHOS",
+        "StockName": "Agro Phos India Limited"
+    },
+    {
+        "StockSymbol": "AHLEAST",
+        "StockName": "Asian Hotels (East) Limited"
+    },
+    {
+        "StockSymbol": "AHLUCONT",
+        "StockName": "Ahluwalia Contracts (India) Limited"
+    },
+    {
+        "StockSymbol": "AHLWEST",
+        "StockName": "Asian Hotels (West) Limited"
+    },
+    {
+        "StockSymbol": "AIAENG",
+        "StockName": "AIA Engineering Limited"
+    },
+    {
+        "StockSymbol": "AIONJSW",
+        "StockName": "Monnet Ispat & Energy Limited"
+    },
+    {
+        "StockSymbol": "AIRAN",
+        "StockName": "Airan Limited"
+    },
+    {
+        "StockSymbol": "AJANTPHARM",
+        "StockName": "Ajanta Pharma Limited"
+    },
+    {
+        "StockSymbol": "AJMERA",
+        "StockName": "Ajmera Realty & Infra India Limited"
+    },
+    {
+        "StockSymbol": "AKASH",
+        "StockName": "Akash Infra-Projects Limited"
+    },
+    {
+        "StockSymbol": "AKSHARCHEM",
+        "StockName": "AksharChem India Limited"
+    },
+    {
+        "StockSymbol": "AKSHOPTFBR",
+        "StockName": "Aksh Optifibre Limited"
+    },
+    {
+        "StockSymbol": "AKZOINDIA",
+        "StockName": "Akzo Nobel India Limited"
+    },
+    {
+        "StockSymbol": "ALANKIT",
+        "StockName": "Alankit Limited"
+    },
+    {
+        "StockSymbol": "ALBERTDAVD",
+        "StockName": "Albert David Limited"
+    },
+    {
+        "StockSymbol": "ALBK",
+        "StockName": "Allahabad Bank"
+    },
+    {
+        "StockSymbol": "ALCHEM",
+        "StockName": "Alchemist Limited"
+    },
+    {
+        "StockSymbol": "ALEMBICLTD",
+        "StockName": "Alembic Limited"
+    },
+    {
+        "StockSymbol": "ALICON",
+        "StockName": "Alicon Castalloy Limited"
+    },
+    {
+        "StockSymbol": "ALKALI",
+        "StockName": "Alkali Metals Limited"
+    },
+    {
+        "StockSymbol": "ALKEM",
+        "StockName": "Alkem Laboratories Limited"
+    },
+    {
+        "StockSymbol": "ALKYLAMINE",
+        "StockName": "Alkyl Amines Chemicals Limited"
+    },
+    {
+        "StockSymbol": "ALLCARGO",
+        "StockName": "Allcargo Logistics Limited"
+    },
+    {
+        "StockSymbol": "ALLSEC",
+        "StockName": "Allsec Technologies Limited"
+    },
+    {
+        "StockSymbol": "ALMONDZ",
+        "StockName": "Almondz Global Securities Limited"
+    },
+    {
+        "StockSymbol": "ALOKTEXT",
+        "StockName": "Alok Industries Limited"
+    },
+    {
+        "StockSymbol": "ALPA",
+        "StockName": "Alpa Laboratories Limited"
+    },
+    {
+        "StockSymbol": "ALPHAGEO",
+        "StockName": "Alphageo (India) Limited"
+    },
+    {
+        "StockSymbol": "ALPSINDUS",
+        "StockName": "Alps Industries Limited"
+    },
+    {
+        "StockSymbol": "AMARAJABAT",
+        "StockName": "Amara Raja Batteries Limited"
+    },
+    {
+        "StockSymbol": "AMBER",
+        "StockName": "Amber Enterprises India Limited"
+    },
+    {
+        "StockSymbol": "AMBIKCO",
+        "StockName": "Ambika Cotton Mills Limited"
+    },
+    {
+        "StockSymbol": "AMBUJACEM",
+        "StockName": "Ambuja Cements Limited"
+    },
+    {
+        "StockSymbol": "AMDIND",
+        "StockName": "AMD Industries Limited"
+    },
+    {
+        "StockSymbol": "AMJLAND",
+        "StockName": "Amj Land Holdings Limited"
+    },
+    {
+        "StockSymbol": "AMRUTANJAN",
+        "StockName": "Amrutanjan Health Care Limited"
+    },
+    {
+        "StockSymbol": "ANANTRAJ",
+        "StockName": "Anant Raj Limited"
+    },
+    {
+        "StockSymbol": "ANDHRABANK",
+        "StockName": "Andhra Bank"
+    },
+    {
+        "StockSymbol": "ANDHRACEMT",
+        "StockName": "Andhra Cements Limited"
+    },
+    {
+        "StockSymbol": "ANDHRSUGAR",
+        "StockName": "The Andhra Sugars Limited"
+    },
+    {
+        "StockSymbol": "ANIKINDS",
+        "StockName": "Anik Industries Limited"
+    },
+    {
+        "StockSymbol": "ANKITMETAL",
+        "StockName": "Ankit Metal & Power Limited"
+    },
+    {
+        "StockSymbol": "ANSALAPI",
+        "StockName": "Ansal Properties & Infrastructure Limited"
+    },
+    {
+        "StockSymbol": "ANSALHSG",
+        "StockName": "Ansal Housing Limited"
+    },
+    {
+        "StockSymbol": "ANTGRAPHIC",
+        "StockName": "Antarctica Limited"
+    },
+    {
+        "StockSymbol": "ANUP",
+        "StockName": "The Anup Engineering Limited"
+    },
+    {
+        "StockSymbol": "APARINDS",
+        "StockName": "Apar Industries Limited"
+    },
+    {
+        "StockSymbol": "APCL",
+        "StockName": "Anjani Portland Cement Limited"
+    },
+    {
+        "StockSymbol": "APCOTEXIND",
+        "StockName": "Apcotex Industries Limited"
+    },
+    {
+        "StockSymbol": "APEX",
+        "StockName": "Apex Frozen Foods Limited"
+    },
+    {
+        "StockSymbol": "APLAPOLLO",
+        "StockName": "APL Apollo Tubes Limited"
+    },
+    {
+        "StockSymbol": "APLLTD",
+        "StockName": "Alembic Pharmaceuticals Limited"
+    },
+    {
+        "StockSymbol": "APOLLO",
+        "StockName": "Apollo Micro Systems Limited"
+    },
+    {
+        "StockSymbol": "APOLLOHOSP",
+        "StockName": "Apollo Hospitals Enterprise Limited"
+    },
+    {
+        "StockSymbol": "APOLLOPIPE",
+        "StockName": "Apollo Pipes Limited"
+    },
+    {
+        "StockSymbol": "APOLLOTYRE",
+        "StockName": "Apollo Tyres Limited"
+    },
+    {
+        "StockSymbol": "APOLSINHOT",
+        "StockName": "Apollo Sindoori Hotels Limited"
+    },
+    {
+        "StockSymbol": "APTECHT",
+        "StockName": "Aptech Limited"
+    },
+    {
+        "StockSymbol": "ARCHIDPLY",
+        "StockName": "Archidply Industries Limited"
+    },
+    {
+        "StockSymbol": "ARCHIES",
+        "StockName": "Archies Limited"
+    },
+    {
+        "StockSymbol": "ARCOTECH",
+        "StockName": "Arcotech Limited"
+    },
+    {
+        "StockSymbol": "ARENTERP",
+        "StockName": "Rajdarshan Industries Limited"
+    },
+    {
+        "StockSymbol": "ARIES",
+        "StockName": "Aries Agro Limited"
+    },
+    {
+        "StockSymbol": "ARIHANT",
+        "StockName": "Arihant Foundations & Housing Limited"
+    },
+    {
+        "StockSymbol": "ARIHANTSUP",
+        "StockName": "Arihant Superstructures Limited"
+    },
+    {
+        "StockSymbol": "ARMANFIN",
+        "StockName": "Arman Financial Services Limited"
+    },
+    {
+        "StockSymbol": "AROGRANITE",
+        "StockName": "Aro Granite Industries Limited"
+    },
+    {
+        "StockSymbol": "ARROWGREEN",
+        "StockName": "Arrow Greentech Limited"
+    },
+    {
+        "StockSymbol": "ARROWTEX",
+        "StockName": "Arrow Textiles Limited"
+    },
+    {
+        "StockSymbol": "ARSHIYA",
+        "StockName": "Arshiya Limited"
+    },
+    {
+        "StockSymbol": "ARSSINFRA",
+        "StockName": "ARSS Infrastructure Projects Limited"
+    },
+    {
+        "StockSymbol": "ARVIND",
+        "StockName": "Arvind Limited"
+    },
+    {
+        "StockSymbol": "ARVINDFASN",
+        "StockName": "Arvind Fashions Limited"
+    },
+    {
+        "StockSymbol": "ARVSMART",
+        "StockName": "Arvind SmartSpaces Limited"
+    },
+    {
+        "StockSymbol": "ASAHIINDIA",
+        "StockName": "Asahi India Glass Limited"
+    },
+    {
+        "StockSymbol": "ASAHISONG",
+        "StockName": "Asahi Songwon Colors Limited"
+    },
+    {
+        "StockSymbol": "ASAL",
+        "StockName": "Automotive Stampings and Assemblies Limited"
+    },
+    {
+        "StockSymbol": "ASHAPURMIN",
+        "StockName": "Ashapura Minechem Limited"
+    },
+    {
+        "StockSymbol": "ASHIANA",
+        "StockName": "Ashiana Housing Limited"
+    },
+    {
+        "StockSymbol": "ASHIMASYN",
+        "StockName": "Ashima Limited"
+    },
+    {
+        "StockSymbol": "ASHOKA",
+        "StockName": "Ashoka Buildcon Limited"
+    },
+    {
+        "StockSymbol": "ASHOKLEY",
+        "StockName": "Ashok Leyland Limited"
+    },
+    {
+        "StockSymbol": "ASIANHOTNR",
+        "StockName": "Asian Hotels (North) Limited"
+    },
+    {
+        "StockSymbol": "ASIANPAINT",
+        "StockName": "Asian Paints Limited"
+    },
+    {
+        "StockSymbol": "ASIANTILES",
+        "StockName": "Asian Granito India Limited"
+    },
+    {
+        "StockSymbol": "ASPINWALL",
+        "StockName": "Aspinwall and Company Limited"
+    },
+    {
+        "StockSymbol": "ASTEC",
+        "StockName": "Astec LifeSciences Limited"
+    },
+    {
+        "StockSymbol": "ASTERDM",
+        "StockName": "Aster DM Healthcare Limited"
+    },
+    {
+        "StockSymbol": "ASTRAL",
+        "StockName": "Astral Poly Technik Limited"
+    },
+    {
+        "StockSymbol": "ASTRAMICRO",
+        "StockName": "Astra Microwave Products Limited"
+    },
+    {
+        "StockSymbol": "ASTRAZEN",
+        "StockName": "AstraZeneca Pharma India Limited"
+    },
+    {
+        "StockSymbol": "ASTRON",
+        "StockName": "Astron Paper & Board Mill Limited"
+    },
+    {
+        "StockSymbol": "ATFL",
+        "StockName": "Agro Tech Foods Limited"
+    },
+    {
+        "StockSymbol": "ATLANTA",
+        "StockName": "Atlanta\u00a0 Limited"
+    },
+    {
+        "StockSymbol": "ATLASCYCLE",
+        "StockName": "Atlas Cycles (Haryana) Limited"
+    },
+    {
+        "StockSymbol": "ATUL",
+        "StockName": "Atul Limited"
+    },
+    {
+        "StockSymbol": "ATULAUTO",
+        "StockName": "Atul Auto Limited"
+    },
+    {
+        "StockSymbol": "AUBANK",
+        "StockName": "AU Small Finance Bank Limited"
+    },
+    {
+        "StockSymbol": "AURIONPRO",
+        "StockName": "Aurionpro Solutions Limited"
+    },
+    {
+        "StockSymbol": "AUROPHARMA",
+        "StockName": "Aurobindo Pharma Limited"
+    },
+    {
+        "StockSymbol": "AUSOMENT",
+        "StockName": "Ausom Enterprise Limited"
+    },
+    {
+        "StockSymbol": "AUTOAXLES",
+        "StockName": "Automotive Axles Limited"
+    },
+    {
+        "StockSymbol": "AUTOIND",
+        "StockName": "Autoline Industries Limited"
+    },
+    {
+        "StockSymbol": "AUTOLITIND",
+        "StockName": "Autolite (India) Limited"
+    },
+    {
+        "StockSymbol": "AVADHSUGAR",
+        "StockName": "Avadh Sugar & Energy Limited"
+    },
+    {
+        "StockSymbol": "AVANTIFEED",
+        "StockName": "Avanti Feeds Limited"
+    },
+    {
+        "StockSymbol": "AVTNPL",
+        "StockName": "AVT Natural Products Limited"
+    },
+    {
+        "StockSymbol": "AXISBANK",
+        "StockName": "Axis Bank Limited"
+    },
+    {
+        "StockSymbol": "AXISCADES",
+        "StockName": "AXISCADES Engineering Technologies Limited"
+    },
+    {
+        "StockSymbol": "AYMSYNTEX",
+        "StockName": "AYM Syntex Limited"
+    },
+    {
+        "StockSymbol": "BAGFILMS",
+        "StockName": "B.A.G Films and Media Limited"
+    },
+    {
+        "StockSymbol": "BAJAJ-AUTO",
+        "StockName": "Bajaj Auto Limited"
+    },
+    {
+        "StockSymbol": "BAJAJCON",
+        "StockName": "Bajaj Consumer Care Limited"
+    },
+    {
+        "StockSymbol": "BAJAJELEC",
+        "StockName": "Bajaj Electricals Limited"
+    },
+    {
+        "StockSymbol": "BAJAJFINSV",
+        "StockName": "Bajaj Finserv Limited"
+    },
+    {
+        "StockSymbol": "BAJAJHIND",
+        "StockName": "Bajaj Hindusthan Sugar Limited"
+    },
+    {
+        "StockSymbol": "BAJAJHLDNG",
+        "StockName": "Bajaj Holdings & Investment Limited"
+    },
+    {
+        "StockSymbol": "BAJFINANCE",
+        "StockName": "Bajaj Finance Limited"
+    },
+    {
+        "StockSymbol": "BALAJITELE",
+        "StockName": "Balaji Telefilms Limited"
+    },
+    {
+        "StockSymbol": "BALAMINES",
+        "StockName": "Balaji Amines Limited"
+    },
+    {
+        "StockSymbol": "BALAXI",
+        "StockName": "Balaxi Ventures Limited"
+    },
+    {
+        "StockSymbol": "BALKRISHNA",
+        "StockName": "Balkrishna Paper Mills Limited"
+    },
+    {
+        "StockSymbol": "BALKRISIND",
+        "StockName": "Balkrishna Industries Limited"
+    },
+    {
+        "StockSymbol": "BALLARPUR",
+        "StockName": "Ballarpur Industries Limited"
+    },
+    {
+        "StockSymbol": "BALMLAWRIE",
+        "StockName": "Balmer Lawrie & Company Limited"
+    },
+    {
+        "StockSymbol": "BALPHARMA",
+        "StockName": "Bal Pharma Limited"
+    },
+    {
+        "StockSymbol": "BALRAMCHIN",
+        "StockName": "Balrampur Chini Mills Limited"
+    },
+    {
+        "StockSymbol": "BANARBEADS",
+        "StockName": "Banaras Beads Limited"
+    },
+    {
+        "StockSymbol": "BANARISUG",
+        "StockName": "Bannari Amman Sugars Limited"
+    },
+    {
+        "StockSymbol": "BANCOINDIA",
+        "StockName": "Banco Products (I) Limited"
+    },
+    {
+        "StockSymbol": "BANDHANBNK",
+        "StockName": "Bandhan Bank Limited"
+    },
+    {
+        "StockSymbol": "BANG",
+        "StockName": "Bang Overseas Limited"
+    },
+    {
+        "StockSymbol": "BANKBARODA",
+        "StockName": "Bank of Baroda"
+    },
+    {
+        "StockSymbol": "BANKINDIA",
+        "StockName": "Bank of India"
+    },
+    {
+        "StockSymbol": "BANSWRAS",
+        "StockName": "Banswara Syntex Limited"
+    },
+    {
+        "StockSymbol": "BARTRONICS",
+        "StockName": "Bartronics India Limited"
+    },
+    {
+        "StockSymbol": "BASF",
+        "StockName": "BASF India Limited"
+    },
+    {
+        "StockSymbol": "BASML",
+        "StockName": "Bannari Amman Spinning Mills Limited"
+    },
+    {
+        "StockSymbol": "BATAINDIA",
+        "StockName": "Bata India Limited"
+    },
+    {
+        "StockSymbol": "BAYERCROP",
+        "StockName": "Bayer Cropscience Limited"
+    },
+    {
+        "StockSymbol": "BBL",
+        "StockName": "Bharat Bijlee Limited"
+    },
+    {
+        "StockSymbol": "BBTC",
+        "StockName": "Bombay Burmah Trading Corporation Limited"
+    },
+    {
+        "StockSymbol": "BCG",
+        "StockName": "Brightcom Group Limited"
+    },
+    {
+        "StockSymbol": "BCP",
+        "StockName": "B.C. Power Controls Ltd"
+    },
+    {
+        "StockSymbol": "BDL",
+        "StockName": "Bharat Dynamics Limited"
+    },
+    {
+        "StockSymbol": "BEARDSELL",
+        "StockName": "Beardsell Limited"
+    },
+    {
+        "StockSymbol": "BEDMUTHA",
+        "StockName": "Bedmutha Industries Limited"
+    },
+    {
+        "StockSymbol": "BEL",
+        "StockName": "Bharat Electronics Limited"
+    },
+    {
+        "StockSymbol": "BEML",
+        "StockName": "BEML Limited"
+    },
+    {
+        "StockSymbol": "BEPL",
+        "StockName": "Bhansali Engineering Polymers Limited"
+    },
+    {
+        "StockSymbol": "BERGEPAINT",
+        "StockName": "Berger Paints (I) Limited"
+    },
+    {
+        "StockSymbol": "BFINVEST",
+        "StockName": "BF Investment Limited"
+    },
+    {
+        "StockSymbol": "BFUTILITIE",
+        "StockName": "BF Utilities Limited"
+    },
+    {
+        "StockSymbol": "BGLOBAL",
+        "StockName": "Bharatiya Global Infomedia Limited"
+    },
+    {
+        "StockSymbol": "BGRENERGY",
+        "StockName": "BGR Energy Systems Limited"
+    },
+    {
+        "StockSymbol": "BHAGERIA",
+        "StockName": "Bhageria Industries Limited"
+    },
+    {
+        "StockSymbol": "BHAGYANGR",
+        "StockName": "Bhagyanagar India Limited"
+    },
+    {
+        "StockSymbol": "BHAGYAPROP",
+        "StockName": "Bhagyanagar Properties Limited"
+    },
+    {
+        "StockSymbol": "BHANDARI",
+        "StockName": "Bhandari Hosiery Exports Limited"
+    },
+    {
+        "StockSymbol": "BHARATFORG",
+        "StockName": "Bharat Forge Limited"
+    },
+    {
+        "StockSymbol": "BHARATGEAR",
+        "StockName": "Bharat Gears Limited"
+    },
+    {
+        "StockSymbol": "BHARATRAS",
+        "StockName": "Bharat Rasayan Limited"
+    },
+    {
+        "StockSymbol": "BHARATWIRE",
+        "StockName": "Bharat Wire Ropes Limited"
+    },
+    {
+        "StockSymbol": "BHARTIARTL",
+        "StockName": "Bharti Airtel Limited"
+    },
+    {
+        "StockSymbol": "BHEL",
+        "StockName": "Bharat Heavy Electricals Limited"
+    },
+    {
+        "StockSymbol": "BIGBLOC",
+        "StockName": "Bigbloc Construction Limited"
+    },
+    {
+        "StockSymbol": "BIL",
+        "StockName": "Bhartiya International Limited"
+    },
+    {
+        "StockSymbol": "BILENERGY",
+        "StockName": "Bil Energy Systems Limited"
+    },
+    {
+        "StockSymbol": "BINDALAGRO",
+        "StockName": "Oswal Chemicals & Fertilizers Limited"
+    },
+    {
+        "StockSymbol": "BIOCON",
+        "StockName": "Biocon Limited"
+    },
+    {
+        "StockSymbol": "BIOFILCHEM",
+        "StockName": "Biofil Chemicals & Pharmaceuticals Limited"
+    },
+    {
+        "StockSymbol": "BIRLACABLE",
+        "StockName": "Birla Cable Limited"
+    },
+    {
+        "StockSymbol": "BIRLACORPN",
+        "StockName": "Birla Corporation Limited"
+    },
+    {
+        "StockSymbol": "BIRLAMONEY",
+        "StockName": "Aditya Birla Money Limited"
+    },
+    {
+        "StockSymbol": "BKMINDST",
+        "StockName": "Bkm Industries Limited"
+    },
+    {
+        "StockSymbol": "BLBLIMITED",
+        "StockName": "BLB Limited"
+    },
+    {
+        "StockSymbol": "BLISSGVS",
+        "StockName": "Bliss GVS Pharma Limited"
+    },
+    {
+        "StockSymbol": "BLKASHYAP",
+        "StockName": "B. L. Kashyap and Sons Limited"
+    },
+    {
+        "StockSymbol": "BLS",
+        "StockName": "BLS International Services Limited"
+    },
+    {
+        "StockSymbol": "BLUEBLENDS",
+        "StockName": "Blue Blends (I) Limited"
+    },
+    {
+        "StockSymbol": "BLUECOAST",
+        "StockName": "Blue Coast Hotels Limited"
+    },
+    {
+        "StockSymbol": "BLUEDART",
+        "StockName": "Blue Dart Express Limited"
+    },
+    {
+        "StockSymbol": "BLUESTARCO",
+        "StockName": "Blue Star Limited"
+    },
+    {
+        "StockSymbol": "BODALCHEM",
+        "StockName": "Bodal Chemicals Limited"
+    },
+    {
+        "StockSymbol": "BOMDYEING",
+        "StockName": "Bombay Dyeing & Mfg Company Limited"
+    },
+    {
+        "StockSymbol": "BOROSIL",
+        "StockName": "Borosil Glass Works Limited"
+    },
+    {
+        "StockSymbol": "BOSCHLTD",
+        "StockName": "Bosch Limited"
+    },
+    {
+        "StockSymbol": "BPCL",
+        "StockName": "Bharat Petroleum Corporation Limited"
+    },
+    {
+        "StockSymbol": "BPL",
+        "StockName": "BPL Limited"
+    },
+    {
+        "StockSymbol": "BRFL",
+        "StockName": "Bombay Rayon Fashions Limited"
+    },
+    {
+        "StockSymbol": "BRIGADE",
+        "StockName": "Brigade Enterprises Limited"
+    },
+    {
+        "StockSymbol": "BRITANNIA",
+        "StockName": "Britannia Industries Limited"
+    },
+    {
+        "StockSymbol": "BRNL",
+        "StockName": "Bharat Road Network Limited"
+    },
+    {
+        "StockSymbol": "BROOKS",
+        "StockName": "Brooks Laboratories Limited"
+    },
+    {
+        "StockSymbol": "BSE",
+        "StockName": "BSE Limited"
+    },
+    {
+        "StockSymbol": "BSELINFRA",
+        "StockName": "BSEL Infrastructure Realty Limited"
+    },
+    {
+        "StockSymbol": "BSL",
+        "StockName": "BSL Limited"
+    },
+    {
+        "StockSymbol": "BSOFT",
+        "StockName": "BIRLASOFT LIMITED"
+    },
+    {
+        "StockSymbol": "BURNPUR",
+        "StockName": "Burnpur Cement Limited"
+    },
+    {
+        "StockSymbol": "BUTTERFLY",
+        "StockName": "Butterfly Gandhimathi Appliances Limited"
+    },
+    {
+        "StockSymbol": "BVCL",
+        "StockName": "Barak Valley Cements Limited"
+    },
+    {
+        "StockSymbol": "BYKE",
+        "StockName": "The Byke Hospitality Ltd"
+    },
+    {
+        "StockSymbol": "CADILAHC",
+        "StockName": "Cadila Healthcare Limited"
+    },
+    {
+        "StockSymbol": "CALSOFT",
+        "StockName": "California Software Company Limited"
+    },
+    {
+        "StockSymbol": "CAMLINFINE",
+        "StockName": "Camlin Fine Sciences Limited"
+    },
+    {
+        "StockSymbol": "CANBK",
+        "StockName": "Canara Bank"
+    },
+    {
+        "StockSymbol": "CANDC",
+        "StockName": "C & C Constructions Limited"
+    },
+    {
+        "StockSymbol": "CANFINHOME",
+        "StockName": "Can Fin Homes Limited"
+    },
+    {
+        "StockSymbol": "CANTABIL",
+        "StockName": "Cantabil Retail India Limited"
+    },
+    {
+        "StockSymbol": "CAPACITE",
+        "StockName": "Capacit\u2019e Infraprojects Limited"
+    },
+    {
+        "StockSymbol": "CAPLIPOINT",
+        "StockName": "Caplin Point Laboratories Limited"
+    },
+    {
+        "StockSymbol": "CAPTRUST",
+        "StockName": "Capital Trust Limited"
+    },
+    {
+        "StockSymbol": "CARBORUNIV",
+        "StockName": "Carborundum Universal Limited"
+    },
+    {
+        "StockSymbol": "CAREERP",
+        "StockName": "Career Point Limited"
+    },
+    {
+        "StockSymbol": "CARERATING",
+        "StockName": "CARE Ratings Limited"
+    },
+    {
+        "StockSymbol": "CASTEXTECH",
+        "StockName": "Castex Technologies Limited"
+    },
+    {
+        "StockSymbol": "CASTROLIND",
+        "StockName": "Castrol India Limited"
+    },
+    {
+        "StockSymbol": "CCHHL",
+        "StockName": "Country Club Hospitality & Holidays Limited"
+    },
+    {
+        "StockSymbol": "CCL",
+        "StockName": "CCL Products (India) Limited"
+    },
+    {
+        "StockSymbol": "CDSL",
+        "StockName": "Central Depository Services (India) Limited"
+    },
+    {
+        "StockSymbol": "CEATLTD",
+        "StockName": "CEAT Limited"
+    },
+    {
+        "StockSymbol": "CEBBCO",
+        "StockName": "Commercial Engineers & Body Builders Co Limited"
+    },
+    {
+        "StockSymbol": "CELEBRITY",
+        "StockName": "Celebrity Fashions Limited"
+    },
+    {
+        "StockSymbol": "CELESTIAL",
+        "StockName": "Celestial Biolabs Limited"
+    },
+    {
+        "StockSymbol": "CENTENKA",
+        "StockName": "Century Enka Limited"
+    },
+    {
+        "StockSymbol": "CENTEXT",
+        "StockName": "Century Extrusions Limited"
+    },
+    {
+        "StockSymbol": "CENTRALBK",
+        "StockName": "Central Bank of India"
+    },
+    {
+        "StockSymbol": "CENTRUM",
+        "StockName": "Centrum Capital Limited"
+    },
+    {
+        "StockSymbol": "CENTUM",
+        "StockName": "Centum Electronics Limited"
+    },
+    {
+        "StockSymbol": "CENTURYPLY",
+        "StockName": "Century Plyboards (India) Limited"
+    },
+    {
+        "StockSymbol": "CENTURYTEX",
+        "StockName": "Century Textiles & Industries Limited"
+    },
+    {
+        "StockSymbol": "CERA",
+        "StockName": "Cera Sanitaryware Limited"
+    },
+    {
+        "StockSymbol": "CEREBRAINT",
+        "StockName": "Cerebra Integrated Technologies Limited"
+    },
+    {
+        "StockSymbol": "CESC",
+        "StockName": "CESC Limited"
+    },
+    {
+        "StockSymbol": "CESCVENT",
+        "StockName": "CESC Ventures Limited"
+    },
+    {
+        "StockSymbol": "CGCL",
+        "StockName": "Capri Global Capital Limited"
+    },
+    {
+        "StockSymbol": "CGPOWER",
+        "StockName": "CG Power and Industrial Solutions Limited"
+    },
+    {
+        "StockSymbol": "CHALET",
+        "StockName": "Chalet Hotels Limited"
+    },
+    {
+        "StockSymbol": "CHAMBLFERT",
+        "StockName": "Chambal Fertilizers & Chemicals Limited"
+    },
+    {
+        "StockSymbol": "CHEMFAB",
+        "StockName": "Chemfab Alkalis Limited"
+    },
+    {
+        "StockSymbol": "CHENNPETRO",
+        "StockName": "Chennai Petroleum Corporation Limited"
+    },
+    {
+        "StockSymbol": "CHOLAFIN",
+        "StockName": "Cholamandalam Investment and Finance Company Limited"
+    },
+    {
+        "StockSymbol": "CHOLAHLDNG",
+        "StockName": "Cholamandalam Financial Holdings Limited"
+    },
+    {
+        "StockSymbol": "CHROMATIC",
+        "StockName": "Chromatic India Limited"
+    },
+    {
+        "StockSymbol": "CIGNITITEC",
+        "StockName": "Cigniti Technologies Limited"
+    },
+    {
+        "StockSymbol": "CIMMCO",
+        "StockName": "Cimmco Limited"
+    },
+    {
+        "StockSymbol": "CINELINE",
+        "StockName": "Cineline India Limited"
+    },
+    {
+        "StockSymbol": "CINEVISTA",
+        "StockName": "Cinevista Limited"
+    },
+    {
+        "StockSymbol": "CIPLA",
+        "StockName": "Cipla Limited"
+    },
+    {
+        "StockSymbol": "CKFSL",
+        "StockName": "Cox & Kings Financial Service Limited"
+    },
+    {
+        "StockSymbol": "CLEDUCATE",
+        "StockName": "CL Educate Limited"
+    },
+    {
+        "StockSymbol": "CLNINDIA",
+        "StockName": "Clariant Chemicals (India) Limited"
+    },
+    {
+        "StockSymbol": "CMICABLES",
+        "StockName": "CMI Limited"
+    },
+    {
+        "StockSymbol": "CNOVAPETRO",
+        "StockName": "CIL Nova Petrochemicals Limited"
+    },
+    {
+        "StockSymbol": "COALINDIA",
+        "StockName": "Coal India Limited"
+    },
+    {
+        "StockSymbol": "COCHINSHIP",
+        "StockName": "Cochin Shipyard Limited"
+    },
+    {
+        "StockSymbol": "COFFEEDAY",
+        "StockName": "Coffee Day Enterprises Limited"
+    },
+    {
+        "StockSymbol": "COLPAL",
+        "StockName": "Colgate Palmolive (India) Limited"
+    },
+    {
+        "StockSymbol": "COMPINFO",
+        "StockName": "Compuage Infocom Limited"
+    },
+    {
+        "StockSymbol": "COMPUSOFT",
+        "StockName": "Compucom Software Limited"
+    },
+    {
+        "StockSymbol": "CONCOR",
+        "StockName": "Container Corporation of India Limited"
+    },
+    {
+        "StockSymbol": "CONFIPET",
+        "StockName": "Confidence Petroleum India Limited"
+    },
+    {
+        "StockSymbol": "CONSOFINVT",
+        "StockName": "Consolidated Finvest & Holdings Limited"
+    },
+    {
+        "StockSymbol": "CONTROLPR",
+        "StockName": "Control Print Limited"
+    },
+    {
+        "StockSymbol": "CORALFINAC",
+        "StockName": "Coral India Finance & Housing Limited"
+    },
+    {
+        "StockSymbol": "CORDSCABLE",
+        "StockName": "Cords Cable Industries Limited"
+    },
+    {
+        "StockSymbol": "COROMANDEL",
+        "StockName": "Coromandel International Limited"
+    },
+    {
+        "StockSymbol": "CORPBANK",
+        "StockName": "Corporation Bank"
+    },
+    {
+        "StockSymbol": "COSMOFILMS",
+        "StockName": "Cosmo Films Limited"
+    },
+    {
+        "StockSymbol": "COUNCODOS",
+        "StockName": "Country Condo\u2019s Limited"
+    },
+    {
+        "StockSymbol": "COX&KINGS",
+        "StockName": "Cox & Kings Limited"
+    },
+    {
+        "StockSymbol": "CREATIVE",
+        "StockName": "Creative Peripherals and Distribution Limited"
+    },
+    {
+        "StockSymbol": "CREATIVEYE",
+        "StockName": "Creative Eye Limited"
+    },
+    {
+        "StockSymbol": "CREDITACC",
+        "StockName": "CREDITACCESS GRAMEEN LIMITED"
+    },
+    {
+        "StockSymbol": "CREST",
+        "StockName": "Crest Ventures Limited"
+    },
+    {
+        "StockSymbol": "CRISIL",
+        "StockName": "CRISIL Limited"
+    },
+    {
+        "StockSymbol": "CROMPTON",
+        "StockName": "Crompton Greaves Consumer Electricals Limited"
+    },
+    {
+        "StockSymbol": "CTE",
+        "StockName": "Cambridge Technology Enterprises Limited"
+    },
+    {
+        "StockSymbol": "CUB",
+        "StockName": "City Union Bank Limited"
+    },
+    {
+        "StockSymbol": "CUBEXTUB",
+        "StockName": "Cubex Tubings Limited"
+    },
+    {
+        "StockSymbol": "CUMMINSIND",
+        "StockName": "Cummins India Limited"
+    },
+    {
+        "StockSymbol": "CUPID",
+        "StockName": "Cupid Limited"
+    },
+    {
+        "StockSymbol": "CURATECH",
+        "StockName": "Cura Technologies Limited"
+    },
+    {
+        "StockSymbol": "CYBERMEDIA",
+        "StockName": "Cyber Media (India) Limited"
+    },
+    {
+        "StockSymbol": "CYBERTECH",
+        "StockName": "Cybertech Systems And Software Limited"
+    },
+    {
+        "StockSymbol": "CYIENT",
+        "StockName": "Cyient Limited"
+    },
+    {
+        "StockSymbol": "DAAWAT",
+        "StockName": "LT Foods Limited"
+    },
+    {
+        "StockSymbol": "DABUR",
+        "StockName": "Dabur India Limited"
+    },
+    {
+        "StockSymbol": "DALBHARAT",
+        "StockName": "Dalmia Bharat Limited"
+    },
+    {
+        "StockSymbol": "DALMIASUG",
+        "StockName": "Dalmia Bharat Sugar and Industries Limited"
+    },
+    {
+        "StockSymbol": "DAMODARIND",
+        "StockName": "Damodar Industries Limited"
+    },
+    {
+        "StockSymbol": "DATAMATICS",
+        "StockName": "Datamatics Global Services Limited"
+    },
+    {
+        "StockSymbol": "DBCORP",
+        "StockName": "D.B.Corp Limited"
+    },
+    {
+        "StockSymbol": "DBL",
+        "StockName": "Dilip Buildcon Limited"
+    },
+    {
+        "StockSymbol": "DBREALTY",
+        "StockName": "D B Realty Limited"
+    },
+    {
+        "StockSymbol": "DBSTOCKBRO",
+        "StockName": "DB (International) Stock Brokers Limited"
+    },
+    {
+        "StockSymbol": "DCAL",
+        "StockName": "Dishman Carbogen Amcis Limited"
+    },
+    {
+        "StockSymbol": "DCBBANK",
+        "StockName": "DCB Bank Limited"
+    },
+    {
+        "StockSymbol": "DCM",
+        "StockName": "DCM\u00a0 Limited"
+    },
+    {
+        "StockSymbol": "DCMFINSERV",
+        "StockName": "DCM Financial Services Limited"
+    },
+    {
+        "StockSymbol": "DCMNVL",
+        "StockName": "DCM Nouvelle Limited"
+    },
+    {
+        "StockSymbol": "DCMSHRIRAM",
+        "StockName": "DCM Shriram Limited"
+    },
+    {
+        "StockSymbol": "DCW",
+        "StockName": "DCW Limited"
+    },
+    {
+        "StockSymbol": "DECCANCE",
+        "StockName": "Deccan Cements Limited"
+    },
+    {
+        "StockSymbol": "DEEPAKFERT",
+        "StockName": "Deepak Fertilizers and Petrochemicals Corporation Limited"
+    },
+    {
+        "StockSymbol": "DEEPAKNTR",
+        "StockName": "Deepak Nitrite Limited"
+    },
+    {
+        "StockSymbol": "DEEPIND",
+        "StockName": "Deep Industries Limited"
+    },
+    {
+        "StockSymbol": "DELTACORP",
+        "StockName": "Delta Corp Limited"
+    },
+    {
+        "StockSymbol": "DELTAMAGNT",
+        "StockName": "Delta Magnets Limited"
+    },
+    {
+        "StockSymbol": "DEN",
+        "StockName": "Den Networks Limited"
+    },
+    {
+        "StockSymbol": "DENORA",
+        "StockName": "De Nora India Limited"
+    },
+    {
+        "StockSymbol": "DFMFOODS",
+        "StockName": "DFM Foods Limited"
+    },
+    {
+        "StockSymbol": "DGCONTENT",
+        "StockName": "Digicontent Limited"
+    },
+    {
+        "StockSymbol": "DHAMPURSUG",
+        "StockName": "Dhampur Sugar Mills Limited"
+    },
+    {
+        "StockSymbol": "DHANBANK",
+        "StockName": "Dhanlaxmi Bank Limited"
+    },
+    {
+        "StockSymbol": "DHANUKA",
+        "StockName": "Dhanuka Agritech Limited"
+    },
+    {
+        "StockSymbol": "DHARSUGAR",
+        "StockName": "Dharani Sugars & Chemicals Limited"
+    },
+    {
+        "StockSymbol": "DHFL",
+        "StockName": "Dewan Housing Finance Corporation Limited"
+    },
+    {
+        "StockSymbol": "DHUNINV",
+        "StockName": "Dhunseri Investments Limited"
+    },
+    {
+        "StockSymbol": "DIAMONDYD",
+        "StockName": "Prataap Snacks Limited"
+    },
+    {
+        "StockSymbol": "DIAPOWER",
+        "StockName": "Diamond Power Infra Ltd"
+    },
+    {
+        "StockSymbol": "DICIND",
+        "StockName": "DIC India Limited"
+    },
+    {
+        "StockSymbol": "DIGISPICE",
+        "StockName": "DiGiSPICE Technologies Limited"
+    },
+    {
+        "StockSymbol": "DIGJAMLTD",
+        "StockName": "Digjam Limited"
+    },
+    {
+        "StockSymbol": "DISHTV",
+        "StockName": "Dish TV India Limited"
+    },
+    {
+        "StockSymbol": "DIVISLAB",
+        "StockName": "Divi\u2019s Laboratories Limited"
+    },
+    {
+        "StockSymbol": "DIXON",
+        "StockName": "Dixon Technologies (India) Limited"
+    },
+    {
+        "StockSymbol": "DLF",
+        "StockName": "DLF Limited"
+    },
+    {
+        "StockSymbol": "DLINKINDIA",
+        "StockName": "D-Link (India) Limited"
+    },
+    {
+        "StockSymbol": "DMART",
+        "StockName": "Avenue Supermarts Limited"
+    },
+    {
+        "StockSymbol": "DNAMEDIA",
+        "StockName": "Diligent Media Corporation Limited"
+    },
+    {
+        "StockSymbol": "DOLAT",
+        "StockName": "Dolat Investments Limited"
+    },
+    {
+        "StockSymbol": "DOLLAR",
+        "StockName": "Dollar Industries Limited"
+    },
+    {
+        "StockSymbol": "DONEAR",
+        "StockName": "Donear Industries Limited"
+    },
+    {
+        "StockSymbol": "DPSCLTD",
+        "StockName": "DPSC Limited"
+    },
+    {
+        "StockSymbol": "DQE",
+        "StockName": "DQ Entertainment (International) Limited"
+    },
+    {
+        "StockSymbol": "DREDGECORP",
+        "StockName": "Dredging Corporation of India Limited"
+    },
+    {
+        "StockSymbol": "DRREDDY",
+        "StockName": "Dr. Reddy\u2019s Laboratories Limited"
+    },
+    {
+        "StockSymbol": "DSSL",
+        "StockName": "Dynacons Systems & Solutions Limited"
+    },
+    {
+        "StockSymbol": "DTIL",
+        "StockName": "Dhunseri Tea & Industries Limited"
+    },
+    {
+        "StockSymbol": "DUCON",
+        "StockName": "Ducon Infratechnologies Limited"
+    },
+    {
+        "StockSymbol": "DVL",
+        "StockName": "Dhunseri Ventures Limited"
+    },
+    {
+        "StockSymbol": "DWARKESH",
+        "StockName": "Dwarikesh Sugar Industries Limited"
+    },
+    {
+        "StockSymbol": "DYNAMATECH",
+        "StockName": "Dynamatic Technologies Limited"
+    },
+    {
+        "StockSymbol": "DYNPRO",
+        "StockName": "Dynemic Products Limited"
+    },
+    {
+        "StockSymbol": "EASTSILK",
+        "StockName": "Eastern Silk Industries Limited"
+    },
+    {
+        "StockSymbol": "EASUNREYRL",
+        "StockName": "Easun Reyrolle Limited"
+    },
+    {
+        "StockSymbol": "ECLERX",
+        "StockName": "eClerx Services Limited"
+    },
+    {
+        "StockSymbol": "EDELWEISS",
+        "StockName": "Edelweiss Financial Services Limited"
+    },
+    {
+        "StockSymbol": "EDL",
+        "StockName": "Empee Distilleries Limited"
+    },
+    {
+        "StockSymbol": "EDUCOMP",
+        "StockName": "Educomp Solutions Limited"
+    },
+    {
+        "StockSymbol": "EICHERMOT",
+        "StockName": "Eicher Motors Limited"
+    },
+    {
+        "StockSymbol": "EIDPARRY",
+        "StockName": "EID Parry India Limited"
+    },
+    {
+        "StockSymbol": "EIHAHOTELS",
+        "StockName": "EIH Associated Hotels Limited"
+    },
+    {
+        "StockSymbol": "EIHOTEL",
+        "StockName": "EIH Limited"
+    },
+    {
+        "StockSymbol": "EIMCOELECO",
+        "StockName": "Eimco Elecon (India) Limited"
+    },
+    {
+        "StockSymbol": "EKC",
+        "StockName": "Everest Kanto Cylinder Limited"
+    },
+    {
+        "StockSymbol": "ELECON",
+        "StockName": "Elecon Engineering Company Limited"
+    },
+    {
+        "StockSymbol": "ELECTCAST",
+        "StockName": "Electrosteel Castings Limited"
+    },
+    {
+        "StockSymbol": "ELECTHERM",
+        "StockName": "Electrotherm (India) Limited"
+    },
+    {
+        "StockSymbol": "ELGIEQUIP",
+        "StockName": "Elgi Equipments Limited"
+    },
+    {
+        "StockSymbol": "ELGIRUBCO",
+        "StockName": "Elgi Rubber Company Limited"
+    },
+    {
+        "StockSymbol": "EMAMILTD",
+        "StockName": "Emami Limited"
+    },
+    {
+        "StockSymbol": "EMAMIPAP",
+        "StockName": "Emami Paper Mills Limited"
+    },
+    {
+        "StockSymbol": "EMAMIREAL",
+        "StockName": "Emami Realty Limited"
+    },
+    {
+        "StockSymbol": "EMCO",
+        "StockName": "Emco Limited"
+    },
+    {
+        "StockSymbol": "EMKAY",
+        "StockName": "Emkay Global Financial Services Limited"
+    },
+    {
+        "StockSymbol": "EMMBI",
+        "StockName": "Emmbi Industries Limited"
+    },
+    {
+        "StockSymbol": "ENDURANCE",
+        "StockName": "Endurance Technologies Limited"
+    },
+    {
+        "StockSymbol": "ENERGYDEV",
+        "StockName": "Energy Development Company Limited"
+    },
+    {
+        "StockSymbol": "ENGINERSIN",
+        "StockName": "Engineers India Limited"
+    },
+    {
+        "StockSymbol": "ENIL",
+        "StockName": "Entertainment Network (India) Limited"
+    },
+    {
+        "StockSymbol": "EON",
+        "StockName": "Eon Electric Limited"
+    },
+    {
+        "StockSymbol": "EQUITAS",
+        "StockName": "Equitas Holdings Limited"
+    },
+    {
+        "StockSymbol": "ERIS",
+        "StockName": "Eris Lifesciences Limited"
+    },
+    {
+        "StockSymbol": "EROSMEDIA",
+        "StockName": "Eros International Media Limited"
+    },
+    {
+        "StockSymbol": "ESABINDIA",
+        "StockName": "Esab India Limited"
+    },
+    {
+        "StockSymbol": "ESCORTS",
+        "StockName": "Escorts Limited"
+    },
+    {
+        "StockSymbol": "ESSARSHPNG",
+        "StockName": "Essar Shipping Limited"
+    },
+    {
+        "StockSymbol": "ESSELPACK",
+        "StockName": "Essel Propack Limited"
+    },
+    {
+        "StockSymbol": "ESTER",
+        "StockName": "Ester Industries Limited"
+    },
+    {
+        "StockSymbol": "EUROCERA",
+        "StockName": "Euro Ceramics Limited"
+    },
+    {
+        "StockSymbol": "EUROMULTI",
+        "StockName": "Euro Multivision Limited"
+    },
+    {
+        "StockSymbol": "EUROTEXIND",
+        "StockName": "Eurotex Industries and Exports Limited"
+    },
+    {
+        "StockSymbol": "EVEREADY",
+        "StockName": "Eveready Industries India Limited"
+    },
+    {
+        "StockSymbol": "EVERESTIND",
+        "StockName": "Everest Industries Limited"
+    },
+    {
+        "StockSymbol": "EXCEL",
+        "StockName": "Excel Realty N Infra Limited"
+    },
+    {
+        "StockSymbol": "EXCELINDUS",
+        "StockName": "Excel Industries Limited"
+    },
+    {
+        "StockSymbol": "EXIDEIND",
+        "StockName": "Exide Industries Limited"
+    },
+    {
+        "StockSymbol": "EXPLEOSOL",
+        "StockName": "Expleo Solutions Limited"
+    },
+    {
+        "StockSymbol": "FACT",
+        "StockName": "Fertilizers and Chemicals Travancore Limited"
+    },
+    {
+        "StockSymbol": "FAIRCHEM",
+        "StockName": "Fairchem Speciality Limited"
+    },
+    {
+        "StockSymbol": "FCL",
+        "StockName": "Fineotex Chemical Limited"
+    },
+    {
+        "StockSymbol": "FCONSUMER",
+        "StockName": "Future Consumer Limited"
+    },
+    {
+        "StockSymbol": "FCSSOFT",
+        "StockName": "FCS Software Solutions Limited"
+    },
+    {
+        "StockSymbol": "FDC",
+        "StockName": "FDC Limited"
+    },
+    {
+        "StockSymbol": "FEDERALBNK",
+        "StockName": "The Federal Bank\u00a0\n  Limited"
+    },
+    {
+        "StockSymbol": "FEL",
+        "StockName": "Future Enterprises Limited"
+    },
+    {
+        "StockSymbol": "FELDVR",
+        "StockName": "Future Enterprises Limited"
+    },
+    {
+        "StockSymbol": "FIEMIND",
+        "StockName": "Fiem Industries Limited"
+    },
+    {
+        "StockSymbol": "FILATEX",
+        "StockName": "Filatex India Limited"
+    },
+    {
+        "StockSymbol": "FINCABLES",
+        "StockName": "Finolex Cables Limited"
+    },
+    {
+        "StockSymbol": "FINEORG",
+        "StockName": "Fine Organic Industries Limited"
+    },
+    {
+        "StockSymbol": "FINPIPE",
+        "StockName": "Finolex Industries Limited"
+    },
+    {
+        "StockSymbol": "FLEXITUFF",
+        "StockName": "Flexituff Ventures International Limited"
+    },
+    {
+        "StockSymbol": "FLFL",
+        "StockName": "Future Lifestyle Fashions Limited"
+    },
+    {
+        "StockSymbol": "FLUOROCHEM",
+        "StockName": "Gujarat Fluorochemicals Limited"
+    },
+    {
+        "StockSymbol": "FMGOETZE",
+        "StockName": "Federal-Mogul Goetze (India) Limited."
+    },
+    {
+        "StockSymbol": "FMNL",
+        "StockName": "Future Market Networks Limited"
+    },
+    {
+        "StockSymbol": "FORCEMOT",
+        "StockName": "FORCE MOTORS LTD"
+    },
+    {
+        "StockSymbol": "FORTIS",
+        "StockName": "Fortis Healthcare Limited"
+    },
+    {
+        "StockSymbol": "FOSECOIND",
+        "StockName": "Foseco India Limited"
+    },
+    {
+        "StockSymbol": "FRETAIL",
+        "StockName": "Future Retail Limited"
+    },
+    {
+        "StockSymbol": "FSC",
+        "StockName": "Future Supply Chain Solutions Limited"
+    },
+    {
+        "StockSymbol": "FSL",
+        "StockName": "Firstsource Solutions Limited"
+    },
+    {
+        "StockSymbol": "GABRIEL",
+        "StockName": "Gabriel India Limited"
+    },
+    {
+        "StockSymbol": "GAEL",
+        "StockName": "Gujarat Ambuja Exports Limited"
+    },
+    {
+        "StockSymbol": "GAIL",
+        "StockName": "GAIL (India) Limited"
+    },
+    {
+        "StockSymbol": "GAL",
+        "StockName": "Gyscoal Alloys Limited"
+    },
+    {
+        "StockSymbol": "GALAXYSURF",
+        "StockName": "Galaxy Surfactants Limited"
+    },
+    {
+        "StockSymbol": "GALLANTT",
+        "StockName": "Gallantt Metal Limited"
+    },
+    {
+        "StockSymbol": "GALLISPAT",
+        "StockName": "Gallantt Ispat Limited"
+    },
+    {
+        "StockSymbol": "GAMMNINFRA",
+        "StockName": "Gammon Infrastructure Projects Limited"
+    },
+    {
+        "StockSymbol": "GANDHITUBE",
+        "StockName": "Gandhi Special Tubes Limited"
+    },
+    {
+        "StockSymbol": "GANECOS",
+        "StockName": "Ganesha Ecosphere Limited"
+    },
+    {
+        "StockSymbol": "GANESHHOUC",
+        "StockName": "Ganesh Housing Corporation Limited"
+    },
+    {
+        "StockSymbol": "GANGESSECU",
+        "StockName": "Ganges Securities Limited"
+    },
+    {
+        "StockSymbol": "GANGOTRI",
+        "StockName": "Gangotri Textiles Limited"
+    },
+    {
+        "StockSymbol": "GARDENSILK",
+        "StockName": "Garden Silk Mills Limited"
+    },
+    {
+        "StockSymbol": "GARFIBRES",
+        "StockName": "Garware Technical Fibres Limited"
+    },
+    {
+        "StockSymbol": "GATI",
+        "StockName": "GATI Limited"
+    },
+    {
+        "StockSymbol": "GAYAHWS",
+        "StockName": "Gayatri Highways Limited"
+    },
+    {
+        "StockSymbol": "GAYAPROJ",
+        "StockName": "Gayatri Projects Limited"
+    },
+    {
+        "StockSymbol": "GDL",
+        "StockName": "Gateway Distriparks Limited"
+    },
+    {
+        "StockSymbol": "GEECEE",
+        "StockName": "GeeCee Ventures Limited"
+    },
+    {
+        "StockSymbol": "GENESYS",
+        "StockName": "Genesys International Corporation Limited"
+    },
+    {
+        "StockSymbol": "GENUSPAPER",
+        "StockName": "Genus Paper & Boards Limited"
+    },
+    {
+        "StockSymbol": "GENUSPOWER",
+        "StockName": "Genus Power Infrastructures Limited"
+    },
+    {
+        "StockSymbol": "GEOJITFSL",
+        "StockName": "Geojit Financial Services Limited"
+    },
+    {
+        "StockSymbol": "GEPIL",
+        "StockName": "GE Power India Limited"
+    },
+    {
+        "StockSymbol": "GESHIP",
+        "StockName": "The Great Eastern Shipping Company Limited"
+    },
+    {
+        "StockSymbol": "GET&D",
+        "StockName": "GE T&D India Limited"
+    },
+    {
+        "StockSymbol": "GFLLIMITED",
+        "StockName": "GFL Limited"
+    },
+    {
+        "StockSymbol": "GHCL",
+        "StockName": "GHCL Limited"
+    },
+    {
+        "StockSymbol": "GICHSGFIN",
+        "StockName": "GIC Housing Finance Limited"
+    },
+    {
+        "StockSymbol": "GICRE",
+        "StockName": "General Insurance Corporation of India"
+    },
+    {
+        "StockSymbol": "GILLANDERS",
+        "StockName": "Gillanders Arbuthnot & Company Limited"
+    },
+    {
+        "StockSymbol": "GILLETTE",
+        "StockName": "Gillette India Limited"
+    },
+    {
+        "StockSymbol": "GINNIFILA",
+        "StockName": "Ginni Filaments Limited"
+    },
+    {
+        "StockSymbol": "GIPCL",
+        "StockName": "Gujarat Industries Power Company Limited"
+    },
+    {
+        "StockSymbol": "GISOLUTION",
+        "StockName": "GI Engineering Solutions Limited"
+    },
+    {
+        "StockSymbol": "GKWLIMITED",
+        "StockName": "GKW Limited"
+    },
+    {
+        "StockSymbol": "GLAXO",
+        "StockName": "GlaxoSmithKline Pharmaceuticals Limited"
+    },
+    {
+        "StockSymbol": "GLENMARK",
+        "StockName": "Glenmark Pharmaceuticals Limited"
+    },
+    {
+        "StockSymbol": "GLFL",
+        "StockName": "Gujarat Lease Financing Limited"
+    },
+    {
+        "StockSymbol": "GLOBALVECT",
+        "StockName": "Global Vectra Helicorp Limited"
+    },
+    {
+        "StockSymbol": "GLOBOFFS",
+        "StockName": "Global Offshore Services Limited"
+    },
+    {
+        "StockSymbol": "GLOBUSSPR",
+        "StockName": "Globus Spirits Limited"
+    },
+    {
+        "StockSymbol": "GMBREW",
+        "StockName": "GM Breweries Limited"
+    },
+    {
+        "StockSymbol": "GMDCLTD",
+        "StockName": "Gujarat Mineral Development Corporation Limited"
+    },
+    {
+        "StockSymbol": "GMMPFAUDLR",
+        "StockName": "GMM Pfaudler Limited"
+    },
+    {
+        "StockSymbol": "GMRINFRA",
+        "StockName": "GMR Infrastructure Limited"
+    },
+    {
+        "StockSymbol": "GNA",
+        "StockName": "GNA Axles Limited"
+    },
+    {
+        "StockSymbol": "GNFC",
+        "StockName": "Gujarat Narmada Valley Fertilizers and Chemicals Limited"
+    },
+    {
+        "StockSymbol": "GOACARBON",
+        "StockName": "Goa Carbon Limited"
+    },
+    {
+        "StockSymbol": "GOCLCORP",
+        "StockName": "GOCL Corporation Limited"
+    },
+    {
+        "StockSymbol": "GODFRYPHLP",
+        "StockName": "Godfrey Phillips India Limited"
+    },
+    {
+        "StockSymbol": "GODREJAGRO",
+        "StockName": "Godrej Agrovet Limited"
+    },
+    {
+        "StockSymbol": "GODREJCP",
+        "StockName": "Godrej Consumer Products Limited"
+    },
+    {
+        "StockSymbol": "GODREJIND",
+        "StockName": "Godrej Industries Limited"
+    },
+    {
+        "StockSymbol": "GODREJPROP",
+        "StockName": "Godrej Properties Limited"
+    },
+    {
+        "StockSymbol": "GOENKA",
+        "StockName": "Goenka Diamond and Jewels Limited"
+    },
+    {
+        "StockSymbol": "GOKEX",
+        "StockName": "Gokaldas Exports Limited"
+    },
+    {
+        "StockSymbol": "GOKUL",
+        "StockName": "Gokul Refoils and Solvent Limited"
+    },
+    {
+        "StockSymbol": "GOKULAGRO",
+        "StockName": "Gokul Agro Resources Limited"
+    },
+    {
+        "StockSymbol": "GOLDENTOBC",
+        "StockName": "Golden Tobacco Limited"
+    },
+    {
+        "StockSymbol": "GOLDIAM",
+        "StockName": "Goldiam International Limited"
+    },
+    {
+        "StockSymbol": "GOLDTECH",
+        "StockName": "Goldstone Technologies Limited"
+    },
+    {
+        "StockSymbol": "GOODLUCK",
+        "StockName": "Goodluck India Limited"
+    },
+    {
+        "StockSymbol": "GPIL",
+        "StockName": "Godawari Power And Ispat limited"
+    },
+    {
+        "StockSymbol": "GPPL",
+        "StockName": "Gujarat Pipavav Port Limited"
+    },
+    {
+        "StockSymbol": "GPTINFRA",
+        "StockName": "GPT Infraprojects Limited"
+    },
+    {
+        "StockSymbol": "GRANULES",
+        "StockName": "Granules India Limited"
+    },
+    {
+        "StockSymbol": "GRAPHITE",
+        "StockName": "Graphite India Limited"
+    },
+    {
+        "StockSymbol": "GRASIM",
+        "StockName": "Grasim Industries Limited"
+    },
+    {
+        "StockSymbol": "GRAVITA",
+        "StockName": "Gravita India Limited"
+    },
+    {
+        "StockSymbol": "GREAVESCOT",
+        "StockName": "Greaves Cotton Limited"
+    },
+    {
+        "StockSymbol": "GREENLAM",
+        "StockName": "Greenlam Industries Limited"
+    },
+    {
+        "StockSymbol": "GREENPANEL",
+        "StockName": "Greenpanel Industries Limited"
+    },
+    {
+        "StockSymbol": "GREENPLY",
+        "StockName": "Greenply Industries Limited"
+    },
+    {
+        "StockSymbol": "GREENPOWER",
+        "StockName": "Orient Green Power Company Limited"
+    },
+    {
+        "StockSymbol": "GRINDWELL",
+        "StockName": "Grindwell Norton Limited"
+    },
+    {
+        "StockSymbol": "GROBTEA",
+        "StockName": "The Grob Tea Company Limited"
+    },
+    {
+        "StockSymbol": "GRPLTD",
+        "StockName": "GRP Limited"
+    },
+    {
+        "StockSymbol": "GRSE",
+        "StockName": "Garden Reach Shipbuilders & Engineers Limited"
+    },
+    {
+        "StockSymbol": "GSCLCEMENT",
+        "StockName": "Gujarat Sidhee Cement Limited"
+    },
+    {
+        "StockSymbol": "GSFC",
+        "StockName": "Gujarat State Fertilizers & Chemicals Limited"
+    },
+    {
+        "StockSymbol": "GSKCONS",
+        "StockName": "GlaxoSmithKline Consumer Healthcare Limited"
+    },
+    {
+        "StockSymbol": "GSPL",
+        "StockName": "Gujarat State Petronet Limited"
+    },
+    {
+        "StockSymbol": "GSS",
+        "StockName": "GSS Infotech Limited"
+    },
+    {
+        "StockSymbol": "GTL",
+        "StockName": "GTL Limited"
+    },
+    {
+        "StockSymbol": "GTLINFRA",
+        "StockName": "GTL Infrastructure Limited"
+    },
+    {
+        "StockSymbol": "GTNIND",
+        "StockName": "GTN Industries Limited"
+    },
+    {
+        "StockSymbol": "GTNTEX",
+        "StockName": "GTN Textiles Limited"
+    },
+    {
+        "StockSymbol": "GTPL",
+        "StockName": "GTPL Hathway Limited"
+    },
+    {
+        "StockSymbol": "GUFICBIO",
+        "StockName": "Gufic Biosciences Limited"
+    },
+    {
+        "StockSymbol": "GUJALKALI",
+        "StockName": "Gujarat Alkalies and Chemicals Limited"
+    },
+    {
+        "StockSymbol": "GUJAPOLLO",
+        "StockName": "Gujarat Apollo Industries Limited"
+    },
+    {
+        "StockSymbol": "GUJGASLTD",
+        "StockName": "Gujarat Gas Limited"
+    },
+    {
+        "StockSymbol": "GUJRAFFIA",
+        "StockName": "Gujarat Raffia Industries Limited"
+    },
+    {
+        "StockSymbol": "GULFOILLUB",
+        "StockName": "Gulf Oil Lubricants India Limited"
+    },
+    {
+        "StockSymbol": "GULFPETRO",
+        "StockName": "GP Petroleums Limited"
+    },
+    {
+        "StockSymbol": "GULPOLY",
+        "StockName": "Gulshan Polyols Limited"
+    },
+    {
+        "StockSymbol": "GVKPIL",
+        "StockName": "GVK Power & Infrastructure Limited"
+    },
+    {
+        "StockSymbol": "HAL",
+        "StockName": "Hindustan Aeronautics Limited"
+    },
+    {
+        "StockSymbol": "HARITASEAT",
+        "StockName": "Harita Seating Systems Limited"
+    },
+    {
+        "StockSymbol": "HARRMALAYA",
+        "StockName": "Harrisons\u00a0 Malayalam\n  Limited"
+    },
+    {
+        "StockSymbol": "HATHWAY",
+        "StockName": "Hathway Cable & Datacom Limited"
+    },
+    {
+        "StockSymbol": "HATSUN",
+        "StockName": "Hatsun Agro Product Limited"
+    },
+    {
+        "StockSymbol": "HAVELLS",
+        "StockName": "Havells India Limited"
+    },
+    {
+        "StockSymbol": "HAVISHA",
+        "StockName": "Sri Havisha Hospitality and Infrastructure Limited"
+    },
+    {
+        "StockSymbol": "HBLPOWER",
+        "StockName": "HBL Power Systems Limited"
+    },
+    {
+        "StockSymbol": "HBSL",
+        "StockName": "HB Stockholdings Limited"
+    },
+    {
+        "StockSymbol": "HCC",
+        "StockName": "Hindustan Construction Company Limited"
+    },
+    {
+        "StockSymbol": "HCG",
+        "StockName": "Healthcare Global Enterprises Limited"
+    },
+    {
+        "StockSymbol": "HCL-INSYS",
+        "StockName": "HCL Infosystems Limited"
+    },
+    {
+        "StockSymbol": "HCLTECH",
+        "StockName": "HCL Technologies Limited"
+    },
+    {
+        "StockSymbol": "HDFC",
+        "StockName": "Housing Development Finance Corporation Limited"
+    },
+    {
+        "StockSymbol": "HDFCAMC",
+        "StockName": "HDFC Asset Management Company Limited"
+    },
+    {
+        "StockSymbol": "HDFCBANK",
+        "StockName": "HDFC Bank Limited"
+    },
+    {
+        "StockSymbol": "HDFCLIFE",
+        "StockName": "HDFC Life Insurance Company Limited"
+    },
+    {
+        "StockSymbol": "HDIL",
+        "StockName": "Housing Development and Infrastructure Limited"
+    },
+    {
+        "StockSymbol": "HEG",
+        "StockName": "HEG Limited"
+    },
+    {
+        "StockSymbol": "HEIDELBERG",
+        "StockName": "HeidelbergCement India Limited"
+    },
+    {
+        "StockSymbol": "HERCULES",
+        "StockName": "Hercules Hoists Limited"
+    },
+    {
+        "StockSymbol": "HERITGFOOD",
+        "StockName": "Heritage Foods Limited"
+    },
+    {
+        "StockSymbol": "HEROMOTOCO",
+        "StockName": "Hero MotoCorp Limited"
+    },
+    {
+        "StockSymbol": "HESTERBIO",
+        "StockName": "Hester Biosciences Limited"
+    },
+    {
+        "StockSymbol": "HEXATRADEX",
+        "StockName": "Hexa Tradex Limited"
+    },
+    {
+        "StockSymbol": "HEXAWARE",
+        "StockName": "Hexaware Technologies Limited"
+    },
+    {
+        "StockSymbol": "HFCL",
+        "StockName": "HFCL Limited"
+    },
+    {
+        "StockSymbol": "HGINFRA",
+        "StockName": "H.G. Infra Engineering Limited"
+    },
+    {
+        "StockSymbol": "HGS",
+        "StockName": "Hinduja Global Solutions Limited"
+    },
+    {
+        "StockSymbol": "HIKAL",
+        "StockName": "Hikal Limited"
+    },
+    {
+        "StockSymbol": "HIL",
+        "StockName": "HIL Limited"
+    },
+    {
+        "StockSymbol": "HILTON",
+        "StockName": "Hilton Metal Forging Limited"
+    },
+    {
+        "StockSymbol": "HIMATSEIDE",
+        "StockName": "Himatsingka Seide Limited"
+    },
+    {
+        "StockSymbol": "HINDALCO",
+        "StockName": "Hindalco Industries Limited"
+    },
+    {
+        "StockSymbol": "HINDCOMPOS",
+        "StockName": "Hindustan Composites Limited"
+    },
+    {
+        "StockSymbol": "HINDCOPPER",
+        "StockName": "Hindustan Copper Limited"
+    },
+    {
+        "StockSymbol": "HINDMOTORS",
+        "StockName": "Hindustan Motors Limited"
+    },
+    {
+        "StockSymbol": "HINDNATGLS",
+        "StockName": "Hindusthan National Glass & Industries Limited"
+    },
+    {
+        "StockSymbol": "HINDOILEXP",
+        "StockName": "Hindustan Oil Exploration Company Limited"
+    },
+    {
+        "StockSymbol": "HINDPETRO",
+        "StockName": "Hindustan Petroleum Corporation Limited"
+    },
+    {
+        "StockSymbol": "HINDSYNTEX",
+        "StockName": "Hind Syntex Limited"
+    },
+    {
+        "StockSymbol": "HINDUNILVR",
+        "StockName": "Hindustan Unilever Limited"
+    },
+    {
+        "StockSymbol": "HINDZINC",
+        "StockName": "Hindustan Zinc Limited"
+    },
+    {
+        "StockSymbol": "HIRECT",
+        "StockName": "Hind Rectifiers Limited"
+    },
+    {
+        "StockSymbol": "HISARMETAL",
+        "StockName": "Hisar Metal Industries Limited"
+    },
+    {
+        "StockSymbol": "HITECH",
+        "StockName": "Hi-Tech Pipes Limited"
+    },
+    {
+        "StockSymbol": "HITECHCORP",
+        "StockName": "Hitech Corporation Limited"
+    },
+    {
+        "StockSymbol": "HITECHGEAR",
+        "StockName": "The Hi-Tech Gears Limited"
+    },
+    {
+        "StockSymbol": "HMT",
+        "StockName": "HMT Limited"
+    },
+    {
+        "StockSymbol": "HMVL",
+        "StockName": "Hindustan Media Ventures Limited"
+    },
+    {
+        "StockSymbol": "HNDFDS",
+        "StockName": "Hindustan Foods Limited"
+    },
+    {
+        "StockSymbol": "HONAUT",
+        "StockName": "Honeywell Automation India Limited"
+    },
+    {
+        "StockSymbol": "HONDAPOWER",
+        "StockName": "Honda Siel Power Products Limited"
+    },
+    {
+        "StockSymbol": "HOTELEELA",
+        "StockName": "Hotel Leela Venture Limited"
+    },
+    {
+        "StockSymbol": "HOTELRUGBY",
+        "StockName": "Hotel Rugby Limited"
+    },
+    {
+        "StockSymbol": "HOVS",
+        "StockName": "HOV Services Limited"
+    },
+    {
+        "StockSymbol": "HPL",
+        "StockName": "HPL Electric & Power Limited"
+    },
+    {
+        "StockSymbol": "HSCL",
+        "StockName": "Himadri Speciality Chemical Limited"
+    },
+    {
+        "StockSymbol": "HSIL",
+        "StockName": "HSIL Limited"
+    },
+    {
+        "StockSymbol": "HTMEDIA",
+        "StockName": "HT Media Limited"
+    },
+    {
+        "StockSymbol": "HUBTOWN",
+        "StockName": "Hubtown Limited"
+    },
+    {
+        "StockSymbol": "HUDCO",
+        "StockName": "Housing & Urban Development Corporation Limited"
+    },
+    {
+        "StockSymbol": "IBREALEST",
+        "StockName": "Indiabulls Real Estate Limited"
+    },
+    {
+        "StockSymbol": "IBULHSGFIN",
+        "StockName": "Indiabulls Housing Finance Limited"
+    },
+    {
+        "StockSymbol": "IBULISL",
+        "StockName": "Indiabulls Integrated Services Limited"
+    },
+    {
+        "StockSymbol": "IBVENTURES",
+        "StockName": "Indiabulls Ventures Limited"
+    },
+    {
+        "StockSymbol": "ICICIBANK",
+        "StockName": "ICICI Bank Limited"
+    },
+    {
+        "StockSymbol": "ICICIGI",
+        "StockName": "ICICI Lombard General Insurance Company Limited"
+    },
+    {
+        "StockSymbol": "ICICIPRULI",
+        "StockName": "ICICI Prudential Life Insurance Company Limited"
+    },
+    {
+        "StockSymbol": "ICIL",
+        "StockName": "Indo Count Industries Limited"
+    },
+    {
+        "StockSymbol": "ICRA",
+        "StockName": "ICRA Limited"
+    },
+    {
+        "StockSymbol": "IDBI",
+        "StockName": "IDBI Bank Limited"
+    },
+    {
+        "StockSymbol": "IDEA",
+        "StockName": "Vodafone Idea Limited"
+    },
+    {
+        "StockSymbol": "IDFC",
+        "StockName": "IDFC Limited"
+    },
+    {
+        "StockSymbol": "IDFCFIRSTB",
+        "StockName": "IDFC First Bank Limited"
+    },
+    {
+        "StockSymbol": "IEX",
+        "StockName": "Indian Energy Exchange Limited"
+    },
+    {
+        "StockSymbol": "IFBAGRO",
+        "StockName": "IFB Agro Industries Limited"
+    },
+    {
+        "StockSymbol": "IFBIND",
+        "StockName": "IFB Industries Limited"
+    },
+    {
+        "StockSymbol": "IFCI",
+        "StockName": "IFCI Limited"
+    },
+    {
+        "StockSymbol": "IFGLEXPOR",
+        "StockName": "IFGL Refractories Limited"
+    },
+    {
+        "StockSymbol": "IGARASHI",
+        "StockName": "Igarashi Motors India Limited"
+    },
+    {
+        "StockSymbol": "IGL",
+        "StockName": "Indraprastha Gas Limited"
+    },
+    {
+        "StockSymbol": "IGPL",
+        "StockName": "IG Petrochemicals Limited"
+    },
+    {
+        "StockSymbol": "IIFL",
+        "StockName": "IIFL Finance Limited"
+    },
+    {
+        "StockSymbol": "IIFLSEC",
+        "StockName": "IIFL Securities Limited"
+    },
+    {
+        "StockSymbol": "IIFLWAM",
+        "StockName": "Iifl Wealth Management Limited"
+    },
+    {
+        "StockSymbol": "IITL",
+        "StockName": "Industrial Investment Trust Limited"
+    },
+    {
+        "StockSymbol": "IL&FSENGG",
+        "StockName": "IL&FS Engineering and Construction Company Limited"
+    },
+    {
+        "StockSymbol": "IL&FSTRANS",
+        "StockName": "IL&FS Transportation Networks Limited"
+    },
+    {
+        "StockSymbol": "IMFA",
+        "StockName": "Indian Metals & Ferro Alloys Limited"
+    },
+    {
+        "StockSymbol": "IMPAL",
+        "StockName": "India Motor Parts and Accessories Limited"
+    },
+    {
+        "StockSymbol": "IMPEXFERRO",
+        "StockName": "Impex Ferro Tech Limited"
+    },
+    {
+        "StockSymbol": "INDBANK",
+        "StockName": "Indbank Merchant Banking Services Limited"
+    },
+    {
+        "StockSymbol": "INDHOTEL",
+        "StockName": "The Indian Hotels Company Limited"
+    },
+    {
+        "StockSymbol": "INDIACEM",
+        "StockName": "The India Cements Limited"
+    },
+    {
+        "StockSymbol": "INDIAGLYCO",
+        "StockName": "India Glycols Limited"
+    },
+    {
+        "StockSymbol": "INDIAMART",
+        "StockName": "Indiamart Intermesh Limited"
+    },
+    {
+        "StockSymbol": "INDIANB",
+        "StockName": "Indian Bank"
+    },
+    {
+        "StockSymbol": "INDIANCARD",
+        "StockName": "Indian Card Clothing Company Limited"
+    },
+    {
+        "StockSymbol": "INDIANHUME",
+        "StockName": "Indian Hume Pipe Company Limited"
+    },
+    {
+        "StockSymbol": "INDIGO",
+        "StockName": "InterGlobe Aviation Limited"
+    },
+    {
+        "StockSymbol": "INDLMETER",
+        "StockName": "IMP Powers Limited"
+    },
+    {
+        "StockSymbol": "INDNIPPON",
+        "StockName": "India Nippon Electricals Limited"
+    },
+    {
+        "StockSymbol": "INDOCO",
+        "StockName": "Indoco Remedies Limited"
+    },
+    {
+        "StockSymbol": "INDORAMA",
+        "StockName": "Indo Rama Synthetics (India) Limited"
+    },
+    {
+        "StockSymbol": "INDOSOLAR",
+        "StockName": "Indosolar Limited"
+    },
+    {
+        "StockSymbol": "INDOSTAR",
+        "StockName": "IndoStar Capital Finance Limited"
+    },
+    {
+        "StockSymbol": "INDOTECH",
+        "StockName": "Indo Tech Transformers Limited"
+    },
+    {
+        "StockSymbol": "INDOTHAI",
+        "StockName": "Indo Thai Securities Limited"
+    },
+    {
+        "StockSymbol": "INDOWIND",
+        "StockName": "Indowind Energy Limited"
+    },
+    {
+        "StockSymbol": "INDRAMEDCO",
+        "StockName": "Indraprastha Medical Corporation Limited"
+    },
+    {
+        "StockSymbol": "INDSWFTLAB",
+        "StockName": "Ind-Swift Laboratories Limited"
+    },
+    {
+        "StockSymbol": "INDSWFTLTD",
+        "StockName": "Ind-Swift Limited"
+    },
+    {
+        "StockSymbol": "INDTERRAIN",
+        "StockName": "Indian Terrain Fashions Limited"
+    },
+    {
+        "StockSymbol": "INDUSINDBK",
+        "StockName": "IndusInd Bank Limited"
+    },
+    {
+        "StockSymbol": "INEOSSTYRO",
+        "StockName": "INEOS Styrolution India Limited"
+    },
+    {
+        "StockSymbol": "INFIBEAM",
+        "StockName": "Infibeam Avenues Limited"
+    },
+    {
+        "StockSymbol": "INFOBEAN",
+        "StockName": "InfoBeans Technologies Limited"
+    },
+    {
+        "StockSymbol": "INFRATEL",
+        "StockName": "Bharti Infratel Limited"
+    },
+    {
+        "StockSymbol": "INFY",
+        "StockName": "Infosys Limited"
+    },
+    {
+        "StockSymbol": "INGERRAND",
+        "StockName": "Ingersoll Rand (India) Limited"
+    },
+    {
+        "StockSymbol": "INOXLEISUR",
+        "StockName": "INOX Leisure Limited"
+    },
+    {
+        "StockSymbol": "INOXWIND",
+        "StockName": "Inox Wind Limited"
+    },
+    {
+        "StockSymbol": "INSECTICID",
+        "StockName": "Insecticides (India) Limited"
+    },
+    {
+        "StockSymbol": "INSPIRISYS",
+        "StockName": "Inspirisys Solutions Limited"
+    },
+    {
+        "StockSymbol": "INTEGRA",
+        "StockName": "Integra Garments and Textiles Limited"
+    },
+    {
+        "StockSymbol": "INTELLECT",
+        "StockName": "Intellect Design Arena Limited"
+    },
+    {
+        "StockSymbol": "INTENTECH",
+        "StockName": "Intense Technologies Limited"
+    },
+    {
+        "StockSymbol": "INVENTURE",
+        "StockName": "Inventure Growth & Securities Limited"
+    },
+    {
+        "StockSymbol": "IOB",
+        "StockName": "Indian Overseas Bank"
+    },
+    {
+        "StockSymbol": "IOC",
+        "StockName": "Indian Oil Corporation Limited"
+    },
+    {
+        "StockSymbol": "IOLCP",
+        "StockName": "IOL Chemicals and Pharmaceuticals Limited"
+    },
+    {
+        "StockSymbol": "IPAPPM",
+        "StockName": "International Paper APPM Limited"
+    },
+    {
+        "StockSymbol": "IPCALAB",
+        "StockName": "IPCA Laboratories Limited"
+    },
+    {
+        "StockSymbol": "IRB",
+        "StockName": "IRB Infrastructure Developers Limited"
+    },
+    {
+        "StockSymbol": "IRCON",
+        "StockName": "Ircon International Limited"
+    },
+    {
+        "StockSymbol": "IRCTC",
+        "StockName": "Indian Railway Catering And Tourism Corporation Limited"
+    },
+    {
+        "StockSymbol": "ISEC",
+        "StockName": "ICICI Securities Limited"
+    },
+    {
+        "StockSymbol": "ISFT",
+        "StockName": "Intrasoft Technologies Limited"
+    },
+    {
+        "StockSymbol": "ISMTLTD",
+        "StockName": "ISMT Limited"
+    },
+    {
+        "StockSymbol": "ITC",
+        "StockName": "ITC Limited"
+    },
+    {
+        "StockSymbol": "ITDC",
+        "StockName": "India Tourism Development Corporation Limited"
+    },
+    {
+        "StockSymbol": "ITDCEM",
+        "StockName": "ITD Cementation India Limited"
+    },
+    {
+        "StockSymbol": "ITI",
+        "StockName": "ITI Limited"
+    },
+    {
+        "StockSymbol": "IVC",
+        "StockName": "IL&FS Investment Managers Limited"
+    },
+    {
+        "StockSymbol": "IVP",
+        "StockName": "IVP Limited"
+    },
+    {
+        "StockSymbol": "IVRCLINFRA",
+        "StockName": "IVRCL Limited"
+    },
+    {
+        "StockSymbol": "IZMO",
+        "StockName": "IZMO Limited"
+    },
+    {
+        "StockSymbol": "J&KBANK",
+        "StockName": "The Jammu & Kashmir Bank Limited"
+    },
+    {
+        "StockSymbol": "JAGRAN",
+        "StockName": "Jagran Prakashan Limited"
+    },
+    {
+        "StockSymbol": "JAGSNPHARM",
+        "StockName": "Jagsonpal Pharmaceuticals Limited"
+    },
+    {
+        "StockSymbol": "JAIBALAJI",
+        "StockName": "Jai Balaji Industries Limited"
+    },
+    {
+        "StockSymbol": "JAICORPLTD",
+        "StockName": "Jai Corp Limited"
+    },
+    {
+        "StockSymbol": "JAIHINDPRO",
+        "StockName": "Jaihind Projects Limited"
+    },
+    {
+        "StockSymbol": "JAINSTUDIO",
+        "StockName": "Jain Studios Limited"
+    },
+    {
+        "StockSymbol": "JAMNAAUTO",
+        "StockName": "Jamna Auto Industries Limited"
+    },
+    {
+        "StockSymbol": "JASH",
+        "StockName": "Jash Engineering Limited"
+    },
+    {
+        "StockSymbol": "JAYAGROGN",
+        "StockName": "Jayant Agro Organics Limited"
+    },
+    {
+        "StockSymbol": "JAYBARMARU",
+        "StockName": "Jay Bharat Maruti Limited"
+    },
+    {
+        "StockSymbol": "JAYNECOIND",
+        "StockName": "Jayaswal Neco Industries Limited"
+    },
+    {
+        "StockSymbol": "JAYSREETEA",
+        "StockName": "Jayshree Tea & Industries Limited"
+    },
+    {
+        "StockSymbol": "JBCHEPHARM",
+        "StockName": "JB Chemicals & Pharmaceuticals Limited"
+    },
+    {
+        "StockSymbol": "JBFIND",
+        "StockName": "JBF Industries Limited"
+    },
+    {
+        "StockSymbol": "JBMA",
+        "StockName": "JBM Auto Limited"
+    },
+    {
+        "StockSymbol": "JCHAC",
+        "StockName": "Johnson Controls \u2013 Hitachi Air Conditioning India Limited"
+    },
+    {
+        "StockSymbol": "JETAIRWAYS",
+        "StockName": "Jet Airways (India) Limited"
+    },
+    {
+        "StockSymbol": "JHS",
+        "StockName": "JHS Svendgaard Laboratories Limited"
+    },
+    {
+        "StockSymbol": "JIKIND",
+        "StockName": "JIK Industries Limited"
+    },
+    {
+        "StockSymbol": "JINDALPHOT",
+        "StockName": "Jindal Photo Limited"
+    },
+    {
+        "StockSymbol": "JINDALPOLY",
+        "StockName": "Jindal Poly Films Limited"
+    },
+    {
+        "StockSymbol": "JINDALSAW",
+        "StockName": "Jindal Saw Limited"
+    },
+    {
+        "StockSymbol": "JINDALSTEL",
+        "StockName": "Jindal Steel & Power Limited"
+    },
+    {
+        "StockSymbol": "JINDCOT",
+        "StockName": "Jindal Cotex Limited"
+    },
+    {
+        "StockSymbol": "JINDRILL",
+        "StockName": "Jindal Drilling And Industries Limited"
+    },
+    {
+        "StockSymbol": "JINDWORLD",
+        "StockName": "Jindal Worldwide Limited"
+    },
+    {
+        "StockSymbol": "JISLDVREQS",
+        "StockName": "Jain Irrigation Systems Limited"
+    },
+    {
+        "StockSymbol": "JISLJALEQS",
+        "StockName": "Jain Irrigation Systems Limited"
+    },
+    {
+        "StockSymbol": "JITFINFRA",
+        "StockName": "JITF Infralogistics Limited"
+    },
+    {
+        "StockSymbol": "JIYAECO",
+        "StockName": "Jiya Eco-Products Limited"
+    },
+    {
+        "StockSymbol": "JKCEMENT",
+        "StockName": "JK Cement Limited"
+    },
+    {
+        "StockSymbol": "JKIL",
+        "StockName": "J.Kumar Infraprojects Limited"
+    },
+    {
+        "StockSymbol": "JKLAKSHMI",
+        "StockName": "JK Lakshmi Cement Limited"
+    },
+    {
+        "StockSymbol": "JKPAPER",
+        "StockName": "JK Paper Limited"
+    },
+    {
+        "StockSymbol": "JKTYRE",
+        "StockName": "JK Tyre & Industries Limited"
+    },
+    {
+        "StockSymbol": "JMA",
+        "StockName": "Jullundur Motor Agency (Delhi) Limited"
+    },
+    {
+        "StockSymbol": "JMCPROJECT",
+        "StockName": "JMC Projects (India)\u00a0\n  Limited"
+    },
+    {
+        "StockSymbol": "JMFINANCIL",
+        "StockName": "JM Financial Limited"
+    },
+    {
+        "StockSymbol": "JMTAUTOLTD",
+        "StockName": "JMT Auto Limited"
+    },
+    {
+        "StockSymbol": "JOCIL",
+        "StockName": "Jocil Limited"
+    },
+    {
+        "StockSymbol": "JPASSOCIAT",
+        "StockName": "Jaiprakash Associates Limited"
+    },
+    {
+        "StockSymbol": "JPINFRATEC",
+        "StockName": "Jaypee Infratech Limited"
+    },
+    {
+        "StockSymbol": "JPOLYINVST",
+        "StockName": "Jindal Poly Investment and Finance Company Limited"
+    },
+    {
+        "StockSymbol": "JPPOWER",
+        "StockName": "Jaiprakash Power Ventures Limited"
+    },
+    {
+        "StockSymbol": "JSL",
+        "StockName": "Jindal Stainless Limited"
+    },
+    {
+        "StockSymbol": "JSLHISAR",
+        "StockName": "Jindal Stainless (Hisar) Limited"
+    },
+    {
+        "StockSymbol": "JSWENERGY",
+        "StockName": "JSW Energy Limited"
+    },
+    {
+        "StockSymbol": "JSWHL",
+        "StockName": "JSW Holdings Limited"
+    },
+    {
+        "StockSymbol": "JSWSTEEL",
+        "StockName": "JSW Steel Limited"
+    },
+    {
+        "StockSymbol": "JTEKTINDIA",
+        "StockName": "Jtekt India Limited"
+    },
+    {
+        "StockSymbol": "JUBILANT",
+        "StockName": "Jubilant Life Sciences Limited"
+    },
+    {
+        "StockSymbol": "JUBLFOOD",
+        "StockName": "Jubilant Foodworks Limited"
+    },
+    {
+        "StockSymbol": "JUBLINDS",
+        "StockName": "Jubilant Industries Limited"
+    },
+    {
+        "StockSymbol": "JUMPNET",
+        "StockName": "Jump Networks Limited"
+    },
+    {
+        "StockSymbol": "JUSTDIAL",
+        "StockName": "Just Dial Limited"
+    },
+    {
+        "StockSymbol": "JVLAGRO",
+        "StockName": "JVL Agro Industries Limited"
+    },
+    {
+        "StockSymbol": "JYOTHYLAB",
+        "StockName": "Jyothy Labs Limited"
+    },
+    {
+        "StockSymbol": "KABRAEXTRU",
+        "StockName": "Kabra Extrusion Technik Limited"
+    },
+    {
+        "StockSymbol": "KAJARIACER",
+        "StockName": "Kajaria Ceramics Limited"
+    },
+    {
+        "StockSymbol": "KAKATCEM",
+        "StockName": "Kakatiya Cement Sugar & Industries Limited"
+    },
+    {
+        "StockSymbol": "KALPATPOWR",
+        "StockName": "Kalpataru Power Transmission Limited"
+    },
+    {
+        "StockSymbol": "KALYANI",
+        "StockName": "Kalyani Commercials Limited"
+    },
+    {
+        "StockSymbol": "KALYANIFRG",
+        "StockName": "Kalyani Forge Limited"
+    },
+    {
+        "StockSymbol": "KAMATHOTEL",
+        "StockName": "Kamat Hotels (I) Limited"
+    },
+    {
+        "StockSymbol": "KAMDHENU",
+        "StockName": "Kamdhenu Limited"
+    },
+    {
+        "StockSymbol": "KANANIIND",
+        "StockName": "Kanani Industries Limited"
+    },
+    {
+        "StockSymbol": "KANORICHEM",
+        "StockName": "Kanoria Chemicals & Industries Limited"
+    },
+    {
+        "StockSymbol": "KANSAINER",
+        "StockName": "Kansai Nerolac Paints Limited"
+    },
+    {
+        "StockSymbol": "KARDA",
+        "StockName": "Karda Constructions Limited"
+    },
+    {
+        "StockSymbol": "KARMAENG",
+        "StockName": "Karma Energy Limited"
+    },
+    {
+        "StockSymbol": "KARURVYSYA",
+        "StockName": "Karur Vysya Bank Limited"
+    },
+    {
+        "StockSymbol": "KAUSHALYA",
+        "StockName": "Kaushalya Infrastructure Development Corporation Limited"
+    },
+    {
+        "StockSymbol": "KAVVERITEL",
+        "StockName": "Kavveri Telecom Products Limited"
+    },
+    {
+        "StockSymbol": "KAYA",
+        "StockName": "Kaya Limited"
+    },
+    {
+        "StockSymbol": "KCP",
+        "StockName": "KCP Limited"
+    },
+    {
+        "StockSymbol": "KCPSUGIND",
+        "StockName": "KCP Sugar and Industries Corporation Limited"
+    },
+    {
+        "StockSymbol": "KDDL",
+        "StockName": "KDDL Limited"
+    },
+    {
+        "StockSymbol": "KEC",
+        "StockName": "KEC International Limited"
+    },
+    {
+        "StockSymbol": "KECL",
+        "StockName": "Kirloskar Electric Company Limited"
+    },
+    {
+        "StockSymbol": "KEI",
+        "StockName": "KEI Industries Limited"
+    },
+    {
+        "StockSymbol": "KELLTONTEC",
+        "StockName": "Kellton Tech Solutions Limited"
+    },
+    {
+        "StockSymbol": "KENNAMET",
+        "StockName": "Kennametal India Limited"
+    },
+    {
+        "StockSymbol": "KERNEX",
+        "StockName": "Kernex Microsystems (India) Limited"
+    },
+    {
+        "StockSymbol": "KESARENT",
+        "StockName": "Kesar Enterprises Limited"
+    },
+    {
+        "StockSymbol": "KESORAMIND",
+        "StockName": "Kesoram Industries Limited"
+    },
+    {
+        "StockSymbol": "KEYFINSERV",
+        "StockName": "Keynote Financial Services Limited"
+    },
+    {
+        "StockSymbol": "KGL",
+        "StockName": "Karuturi Global Limited"
+    },
+    {
+        "StockSymbol": "KHADIM",
+        "StockName": "Khadim India Limited"
+    },
+    {
+        "StockSymbol": "KHAITANLTD",
+        "StockName": "Khaitan (India) Limited"
+    },
+    {
+        "StockSymbol": "KHANDSE",
+        "StockName": "Khandwala Securities Limited"
+    },
+    {
+        "StockSymbol": "KICL",
+        "StockName": "Kalyani Investment Company Limited"
+    },
+    {
+        "StockSymbol": "KILITCH",
+        "StockName": "Kilitch Drugs (India) Limited"
+    },
+    {
+        "StockSymbol": "KINGFA",
+        "StockName": "Kingfa Science & Technology (India) Limited"
+    },
+    {
+        "StockSymbol": "KIOCL",
+        "StockName": "KIOCL Limited"
+    },
+    {
+        "StockSymbol": "KIRIINDUS",
+        "StockName": "Kiri Industries Limited"
+    },
+    {
+        "StockSymbol": "KIRLOSBROS",
+        "StockName": "Kirloskar Brothers Limited"
+    },
+    {
+        "StockSymbol": "KIRLOSENG",
+        "StockName": "Kirloskar Oil Engines Limited"
+    },
+    {
+        "StockSymbol": "KIRLOSIND",
+        "StockName": "Kirloskar Industries Limited"
+    },
+    {
+        "StockSymbol": "KITEX",
+        "StockName": "Kitex Garments Limited"
+    },
+    {
+        "StockSymbol": "KKCL",
+        "StockName": "Kewal Kiran Clothing Limited"
+    },
+    {
+        "StockSymbol": "KMSUGAR",
+        "StockName": "K.M.Sugar Mills Limited"
+    },
+    {
+        "StockSymbol": "KNRCON",
+        "StockName": "KNR Constructions Limited"
+    },
+    {
+        "StockSymbol": "KOHINOOR",
+        "StockName": "Kohinoor Foods Limited"
+    },
+    {
+        "StockSymbol": "KOKUYOCMLN",
+        "StockName": "Kokuyo Camlin Limited"
+    },
+    {
+        "StockSymbol": "KOLTEPATIL",
+        "StockName": "Kolte \u2013 Patil Developers Limited"
+    },
+    {
+        "StockSymbol": "KOPRAN",
+        "StockName": "Kopran Limited"
+    },
+    {
+        "StockSymbol": "KOTAKBANK",
+        "StockName": "Kotak Mahindra Bank Limited"
+    },
+    {
+        "StockSymbol": "KOTARISUG",
+        "StockName": "Kothari Sugars And Chemicals Limited"
+    },
+    {
+        "StockSymbol": "KOTHARIPET",
+        "StockName": "Kothari Petrochemicals Limited"
+    },
+    {
+        "StockSymbol": "KOTHARIPRO",
+        "StockName": "Kothari Products Limited"
+    },
+    {
+        "StockSymbol": "KPITTECH",
+        "StockName": "KPIT Technologies Limited"
+    },
+    {
+        "StockSymbol": "KPRMILL",
+        "StockName": "K.P.R. Mill Limited"
+    },
+    {
+        "StockSymbol": "KRBL",
+        "StockName": "KRBL Limited"
+    },
+    {
+        "StockSymbol": "KREBSBIO",
+        "StockName": "Krebs Biochemicals and Industries Limited"
+    },
+    {
+        "StockSymbol": "KRIDHANINF",
+        "StockName": "Kridhan Infra Limited"
+    },
+    {
+        "StockSymbol": "KRISHANA",
+        "StockName": "Krishana Phoschem Limited"
+    },
+    {
+        "StockSymbol": "KSB",
+        "StockName": "Ksb Limited"
+    },
+    {
+        "StockSymbol": "KSCL",
+        "StockName": "Kaveri Seed Company Limited"
+    },
+    {
+        "StockSymbol": "KSERASERA",
+        "StockName": "KSS Limited"
+    },
+    {
+        "StockSymbol": "KSK",
+        "StockName": "KSK Energy Ventures Limited"
+    },
+    {
+        "StockSymbol": "KSL",
+        "StockName": "Kalyani Steels Limited"
+    },
+    {
+        "StockSymbol": "KTIL",
+        "StockName": "Kesar Terminals & Infrastructure Limited"
+    },
+    {
+        "StockSymbol": "KTKBANK",
+        "StockName": "The Karnataka Bank Limited"
+    },
+    {
+        "StockSymbol": "KUANTUM",
+        "StockName": "Kuantum Papers Limited"
+    },
+    {
+        "StockSymbol": "KWALITY",
+        "StockName": "kwality limited"
+    },
+    {
+        "StockSymbol": "L&TFH",
+        "StockName": "L&T Finance Holdings Limited"
+    },
+    {
+        "StockSymbol": "LAKPRE",
+        "StockName": "Lakshmi Precision Screws Limited"
+    },
+    {
+        "StockSymbol": "LAKSHVILAS",
+        "StockName": "Lakshmi Vilas Bank Limited"
+    },
+    {
+        "StockSymbol": "LALPATHLAB",
+        "StockName": "Dr. Lal Path Labs Ltd."
+    },
+    {
+        "StockSymbol": "LAMBODHARA",
+        "StockName": "Lambodhara Textiles Limited"
+    },
+    {
+        "StockSymbol": "LAOPALA",
+        "StockName": "La Opala RG Limited"
+    },
+    {
+        "StockSymbol": "LASA",
+        "StockName": "Lasa Supergenerics Limited"
+    },
+    {
+        "StockSymbol": "LAURUSLABS",
+        "StockName": "Laurus Labs Limited"
+    },
+    {
+        "StockSymbol": "LAXMIMACH",
+        "StockName": "Lakshmi Machine Works Limited"
+    },
+    {
+        "StockSymbol": "LEMONTREE",
+        "StockName": "Lemon Tree Hotels Limited"
+    },
+    {
+        "StockSymbol": "LFIC",
+        "StockName": "Lakshmi Finance & Industrial Corporation Limited"
+    },
+    {
+        "StockSymbol": "LGBBROSLTD",
+        "StockName": "LG Balakrishnan & Bros Limited"
+    },
+    {
+        "StockSymbol": "LGBFORGE",
+        "StockName": "LGB Forge Limited"
+    },
+    {
+        "StockSymbol": "LIBAS",
+        "StockName": "Libas Designs Limited"
+    },
+    {
+        "StockSymbol": "LIBAS",
+        "StockName": "Libas Designs Limited"
+    },
+    {
+        "StockSymbol": "LIBERTSHOE",
+        "StockName": "Liberty Shoes Limited"
+    },
+    {
+        "StockSymbol": "LICHSGFIN",
+        "StockName": "LIC Housing Finance Limited"
+    },
+    {
+        "StockSymbol": "LINCOLN",
+        "StockName": "Lincoln Pharmaceuticals Limited"
+    },
+    {
+        "StockSymbol": "LINCPEN",
+        "StockName": "Linc Pen & Plastics Limited"
+    },
+    {
+        "StockSymbol": "LINDEINDIA",
+        "StockName": "Linde India Limited"
+    },
+    {
+        "StockSymbol": "LOKESHMACH",
+        "StockName": "Lokesh Machines Limited"
+    },
+    {
+        "StockSymbol": "LOTUSEYE",
+        "StockName": "Lotus Eye Hospital and Institute Limited"
+    },
+    {
+        "StockSymbol": "LOVABLE",
+        "StockName": "Lovable Lingerie Limited"
+    },
+    {
+        "StockSymbol": "LPDC",
+        "StockName": "Landmark Property Development Company Limited"
+    },
+    {
+        "StockSymbol": "LSIL",
+        "StockName": "Lloyds Steels Industries Limited"
+    },
+    {
+        "StockSymbol": "LT",
+        "StockName": "Larsen & Toubro Limited"
+    },
+    {
+        "StockSymbol": "LTI",
+        "StockName": "Larsen & Toubro Infotech Limited"
+    },
+    {
+        "StockSymbol": "LTTS",
+        "StockName": "L&T Technology Services Limited"
+    },
+    {
+        "StockSymbol": "LUMAXIND",
+        "StockName": "Lumax Industries Limited"
+    },
+    {
+        "StockSymbol": "LUMAXTECH",
+        "StockName": "Lumax Auto Technologies Limited"
+    },
+    {
+        "StockSymbol": "LUPIN",
+        "StockName": "Lupin Limited"
+    },
+    {
+        "StockSymbol": "LUXIND",
+        "StockName": "Lux Industries Limited"
+    },
+    {
+        "StockSymbol": "LYKALABS",
+        "StockName": "Lyka Labs Limited"
+    },
+    {
+        "StockSymbol": "LYPSAGEMS",
+        "StockName": "Lypsa Gems & Jewellery Limited"
+    },
+    {
+        "StockSymbol": "M&M",
+        "StockName": "Mahindra & Mahindra Limited"
+    },
+    {
+        "StockSymbol": "M&MFIN",
+        "StockName": "Mahindra & Mahindra Financial Services Limited"
+    },
+    {
+        "StockSymbol": "MAANALU",
+        "StockName": "Maan Aluminium Limited"
+    },
+    {
+        "StockSymbol": "MADHAV",
+        "StockName": "Madhav Marbles and Granites Limited"
+    },
+    {
+        "StockSymbol": "MADHUCON",
+        "StockName": "Madhucon Projects Limited"
+    },
+    {
+        "StockSymbol": "MADRASFERT",
+        "StockName": "Madras Fertilizers Limited"
+    },
+    {
+        "StockSymbol": "MAGADSUGAR",
+        "StockName": "Magadh Sugar & Energy Limited"
+    },
+    {
+        "StockSymbol": "MAGMA",
+        "StockName": "Magma Fincorp Limited"
+    },
+    {
+        "StockSymbol": "MAGNUM",
+        "StockName": "Magnum Ventures Limited"
+    },
+    {
+        "StockSymbol": "MAHABANK",
+        "StockName": "Bank of Maharashtra"
+    },
+    {
+        "StockSymbol": "MAHAPEXLTD",
+        "StockName": "Maha Rashtra Apex Corporation Limited"
+    },
+    {
+        "StockSymbol": "MAHASTEEL",
+        "StockName": "Mahamaya Steel Industries Limited"
+    },
+    {
+        "StockSymbol": "MAHESHWARI",
+        "StockName": "Maheshwari Logistics Limited"
+    },
+    {
+        "StockSymbol": "MAHINDCIE",
+        "StockName": "Mahindra CIE Automotive Limited"
+    },
+    {
+        "StockSymbol": "MAHLIFE",
+        "StockName": "Mahindra Lifespace Developers Limited"
+    },
+    {
+        "StockSymbol": "MAHLOG",
+        "StockName": "Mahindra Logistics Limited"
+    },
+    {
+        "StockSymbol": "MAHSCOOTER",
+        "StockName": "Maharashtra Scooters Limited"
+    },
+    {
+        "StockSymbol": "MAHSEAMLES",
+        "StockName": "Maharashtra Seamless Limited"
+    },
+    {
+        "StockSymbol": "MAITHANALL",
+        "StockName": "Maithan Alloys Limited"
+    },
+    {
+        "StockSymbol": "MAJESCO",
+        "StockName": "Majesco Limited"
+    },
+    {
+        "StockSymbol": "MALUPAPER",
+        "StockName": "Malu Paper Mills Limited"
+    },
+    {
+        "StockSymbol": "MANAKALUCO",
+        "StockName": "Manaksia Aluminium Company Limited"
+    },
+    {
+        "StockSymbol": "MANAKCOAT",
+        "StockName": "Manaksia Coated Metals & Industries Limited"
+    },
+    {
+        "StockSymbol": "MANAKSIA",
+        "StockName": "Manaksia Limited"
+    },
+    {
+        "StockSymbol": "MANAKSTEEL",
+        "StockName": "Manaksia Steels Limited"
+    },
+    {
+        "StockSymbol": "MANALIPETC",
+        "StockName": "Manali Petrochemicals Limited"
+    },
+    {
+        "StockSymbol": "MANAPPURAM",
+        "StockName": "Manappuram Finance Limited"
+    },
+    {
+        "StockSymbol": "MANGALAM",
+        "StockName": "Mangalam Drugs And Organics Limited"
+    },
+    {
+        "StockSymbol": "MANGCHEFER",
+        "StockName": "Mangalore Chemicals & Fertilizers Limited"
+    },
+    {
+        "StockSymbol": "MANGLMCEM",
+        "StockName": "Mangalam Cement Limited"
+    },
+    {
+        "StockSymbol": "MANGTIMBER",
+        "StockName": "Mangalam Timber Products Limited"
+    },
+    {
+        "StockSymbol": "MANINDS",
+        "StockName": "Man Industries (India) Limited"
+    },
+    {
+        "StockSymbol": "MANINFRA",
+        "StockName": "Man Infraconstruction Limited"
+    },
+    {
+        "StockSymbol": "MANPASAND",
+        "StockName": "Manpasand Beverages Limited"
+    },
+    {
+        "StockSymbol": "MANUGRAPH",
+        "StockName": "Manugraph India Limited"
+    },
+    {
+        "StockSymbol": "MARALOVER",
+        "StockName": "Maral Overseas Limited"
+    },
+    {
+        "StockSymbol": "MARATHON",
+        "StockName": "Marathon Nextgen Realty Limited"
+    },
+    {
+        "StockSymbol": "MARICO",
+        "StockName": "Marico Limited"
+    },
+    {
+        "StockSymbol": "MARKSANS",
+        "StockName": "Marksans Pharma Limited"
+    },
+    {
+        "StockSymbol": "MARUTI",
+        "StockName": "Maruti Suzuki India Limited"
+    },
+    {
+        "StockSymbol": "MASFIN",
+        "StockName": "MAS Financial Services Limited"
+    },
+    {
+        "StockSymbol": "MASKINVEST",
+        "StockName": "Mask Investments Limited"
+    },
+    {
+        "StockSymbol": "MASTEK",
+        "StockName": "Mastek Limited"
+    },
+    {
+        "StockSymbol": "MATRIMONY",
+        "StockName": "Matrimony.Com Limited"
+    },
+    {
+        "StockSymbol": "MAWANASUG",
+        "StockName": "Mawana Sugars Limited"
+    },
+    {
+        "StockSymbol": "MAXINDIA",
+        "StockName": "Max India Limited"
+    },
+    {
+        "StockSymbol": "MAXVIL",
+        "StockName": "Max Ventures and Industries Limited"
+    },
+    {
+        "StockSymbol": "MAYURUNIQ",
+        "StockName": "Mayur Uniquoters Ltd"
+    },
+    {
+        "StockSymbol": "MAZDA",
+        "StockName": "Mazda Limited"
+    },
+    {
+        "StockSymbol": "MBAPL",
+        "StockName": "Madhya Bharat Agro Products Limited"
+    },
+    {
+        "StockSymbol": "MBECL",
+        "StockName": "Mcnally Bharat Engineering Company Limited"
+    },
+    {
+        "StockSymbol": "MBLINFRA",
+        "StockName": "MBL Infrastructures Limited"
+    },
+    {
+        "StockSymbol": "MCDHOLDING",
+        "StockName": "McDowell Holdings Limited"
+    },
+    {
+        "StockSymbol": "MCDOWELL-N",
+        "StockName": "United Spirits Limited"
+    },
+    {
+        "StockSymbol": "MCLEODRUSS",
+        "StockName": "Mcleod Russel India Limited"
+    },
+    {
+        "StockSymbol": "MCX",
+        "StockName": "Multi Commodity Exchange of India Limited"
+    },
+    {
+        "StockSymbol": "MEGASOFT",
+        "StockName": "Megasoft Limited"
+    },
+    {
+        "StockSymbol": "MEGH",
+        "StockName": "Meghmani Organics Limited"
+    },
+    {
+        "StockSymbol": "MELSTAR",
+        "StockName": "Melstar Information Technologies Limited"
+    },
+    {
+        "StockSymbol": "MENONBE",
+        "StockName": "Menon Bearings Limited"
+    },
+    {
+        "StockSymbol": "MEP",
+        "StockName": "MEP Infrastructure Developers Limited"
+    },
+    {
+        "StockSymbol": "MERCATOR",
+        "StockName": "Mercator Limited"
+    },
+    {
+        "StockSymbol": "METALFORGE",
+        "StockName": "Metalyst Forgings Limited"
+    },
+    {
+        "StockSymbol": "METKORE",
+        "StockName": "Metkore Alloys & Industries Limited"
+    },
+    {
+        "StockSymbol": "METROPOLIS",
+        "StockName": "Metropolis Healthcare Limited"
+    },
+    {
+        "StockSymbol": "MFSL",
+        "StockName": "Max Financial Services Limited"
+    },
+    {
+        "StockSymbol": "MGL",
+        "StockName": "Mahanagar Gas Limited"
+    },
+    {
+        "StockSymbol": "MHRIL",
+        "StockName": "Mahindra Holidays & Resorts India Limited"
+    },
+    {
+        "StockSymbol": "MIC",
+        "StockName": "MIC Electronics Limited"
+    },
+    {
+        "StockSymbol": "MIDHANI",
+        "StockName": "Mishra Dhatu Nigam Limited"
+    },
+    {
+        "StockSymbol": "MINDACORP",
+        "StockName": "Minda Corporation Limited"
+    },
+    {
+        "StockSymbol": "MINDAIND",
+        "StockName": "Minda Industries Limited"
+    },
+    {
+        "StockSymbol": "MINDTECK",
+        "StockName": "Mindteck (India) Limited"
+    },
+    {
+        "StockSymbol": "MINDTREE",
+        "StockName": "MindTree Limited"
+    },
+    {
+        "StockSymbol": "MIRCELECTR",
+        "StockName": "MIRC Electronics Limited"
+    },
+    {
+        "StockSymbol": "MIRZAINT",
+        "StockName": "Mirza International Limited"
+    },
+    {
+        "StockSymbol": "MMFL",
+        "StockName": "MM Forgings Limited"
+    },
+    {
+        "StockSymbol": "MMTC",
+        "StockName": "MMTC Limited"
+    },
+    {
+        "StockSymbol": "MODIRUBBER",
+        "StockName": "Modi Rubber Limited"
+    },
+    {
+        "StockSymbol": "MOHITIND",
+        "StockName": "Mohit Industries Limited"
+    },
+    {
+        "StockSymbol": "MOHOTAIND",
+        "StockName": "Mohota Industries Limited"
+    },
+    {
+        "StockSymbol": "MOIL",
+        "StockName": "MOIL Limited"
+    },
+    {
+        "StockSymbol": "MOLDTECH",
+        "StockName": "Mold-Tek Technologies Limited"
+    },
+    {
+        "StockSymbol": "MOLDTKPAC",
+        "StockName": "Mold-Tek Packaging Limited"
+    },
+    {
+        "StockSymbol": "MONTECARLO",
+        "StockName": "Monte Carlo Fashions Limited"
+    },
+    {
+        "StockSymbol": "MORARJEE",
+        "StockName": "Morarjee Textiles Limited"
+    },
+    {
+        "StockSymbol": "MOREPENLAB",
+        "StockName": "Morepen Laboratories Limited"
+    },
+    {
+        "StockSymbol": "MOTHERSUMI",
+        "StockName": "Motherson Sumi Systems Limited"
+    },
+    {
+        "StockSymbol": "MOTILALOFS",
+        "StockName": "Motilal Oswal Financial Services Limited"
+    },
+    {
+        "StockSymbol": "MOTOGENFIN",
+        "StockName": "The Motor & General Finance Limited"
+    },
+    {
+        "StockSymbol": "MPHASIS",
+        "StockName": "MphasiS Limited"
+    },
+    {
+        "StockSymbol": "MPSLTD",
+        "StockName": "MPS Limited"
+    },
+    {
+        "StockSymbol": "MRF",
+        "StockName": "MRF Limited"
+    },
+    {
+        "StockSymbol": "MRO-TEK",
+        "StockName": "MRO-TEK Realty Limited"
+    },
+    {
+        "StockSymbol": "MRPL",
+        "StockName": "Mangalore Refinery and Petrochemicals Limited"
+    },
+    {
+        "StockSymbol": "MSPL",
+        "StockName": "MSP Steel & Power Limited"
+    },
+    {
+        "StockSymbol": "MSTCLTD",
+        "StockName": "Mstc Limited"
+    },
+    {
+        "StockSymbol": "MTEDUCARE",
+        "StockName": "MT Educare Limited"
+    },
+    {
+        "StockSymbol": "MTNL",
+        "StockName": "Mahanagar Telephone Nigam Limited"
+    },
+    {
+        "StockSymbol": "MUKANDENGG",
+        "StockName": "Mukand Engineers Limited"
+    },
+    {
+        "StockSymbol": "MUKANDLTD",
+        "StockName": "Mukand Limited"
+    },
+    {
+        "StockSymbol": "MUKTAARTS",
+        "StockName": "Mukta Arts Limited"
+    },
+    {
+        "StockSymbol": "MUNJALAU",
+        "StockName": "Munjal Auto Industries Limited"
+    },
+    {
+        "StockSymbol": "MUNJALSHOW",
+        "StockName": "Munjal Showa Limited"
+    },
+    {
+        "StockSymbol": "MURUDCERA",
+        "StockName": "Murudeshwar Ceramics Limited"
+    },
+    {
+        "StockSymbol": "MUTHOOTCAP",
+        "StockName": "Muthoot Capital Services Limited"
+    },
+    {
+        "StockSymbol": "MUTHOOTFIN",
+        "StockName": "Muthoot Finance Limited"
+    },
+    {
+        "StockSymbol": "MVL",
+        "StockName": "MVL Limited"
+    },
+    {
+        "StockSymbol": "NACLIND",
+        "StockName": "NACL Industries Limited"
+    },
+    {
+        "StockSymbol": "NAGAFERT",
+        "StockName": "Nagarjuna Fertilizers and Chemicals Limited"
+    },
+    {
+        "StockSymbol": "NAGAROIL",
+        "StockName": "Nagarjuna Oil Refinery Limited"
+    },
+    {
+        "StockSymbol": "NAGREEKCAP",
+        "StockName": "Nagreeka Capital & Infrastructure Limited"
+    },
+    {
+        "StockSymbol": "NAGREEKEXP",
+        "StockName": "Nagreeka Exports Limited"
+    },
+    {
+        "StockSymbol": "NAHARCAP",
+        "StockName": "Nahar Capital and Financial Services Limited"
+    },
+    {
+        "StockSymbol": "NAHARINDUS",
+        "StockName": "Nahar Industrial Enterprises Limited"
+    },
+    {
+        "StockSymbol": "NAHARPOLY",
+        "StockName": "Nahar Poly Films Limited"
+    },
+    {
+        "StockSymbol": "NAHARSPING",
+        "StockName": "Nahar Spinning Mills Limited"
+    },
+    {
+        "StockSymbol": "NATCOPHARM",
+        "StockName": "Natco Pharma Limited"
+    },
+    {
+        "StockSymbol": "NATHBIOGEN",
+        "StockName": "Nath Bio-Genes (India) Limited"
+    },
+    {
+        "StockSymbol": "NATIONALUM",
+        "StockName": "National Aluminium Company Limited"
+    },
+    {
+        "StockSymbol": "NATNLSTEEL",
+        "StockName": "National Steel And Agro Industries Limited"
+    },
+    {
+        "StockSymbol": "NAUKRI",
+        "StockName": "Info Edge (India) Limited"
+    },
+    {
+        "StockSymbol": "NAVINFLUOR",
+        "StockName": "Navin Fluorine International Limited"
+    },
+    {
+        "StockSymbol": "NAVKARCORP",
+        "StockName": "Navkar Corporation Limited"
+    },
+    {
+        "StockSymbol": "NAVNETEDUL",
+        "StockName": "Navneet Education Limited"
+    },
+    {
+        "StockSymbol": "NBCC",
+        "StockName": "NBCC (India) Limited"
+    },
+    {
+        "StockSymbol": "NBIFIN",
+        "StockName": "N. B. I. Industrial Finance Company Limited"
+    },
+    {
+        "StockSymbol": "NBVENTURES",
+        "StockName": "Nava Bharat Ventures Limited"
+    },
+    {
+        "StockSymbol": "NCC",
+        "StockName": "NCC Limited"
+    },
+    {
+        "StockSymbol": "NCLIND",
+        "StockName": "NCL Industries Limited"
+    },
+    {
+        "StockSymbol": "NDGL",
+        "StockName": "Naga Dhunseri Group Limited"
+    },
+    {
+        "StockSymbol": "NDL",
+        "StockName": "Nandan Denim Limited"
+    },
+    {
+        "StockSymbol": "NDTV",
+        "StockName": "New Delhi Television Limited"
+    },
+    {
+        "StockSymbol": "NECCLTD",
+        "StockName": "North Eastern Carrying Corporation Limited"
+    },
+    {
+        "StockSymbol": "NECLIFE",
+        "StockName": "Nectar Lifesciences Limited"
+    },
+    {
+        "StockSymbol": "NELCAST",
+        "StockName": "Nelcast Limited"
+    },
+    {
+        "StockSymbol": "NELCO",
+        "StockName": "NELCO Limited"
+    },
+    {
+        "StockSymbol": "NEOGEN",
+        "StockName": "Neogen Chemicals Limited"
+    },
+    {
+        "StockSymbol": "NESCO",
+        "StockName": "Nesco Limited"
+    },
+    {
+        "StockSymbol": "NESTLEIND",
+        "StockName": "Nestle India Limited"
+    },
+    {
+        "StockSymbol": "NETWORK18",
+        "StockName": "Network18 Media & Investments Limited"
+    },
+    {
+        "StockSymbol": "NEULANDLAB",
+        "StockName": "Neuland Laboratories Limited"
+    },
+    {
+        "StockSymbol": "NEWGEN",
+        "StockName": "Newgen Software Technologies Limited"
+    },
+    {
+        "StockSymbol": "NEXTMEDIA",
+        "StockName": "Next Mediaworks Limited"
+    },
+    {
+        "StockSymbol": "NFL",
+        "StockName": "National Fertilizers Limited"
+    },
+    {
+        "StockSymbol": "NH",
+        "StockName": "Narayana Hrudayalaya Ltd."
+    },
+    {
+        "StockSymbol": "NHPC",
+        "StockName": "NHPC Limited"
+    },
+    {
+        "StockSymbol": "NIACL",
+        "StockName": "The New India Assurance Company Limited"
+    },
+    {
+        "StockSymbol": "NIBL",
+        "StockName": "NRB Industrial Bearings Limited"
+    },
+    {
+        "StockSymbol": "NIITLTD",
+        "StockName": "NIIT Limited"
+    },
+    {
+        "StockSymbol": "NIITTECH",
+        "StockName": "NIIT Technologies Limited"
+    },
+    {
+        "StockSymbol": "NILAINFRA",
+        "StockName": "Nila Infrastructures Limited"
+    },
+    {
+        "StockSymbol": "NILASPACES",
+        "StockName": "Nila Spaces Limited"
+    },
+    {
+        "StockSymbol": "NILKAMAL",
+        "StockName": "Nilkamal Limited"
+    },
+    {
+        "StockSymbol": "NIPPOBATRY",
+        "StockName": "Indo-National Limited"
+    },
+    {
+        "StockSymbol": "NIRAJISPAT",
+        "StockName": "Niraj Ispat Industries Limited"
+    },
+    {
+        "StockSymbol": "NITCO",
+        "StockName": "Nitco Limited"
+    },
+    {
+        "StockSymbol": "NITINFIRE",
+        "StockName": "Nitin Fire Protection Industries Limited"
+    },
+    {
+        "StockSymbol": "NITINSPIN",
+        "StockName": "Nitin Spinners Limited"
+    },
+    {
+        "StockSymbol": "NKIND",
+        "StockName": "NK Industries Limited"
+    },
+    {
+        "StockSymbol": "NLCINDIA",
+        "StockName": "NLC India Limited"
+    },
+    {
+        "StockSymbol": "NMDC",
+        "StockName": "NMDC Limited"
+    },
+    {
+        "StockSymbol": "NOCIL",
+        "StockName": "NOCIL Limited"
+    },
+    {
+        "StockSymbol": "NOIDATOLL",
+        "StockName": "Noida Toll Bridge Company Limited"
+    },
+    {
+        "StockSymbol": "NORBTEAEXP",
+        "StockName": "Norben Tea & Exports Limited"
+    },
+    {
+        "StockSymbol": "NRAIL",
+        "StockName": "N R Agarwal Industries Limited"
+    },
+    {
+        "StockSymbol": "NRBBEARING",
+        "StockName": "NRB Bearing Limited"
+    },
+    {
+        "StockSymbol": "NSIL",
+        "StockName": "Nalwa Sons Investments Limited"
+    },
+    {
+        "StockSymbol": "NTL",
+        "StockName": "Neueon Towers Limited"
+    },
+    {
+        "StockSymbol": "NTPC",
+        "StockName": "NTPC Limited"
+    },
+    {
+        "StockSymbol": "NUCLEUS",
+        "StockName": "Nucleus Software Exports Limited"
+    },
+    {
+        "StockSymbol": "NXTDIGITAL",
+        "StockName": "NXTDIGITAL LIMITED"
+    },
+    {
+        "StockSymbol": "OAL",
+        "StockName": "Oriental Aromatics Limited"
+    },
+    {
+        "StockSymbol": "OBEROIRLTY",
+        "StockName": "Oberoi Realty Limited"
+    },
+    {
+        "StockSymbol": "OCCL",
+        "StockName": "Oriental Carbon & Chemicals Limited"
+    },
+    {
+        "StockSymbol": "OFSS",
+        "StockName": "Oracle Financial Services Software Limited"
+    },
+    {
+        "StockSymbol": "OIL",
+        "StockName": "Oil India Limited"
+    },
+    {
+        "StockSymbol": "OILCOUNTUB",
+        "StockName": "Oil Country Tubular Limited"
+    },
+    {
+        "StockSymbol": "OISL",
+        "StockName": "OCL Iron and Steel Limited"
+    },
+    {
+        "StockSymbol": "OLECTRA",
+        "StockName": "Olectra Greentech Limited"
+    },
+    {
+        "StockSymbol": "OMAXAUTO",
+        "StockName": "Omax Autos Limited"
+    },
+    {
+        "StockSymbol": "OMAXE",
+        "StockName": "Omaxe Limited"
+    },
+    {
+        "StockSymbol": "OMKARCHEM",
+        "StockName": "Omkar Speciality Chemicals Limited"
+    },
+    {
+        "StockSymbol": "OMMETALS",
+        "StockName": "OM Metals Infraprojects Limited"
+    },
+    {
+        "StockSymbol": "ONELIFECAP",
+        "StockName": "Onelife Capital Advisors Limited"
+    },
+    {
+        "StockSymbol": "ONEPOINT",
+        "StockName": "One Point One Solutions Limited"
+    },
+    {
+        "StockSymbol": "ONGC",
+        "StockName": "Oil & Natural Gas Corporation Limited"
+    },
+    {
+        "StockSymbol": "ONMOBILE",
+        "StockName": "OnMobile Global Limited"
+    },
+    {
+        "StockSymbol": "ONWARDTEC",
+        "StockName": "Onward Technologies Limited"
+    },
+    {
+        "StockSymbol": "OPTIEMUS",
+        "StockName": "Optiemus Infracom Limited"
+    },
+    {
+        "StockSymbol": "OPTOCIRCUI",
+        "StockName": "Opto Circuits (India) Limited"
+    },
+    {
+        "StockSymbol": "ORBTEXP",
+        "StockName": "Orbit Exports Limited"
+    },
+    {
+        "StockSymbol": "ORICONENT",
+        "StockName": "Oricon Enterprises Limited"
+    },
+    {
+        "StockSymbol": "ORIENTABRA",
+        "StockName": "Orient Abrasives Limited"
+    },
+    {
+        "StockSymbol": "ORIENTALTL",
+        "StockName": "Oriental Trimex Limited"
+    },
+    {
+        "StockSymbol": "ORIENTBANK",
+        "StockName": "Oriental Bank of Commerce"
+    },
+    {
+        "StockSymbol": "ORIENTBELL",
+        "StockName": "Orient Bell Limited"
+    },
+    {
+        "StockSymbol": "ORIENTCEM",
+        "StockName": "Orient Cement Limited"
+    },
+    {
+        "StockSymbol": "ORIENTELEC",
+        "StockName": "Orient Electric Limited"
+    },
+    {
+        "StockSymbol": "ORIENTHOT",
+        "StockName": "Oriental Hotels Limited"
+    },
+    {
+        "StockSymbol": "ORIENTLTD",
+        "StockName": "Orient Press Limited"
+    },
+    {
+        "StockSymbol": "ORIENTPPR",
+        "StockName": "Orient Paper & Industries Limited"
+    },
+    {
+        "StockSymbol": "ORIENTREF",
+        "StockName": "Orient Refractories Limited"
+    },
+    {
+        "StockSymbol": "ORISSAMINE",
+        "StockName": "The Orissa Minerals Development Company Limited"
+    },
+    {
+        "StockSymbol": "ORTEL",
+        "StockName": "Ortel Communications Limited"
+    },
+    {
+        "StockSymbol": "ORTINLABSS",
+        "StockName": "Ortin Laboratories Limited"
+    },
+    {
+        "StockSymbol": "OSWALAGRO",
+        "StockName": "Oswal Agro Mills Limited"
+    },
+    {
+        "StockSymbol": "PAEL",
+        "StockName": "PAE Limited"
+    },
+    {
+        "StockSymbol": "PAGEIND",
+        "StockName": "Page Industries Limited"
+    },
+    {
+        "StockSymbol": "PAISALO",
+        "StockName": "Paisalo Digital Limited"
+    },
+    {
+        "StockSymbol": "PALASHSECU",
+        "StockName": "Palash Securities Limited"
+    },
+    {
+        "StockSymbol": "PALREDTEC",
+        "StockName": "Palred Technologies Limited"
+    },
+    {
+        "StockSymbol": "PANACEABIO",
+        "StockName": "Panacea Biotec Limited"
+    },
+    {
+        "StockSymbol": "PANAMAPET",
+        "StockName": "Panama Petrochem Limited"
+    },
+    {
+        "StockSymbol": "PAPERPROD",
+        "StockName": "Huhtamaki PPL Limited"
+    },
+    {
+        "StockSymbol": "PARABDRUGS",
+        "StockName": "Parabolic Drugs Limited"
+    },
+    {
+        "StockSymbol": "PARACABLES",
+        "StockName": "Paramount Communications Limited"
+    },
+    {
+        "StockSymbol": "PARAGMILK",
+        "StockName": "Parag Milk Foods Limited"
+    },
+    {
+        "StockSymbol": "PARSVNATH",
+        "StockName": "Parsvnath Developers Limited"
+    },
+    {
+        "StockSymbol": "PATELENG",
+        "StockName": "Patel Engineering Limited"
+    },
+    {
+        "StockSymbol": "PATINTLOG",
+        "StockName": "Patel Integrated Logistics Limited"
+    },
+    {
+        "StockSymbol": "PATSPINLTD",
+        "StockName": "Patspin India Limited"
+    },
+    {
+        "StockSymbol": "PCJEWELLER",
+        "StockName": "PC Jeweller Limited"
+    },
+    {
+        "StockSymbol": "PDMJEPAPER",
+        "StockName": "Pudumjee Paper Products Limited"
+    },
+    {
+        "StockSymbol": "PDPL",
+        "StockName": "Parenteral Drugs (India) Limited"
+    },
+    {
+        "StockSymbol": "PDSMFL",
+        "StockName": "PDS Multinational Fashions Limited"
+    },
+    {
+        "StockSymbol": "PEARLPOLY",
+        "StockName": "Pearl Polymers Limited"
+    },
+    {
+        "StockSymbol": "PEL",
+        "StockName": "Piramal Enterprises Limited"
+    },
+    {
+        "StockSymbol": "PENIND",
+        "StockName": "Pennar Industries Limited"
+    },
+    {
+        "StockSymbol": "PENINLAND",
+        "StockName": "Peninsula Land Limited"
+    },
+    {
+        "StockSymbol": "PERSISTENT",
+        "StockName": "Persistent Systems Limited"
+    },
+    {
+        "StockSymbol": "PETRONENGG",
+        "StockName": "Petron Engineering Construction Limited"
+    },
+    {
+        "StockSymbol": "PETRONET",
+        "StockName": "Petronet LNG Limited"
+    },
+    {
+        "StockSymbol": "PFC",
+        "StockName": "Power Finance Corporation Limited"
+    },
+    {
+        "StockSymbol": "PFIZER",
+        "StockName": "Pfizer Limited"
+    },
+    {
+        "StockSymbol": "PFOCUS",
+        "StockName": "Prime Focus Limited"
+    },
+    {
+        "StockSymbol": "PFS",
+        "StockName": "PTC India Financial Services Limited"
+    },
+    {
+        "StockSymbol": "PGEL",
+        "StockName": "PG Electroplast Limited"
+    },
+    {
+        "StockSymbol": "PGHH",
+        "StockName": "Procter & Gamble Hygiene and Health Care Limited"
+    },
+    {
+        "StockSymbol": "PGHL",
+        "StockName": "Procter & Gamble Health Limited"
+    },
+    {
+        "StockSymbol": "PGIL",
+        "StockName": "Pearl Global Industries Limited"
+    },
+    {
+        "StockSymbol": "PHILIPCARB",
+        "StockName": "Phillips Carbon Black Limited"
+    },
+    {
+        "StockSymbol": "PHOENIXLTD",
+        "StockName": "The Phoenix Mills Limited"
+    },
+    {
+        "StockSymbol": "PIDILITIND",
+        "StockName": "Pidilite Industries Limited"
+    },
+    {
+        "StockSymbol": "PIIND",
+        "StockName": "PI Industries Limited"
+    },
+    {
+        "StockSymbol": "PILANIINVS",
+        "StockName": "Pilani Investment and Industries Corporation Limited"
+    },
+    {
+        "StockSymbol": "PILITA",
+        "StockName": "PIL ITALICA LIFESTYLE LIMITED"
+    },
+    {
+        "StockSymbol": "PIONDIST",
+        "StockName": "Pioneer Distilleries Limited"
+    },
+    {
+        "StockSymbol": "PIONEEREMB",
+        "StockName": "Pioneer Embroideries Limited"
+    },
+    {
+        "StockSymbol": "PIRPHYTO",
+        "StockName": "Piramal Phytocare Limited"
+    },
+    {
+        "StockSymbol": "PITTIENG",
+        "StockName": "Pitti Engineering Limited"
+    },
+    {
+        "StockSymbol": "PKTEA",
+        "StockName": "The Peria Karamalai Tea & Produce Company Limited"
+    },
+    {
+        "StockSymbol": "PLASTIBLEN",
+        "StockName": "Plastiblends India Limited"
+    },
+    {
+        "StockSymbol": "PNB",
+        "StockName": "Punjab National Bank"
+    },
+    {
+        "StockSymbol": "PNBGILTS",
+        "StockName": "PNB Gilts Limited"
+    },
+    {
+        "StockSymbol": "PNBHOUSING",
+        "StockName": "PNB Housing Finance Limited"
+    },
+    {
+        "StockSymbol": "PNC",
+        "StockName": "Pritish Nandy Communications Limited"
+    },
+    {
+        "StockSymbol": "PNCINFRA",
+        "StockName": "PNC Infratech Limited"
+    },
+    {
+        "StockSymbol": "PODDARHOUS",
+        "StockName": "Poddar Housing and Development Limited"
+    },
+    {
+        "StockSymbol": "PODDARMENT",
+        "StockName": "Poddar Pigments Limited"
+    },
+    {
+        "StockSymbol": "POKARNA",
+        "StockName": "Pokarna Limited"
+    },
+    {
+        "StockSymbol": "POLYCAB",
+        "StockName": "Polycab India Limited"
+    },
+    {
+        "StockSymbol": "POLYMED",
+        "StockName": "Poly Medicure Limited"
+    },
+    {
+        "StockSymbol": "POLYPLEX",
+        "StockName": "Polyplex Corporation Limited"
+    },
+    {
+        "StockSymbol": "PONNIERODE",
+        "StockName": "Ponni Sugars (Erode) Limited"
+    },
+    {
+        "StockSymbol": "POWERGRID",
+        "StockName": "Power Grid Corporation of India Limited"
+    },
+    {
+        "StockSymbol": "POWERMECH",
+        "StockName": "Power Mech Projects Limited"
+    },
+    {
+        "StockSymbol": "PPAP",
+        "StockName": "PPAP Automotive Limited"
+    },
+    {
+        "StockSymbol": "PPL",
+        "StockName": "Prakash Pipes Limited"
+    },
+    {
+        "StockSymbol": "PRABHAT",
+        "StockName": "Prabhat Dairy Limited"
+    },
+    {
+        "StockSymbol": "PRADIP",
+        "StockName": "Pradip Overseas Limited"
+    },
+    {
+        "StockSymbol": "PRAENG",
+        "StockName": "Prajay Engineers Syndicate Limited"
+    },
+    {
+        "StockSymbol": "PRAJIND",
+        "StockName": "Praj Industries Limited"
+    },
+    {
+        "StockSymbol": "PRAKASH",
+        "StockName": "Prakash Industries Limited"
+    },
+    {
+        "StockSymbol": "PRAKASHSTL",
+        "StockName": "Prakash Steelage Limited"
+    },
+    {
+        "StockSymbol": "PRAXIS",
+        "StockName": "Praxis Home Retail Limited"
+    },
+    {
+        "StockSymbol": "PRECAM",
+        "StockName": "Precision Camshafts Limited"
+    },
+    {
+        "StockSymbol": "PRECOT",
+        "StockName": "Precot Meridian Limited"
+    },
+    {
+        "StockSymbol": "PRECWIRE",
+        "StockName": "Precision Wires India Limited"
+    },
+    {
+        "StockSymbol": "PREMEXPLN",
+        "StockName": "Premier Explosives Limited"
+    },
+    {
+        "StockSymbol": "PREMIER",
+        "StockName": "Premier Limited"
+    },
+    {
+        "StockSymbol": "PREMIERPOL",
+        "StockName": "Premier Polyfilm Limited"
+    },
+    {
+        "StockSymbol": "PRESSMN",
+        "StockName": "Pressman Advertising Limited"
+    },
+    {
+        "StockSymbol": "PRESTIGE",
+        "StockName": "Prestige Estates Projects Limited"
+    },
+    {
+        "StockSymbol": "PRICOLLTD",
+        "StockName": "Pricol Limited"
+    },
+    {
+        "StockSymbol": "PRIMESECU",
+        "StockName": "Prime Securities Limited"
+    },
+    {
+        "StockSymbol": "PROSEED",
+        "StockName": "Proseed India Limited"
+    },
+    {
+        "StockSymbol": "PROVOGE",
+        "StockName": "Provogue (India) Limited"
+    },
+    {
+        "StockSymbol": "PROZONINTU",
+        "StockName": "Prozone Intu Properties Limited"
+    },
+    {
+        "StockSymbol": "PRSMJOHNSN",
+        "StockName": "Prism Johnson Limited"
+    },
+    {
+        "StockSymbol": "PSB",
+        "StockName": "Punjab & Sind Bank"
+    },
+    {
+        "StockSymbol": "PSL",
+        "StockName": "PSL Limited"
+    },
+    {
+        "StockSymbol": "PSPPROJECT",
+        "StockName": "PSP Projects Limited"
+    },
+    {
+        "StockSymbol": "PTC",
+        "StockName": "PTC India Limited"
+    },
+    {
+        "StockSymbol": "PTL",
+        "StockName": "PTL Enterprises Limited"
+    },
+    {
+        "StockSymbol": "PUNJABCHEM",
+        "StockName": "Punjab Chemicals & Crop Protection Limited"
+    },
+    {
+        "StockSymbol": "PUNJLLOYD",
+        "StockName": "Punj Lloyd Limited"
+    },
+    {
+        "StockSymbol": "PURVA",
+        "StockName": "Puravankara Limited"
+    },
+    {
+        "StockSymbol": "PVR",
+        "StockName": "PVR Limited"
+    },
+    {
+        "StockSymbol": "QUESS",
+        "StockName": "Quess Corp Limited"
+    },
+    {
+        "StockSymbol": "QUICKHEAL",
+        "StockName": "Quick Heal Technologies Limited"
+    },
+    {
+        "StockSymbol": "RADAAN",
+        "StockName": "Radaan Mediaworks India Limited"
+    },
+    {
+        "StockSymbol": "RADICO",
+        "StockName": "Radico Khaitan Limited"
+    },
+    {
+        "StockSymbol": "RADIOCITY",
+        "StockName": "Music Broadcast Limited"
+    },
+    {
+        "StockSymbol": "RAIN",
+        "StockName": "Rain Industries Limited"
+    },
+    {
+        "StockSymbol": "RAJESHEXPO",
+        "StockName": "Rajesh Exports Limited"
+    },
+    {
+        "StockSymbol": "RAJRAYON",
+        "StockName": "Raj Rayon Industries Limited"
+    },
+    {
+        "StockSymbol": "RAJSREESUG",
+        "StockName": "Rajshree Sugars & Chemicals Limited"
+    },
+    {
+        "StockSymbol": "RAJTV",
+        "StockName": "Raj Television Network Limited"
+    },
+    {
+        "StockSymbol": "RAJVIR",
+        "StockName": "Rajvir Industries Limited"
+    },
+    {
+        "StockSymbol": "RALLIS",
+        "StockName": "Rallis India Limited"
+    },
+    {
+        "StockSymbol": "RAMANEWS",
+        "StockName": "Shree Rama Newsprint Limited"
+    },
+    {
+        "StockSymbol": "RAMASTEEL",
+        "StockName": "Rama Steel Tubes Limited"
+    },
+    {
+        "StockSymbol": "RAMCOCEM",
+        "StockName": "The Ramco Cements Limited"
+    },
+    {
+        "StockSymbol": "RAMCOIND",
+        "StockName": "Ramco Industries Limited"
+    },
+    {
+        "StockSymbol": "RAMCOSYS",
+        "StockName": "Ramco Systems Limited"
+    },
+    {
+        "StockSymbol": "RAMKY",
+        "StockName": "Ramky Infrastructure Limited"
+    },
+    {
+        "StockSymbol": "RAMSARUP",
+        "StockName": "Ramsarup Industries Limited"
+    },
+    {
+        "StockSymbol": "RANASUG",
+        "StockName": "Rana Sugars Limited"
+    },
+    {
+        "StockSymbol": "RANEENGINE",
+        "StockName": "Rane Engine Valve Limited"
+    },
+    {
+        "StockSymbol": "RANEHOLDIN",
+        "StockName": "Rane Holdings Limited"
+    },
+    {
+        "StockSymbol": "RATNAMANI",
+        "StockName": "Ratnamani Metals & Tubes Limited"
+    },
+    {
+        "StockSymbol": "RAYMOND",
+        "StockName": "Raymond Limited"
+    },
+    {
+        "StockSymbol": "RBL",
+        "StockName": "Rane Brake Lining Limited"
+    },
+    {
+        "StockSymbol": "RBLBANK",
+        "StockName": "RBL Bank Limited"
+    },
+    {
+        "StockSymbol": "RCF",
+        "StockName": "Rashtriya Chemicals and Fertilizers Limited"
+    },
+    {
+        "StockSymbol": "RCOM",
+        "StockName": "Reliance Communications Limited"
+    },
+    {
+        "StockSymbol": "RECLTD",
+        "StockName": "REC Limited"
+    },
+    {
+        "StockSymbol": "REDINGTON",
+        "StockName": "Redington (India) Limited"
+    },
+    {
+        "StockSymbol": "REFEX",
+        "StockName": "Refex Industries Limited"
+    },
+    {
+        "StockSymbol": "REGENCERAM",
+        "StockName": "Regency Ceramics Limited"
+    },
+    {
+        "StockSymbol": "RELAXO",
+        "StockName": "Relaxo Footwears Limited"
+    },
+    {
+        "StockSymbol": "RELCAPITAL",
+        "StockName": "Reliance Capital Limited"
+    },
+    {
+        "StockSymbol": "RELIANCE",
+        "StockName": "Reliance Industries Limited"
+    },
+    {
+        "StockSymbol": "RELIGARE",
+        "StockName": "Religare Enterprises Limited"
+    },
+    {
+        "StockSymbol": "RELINFRA",
+        "StockName": "Reliance Infrastructure Limited"
+    },
+    {
+        "StockSymbol": "REMSONSIND",
+        "StockName": "Remsons Industries Limited"
+    },
+    {
+        "StockSymbol": "RENUKA",
+        "StockName": "Shree Renuka Sugars Limited"
+    },
+    {
+        "StockSymbol": "REPCOHOME",
+        "StockName": "Repco Home Finance Limited"
+    },
+    {
+        "StockSymbol": "REPRO",
+        "StockName": "Repro India Limited"
+    },
+    {
+        "StockSymbol": "RESPONIND",
+        "StockName": "Responsive Industries Limited"
+    },
+    {
+        "StockSymbol": "REVATHI",
+        "StockName": "Revathi Equipment Limited"
+    },
+    {
+        "StockSymbol": "RGL",
+        "StockName": "Renaissance Global Limited"
+    },
+    {
+        "StockSymbol": "RHFL",
+        "StockName": "Reliance Home Finance Limited"
+    },
+    {
+        "StockSymbol": "RICOAUTO",
+        "StockName": "Rico Auto Industries Limited"
+    },
+    {
+        "StockSymbol": "RIIL",
+        "StockName": "Reliance Industrial Infrastructure Limited"
+    },
+    {
+        "StockSymbol": "RITES",
+        "StockName": "RITES Limited"
+    },
+    {
+        "StockSymbol": "RKDL",
+        "StockName": "Ravi Kumar Distilleries Limited"
+    },
+    {
+        "StockSymbol": "RKFORGE",
+        "StockName": "Ramkrishna Forgings Limited"
+    },
+    {
+        "StockSymbol": "RMCL",
+        "StockName": "Radha Madhav Corporation Limited"
+    },
+    {
+        "StockSymbol": "RML",
+        "StockName": "Rane (Madras) Limited"
+    },
+    {
+        "StockSymbol": "RNAM",
+        "StockName": "Reliance Nippon Life Asset Management Limited"
+    },
+    {
+        "StockSymbol": "RNAVAL",
+        "StockName": "Reliance Naval and Engineering Limited"
+    },
+    {
+        "StockSymbol": "ROHITFERRO",
+        "StockName": "Rohit Ferro-Tech Limited"
+    },
+    {
+        "StockSymbol": "ROHLTD",
+        "StockName": "Royal Orchid Hotels Limited"
+    },
+    {
+        "StockSymbol": "ROLLT",
+        "StockName": "Rollatainers Limited"
+    },
+    {
+        "StockSymbol": "ROLTA",
+        "StockName": "Rolta India Limited"
+    },
+    {
+        "StockSymbol": "ROSSELLIND",
+        "StockName": "Rossell India Limited"
+    },
+    {
+        "StockSymbol": "RPGLIFE",
+        "StockName": "RPG Life Sciences Limited"
+    },
+    {
+        "StockSymbol": "RPOWER",
+        "StockName": "Reliance Power Limited"
+    },
+    {
+        "StockSymbol": "RPPINFRA",
+        "StockName": "R.P.P. Infra Projects Limited"
+    },
+    {
+        "StockSymbol": "RSSOFTWARE",
+        "StockName": "R. S. Software (India) Limited"
+    },
+    {
+        "StockSymbol": "RSWM",
+        "StockName": "RSWM Limited"
+    },
+    {
+        "StockSymbol": "RSYSTEMS",
+        "StockName": "R Systems International Limited"
+    },
+    {
+        "StockSymbol": "RTNINFRA",
+        "StockName": "RattanIndia Infrastructure Limited"
+    },
+    {
+        "StockSymbol": "RTNPOWER",
+        "StockName": "RattanIndia Power Limited"
+    },
+    {
+        "StockSymbol": "RUBYMILLS",
+        "StockName": "The Ruby Mills Limited"
+    },
+    {
+        "StockSymbol": "RUCHINFRA",
+        "StockName": "Ruchi Infrastructure Limited"
+    },
+    {
+        "StockSymbol": "RUCHIRA",
+        "StockName": "Ruchira Papers Limited"
+    },
+    {
+        "StockSymbol": "RUCHISOYA",
+        "StockName": "Ruchi Soya Industries Limited"
+    },
+    {
+        "StockSymbol": "RUPA",
+        "StockName": "Rupa & Company Limited"
+    },
+    {
+        "StockSymbol": "RUSHIL",
+        "StockName": "Rushil Decor Limited"
+    },
+    {
+        "StockSymbol": "RVNL",
+        "StockName": "Rail Vikas Nigam Limited"
+    },
+    {
+        "StockSymbol": "SABEVENTS",
+        "StockName": "Sab Events & Governance Now Media Limited"
+    },
+    {
+        "StockSymbol": "SABTN",
+        "StockName": "Sri Adhikari Brothers Television Network Limited"
+    },
+    {
+        "StockSymbol": "SADBHAV",
+        "StockName": "Sadbhav Engineering Limited"
+    },
+    {
+        "StockSymbol": "SADBHIN",
+        "StockName": "Sadbhav Infrastructure Project Limited"
+    },
+    {
+        "StockSymbol": "SAFARI",
+        "StockName": "Safari Industries (India) Limited"
+    },
+    {
+        "StockSymbol": "SAGARDEEP",
+        "StockName": "Sagardeep Alloys Limited"
+    },
+    {
+        "StockSymbol": "SAGCEM",
+        "StockName": "Sagar Cements Limited"
+    },
+    {
+        "StockSymbol": "SAIL",
+        "StockName": "Steel Authority of India Limited"
+    },
+    {
+        "StockSymbol": "SAKAR",
+        "StockName": "Sakar Healthcare Limited"
+    },
+    {
+        "StockSymbol": "SAKHTISUG",
+        "StockName": "Sakthi Sugars Limited"
+    },
+    {
+        "StockSymbol": "SAKSOFT",
+        "StockName": "Saksoft Limited"
+    },
+    {
+        "StockSymbol": "SAKUMA",
+        "StockName": "Sakuma Exports Limited"
+    },
+    {
+        "StockSymbol": "SALASAR",
+        "StockName": "Salasar Techno Engineering Limited"
+    },
+    {
+        "StockSymbol": "SALONA",
+        "StockName": "Salona Cotspin Limited"
+    },
+    {
+        "StockSymbol": "SALSTEEL",
+        "StockName": "S.A.L. Steel Limited"
+    },
+    {
+        "StockSymbol": "SALZERELEC",
+        "StockName": "Salzer Electronics Limited"
+    },
+    {
+        "StockSymbol": "SAMBHAAV",
+        "StockName": "Sambhaav Media Limited"
+    },
+    {
+        "StockSymbol": "SANCO",
+        "StockName": "Sanco Industries Limited"
+    },
+    {
+        "StockSymbol": "SANDESH",
+        "StockName": "The Sandesh Limited"
+    },
+    {
+        "StockSymbol": "SANDHAR",
+        "StockName": "Sandhar Technologies Limited"
+    },
+    {
+        "StockSymbol": "SANGAMIND",
+        "StockName": "Sangam (India) Limited"
+    },
+    {
+        "StockSymbol": "SANGHIIND",
+        "StockName": "Sanghi Industries Limited"
+    },
+    {
+        "StockSymbol": "SANGHVIFOR",
+        "StockName": "Sanghvi Forging and Engineering Limited"
+    },
+    {
+        "StockSymbol": "SANGHVIMOV",
+        "StockName": "Sanghvi Movers Limited"
+    },
+    {
+        "StockSymbol": "SANGINITA",
+        "StockName": "Sanginita Chemicals Limited"
+    },
+    {
+        "StockSymbol": "SANOFI",
+        "StockName": "Sanofi India Limited"
+    },
+    {
+        "StockSymbol": "SANWARIA",
+        "StockName": "Sanwaria Consumer Limited"
+    },
+    {
+        "StockSymbol": "SARDAEN",
+        "StockName": "Sarda Energy & Minerals Limited"
+    },
+    {
+        "StockSymbol": "SAREGAMA",
+        "StockName": "Saregama India Limited"
+    },
+    {
+        "StockSymbol": "SARLAPOLY",
+        "StockName": "Sarla Performance Fibers Limited"
+    },
+    {
+        "StockSymbol": "SASKEN",
+        "StockName": "Sasken Technologies Limited"
+    },
+    {
+        "StockSymbol": "SASTASUNDR",
+        "StockName": "Sastasundar Ventures Limited"
+    },
+    {
+        "StockSymbol": "SATHAISPAT",
+        "StockName": "Sathavahana Ispat Limited"
+    },
+    {
+        "StockSymbol": "SATIA",
+        "StockName": "Satia Industries Limited"
+    },
+    {
+        "StockSymbol": "SATIN",
+        "StockName": "Satin Creditcare Network Limited"
+    },
+    {
+        "StockSymbol": "SBILIFE",
+        "StockName": "SBI Life Insurance Company Limited"
+    },
+    {
+        "StockSymbol": "SBIN",
+        "StockName": "State Bank of India"
+    },
+    {
+        "StockSymbol": "SCAPDVR",
+        "StockName": "Stampede Capital Limited"
+    },
+    {
+        "StockSymbol": "SCHAEFFLER",
+        "StockName": "Schaeffler India Limited"
+    },
+    {
+        "StockSymbol": "SCHAND",
+        "StockName": "S Chand And Company Limited"
+    },
+    {
+        "StockSymbol": "SCHNEIDER",
+        "StockName": "Schneider Electric Infrastructure Limited"
+    },
+    {
+        "StockSymbol": "SCI",
+        "StockName": "Shipping Corporation Of India Limited"
+    },
+    {
+        "StockSymbol": "SDBL",
+        "StockName": "Som Distilleries & Breweries Limited"
+    },
+    {
+        "StockSymbol": "SEAMECLTD",
+        "StockName": "Seamec Limited"
+    },
+    {
+        "StockSymbol": "SELAN",
+        "StockName": "Selan Exploration Technology Limited"
+    },
+    {
+        "StockSymbol": "SELMCL",
+        "StockName": "SEL Manufacturing Company Limited"
+    },
+    {
+        "StockSymbol": "SEPOWER",
+        "StockName": "S.E. Power Limited"
+    },
+    {
+        "StockSymbol": "SEQUENT",
+        "StockName": "Sequent Scientific Limited"
+    },
+    {
+        "StockSymbol": "SESHAPAPER",
+        "StockName": "Seshasayee Paper and Boards Limited"
+    },
+    {
+        "StockSymbol": "SETCO",
+        "StockName": "Setco Automotive Limited"
+    },
+    {
+        "StockSymbol": "SETUINFRA",
+        "StockName": "Setubandhan Infrastructure Limited"
+    },
+    {
+        "StockSymbol": "SEYAIND",
+        "StockName": "Seya Industries Limited"
+    },
+    {
+        "StockSymbol": "SEZAL",
+        "StockName": "Sezal Glass Limited"
+    },
+    {
+        "StockSymbol": "SFL",
+        "StockName": "Sheela Foam Limited"
+    },
+    {
+        "StockSymbol": "SGL",
+        "StockName": "STL Global Limited"
+    },
+    {
+        "StockSymbol": "SHAHALLOYS",
+        "StockName": "Shah Alloys Limited"
+    },
+    {
+        "StockSymbol": "SHAKTIPUMP",
+        "StockName": "Shakti Pumps (India) Limited"
+    },
+    {
+        "StockSymbol": "SHALBY",
+        "StockName": "Shalby Limited"
+    },
+    {
+        "StockSymbol": "SHALPAINTS",
+        "StockName": "Shalimar Paints Limited"
+    },
+    {
+        "StockSymbol": "SHANKARA",
+        "StockName": "Shankara Building Products Limited"
+    },
+    {
+        "StockSymbol": "SHANTIGEAR",
+        "StockName": "Shanthi Gears Limited"
+    },
+    {
+        "StockSymbol": "SHARDACROP",
+        "StockName": "Sharda Cropchem Limited"
+    },
+    {
+        "StockSymbol": "SHARDAMOTR",
+        "StockName": "Sharda Motor Industries Limited"
+    },
+    {
+        "StockSymbol": "SHEMAROO",
+        "StockName": "Shemaroo Entertainment Limited"
+    },
+    {
+        "StockSymbol": "SHILPAMED",
+        "StockName": "Shilpa Medicare Limited"
+    },
+    {
+        "StockSymbol": "SHIRPUR-G",
+        "StockName": "Shirpur Gold Refinery Limited"
+    },
+    {
+        "StockSymbol": "SHIVAMAUTO",
+        "StockName": "Shivam Autotech Limited"
+    },
+    {
+        "StockSymbol": "SHIVAMILLS",
+        "StockName": "Shiva Mills Limited"
+    },
+    {
+        "StockSymbol": "SHIVATEX",
+        "StockName": "Shiva Texyarn Limited"
+    },
+    {
+        "StockSymbol": "SHK",
+        "StockName": "S H Kelkar and Company Limited"
+    },
+    {
+        "StockSymbol": "SHOPERSTOP",
+        "StockName": "Shoppers Stop Limited"
+    },
+    {
+        "StockSymbol": "SHREDIGCEM",
+        "StockName": "Shree Digvijay Cement Co.Ltd"
+    },
+    {
+        "StockSymbol": "SHREECEM",
+        "StockName": "SHREE CEMENT LIMITED"
+    },
+    {
+        "StockSymbol": "SHREEPUSHK",
+        "StockName": "Shree Pushkar Chemicals & Fertilisers Limited"
+    },
+    {
+        "StockSymbol": "SHREERAMA",
+        "StockName": "Shree Rama Multi-Tech Limited"
+    },
+    {
+        "StockSymbol": "SHRENIK",
+        "StockName": "Shrenik Limited"
+    },
+    {
+        "StockSymbol": "SHREYANIND",
+        "StockName": "Shreyans Industries Limited"
+    },
+    {
+        "StockSymbol": "SHREYAS",
+        "StockName": "Shreyas Shipping & Logistics Limited"
+    },
+    {
+        "StockSymbol": "SHRIPISTON",
+        "StockName": "Shriram Pistons & Rings Limited"
+    },
+    {
+        "StockSymbol": "SHRIRAMCIT",
+        "StockName": "Shriram City Union Finance Limited"
+    },
+    {
+        "StockSymbol": "SHRIRAMEPC",
+        "StockName": "Shriram EPC Limited"
+    },
+    {
+        "StockSymbol": "SHYAMCENT",
+        "StockName": "Shyam Century Ferrous Limited"
+    },
+    {
+        "StockSymbol": "SHYAMTEL",
+        "StockName": "Shyam Telecom Limited"
+    },
+    {
+        "StockSymbol": "SICAGEN",
+        "StockName": "Sicagen India Limited"
+    },
+    {
+        "StockSymbol": "SICAL",
+        "StockName": "Sical Logistics Limited"
+    },
+    {
+        "StockSymbol": "SIEMENS",
+        "StockName": "Siemens Limited"
+    },
+    {
+        "StockSymbol": "SIGIND",
+        "StockName": "Signet Industries Limited"
+    },
+    {
+        "StockSymbol": "SIL",
+        "StockName": "Standard Industries Limited"
+    },
+    {
+        "StockSymbol": "SILINV",
+        "StockName": "SIL Investments Limited"
+    },
+    {
+        "StockSymbol": "SIMBHALS",
+        "StockName": "Simbhaoli Sugars Limited"
+    },
+    {
+        "StockSymbol": "SIMPLEXINF",
+        "StockName": "Simplex Infrastructures Limited"
+    },
+    {
+        "StockSymbol": "SINTEX",
+        "StockName": "Sintex Industries Limited"
+    },
+    {
+        "StockSymbol": "SIRCA",
+        "StockName": "Sirca Paints India Limited"
+    },
+    {
+        "StockSymbol": "SIS",
+        "StockName": "Security and Intelligence Services (India) Limited"
+    },
+    {
+        "StockSymbol": "SITINET",
+        "StockName": "Siti Networks Limited"
+    },
+    {
+        "StockSymbol": "SIYSIL",
+        "StockName": "Siyaram Silk Mills Limited"
+    },
+    {
+        "StockSymbol": "SJVN",
+        "StockName": "SJVN Limited"
+    },
+    {
+        "StockSymbol": "SKFINDIA",
+        "StockName": "SKF India Limited"
+    },
+    {
+        "StockSymbol": "SKIL",
+        "StockName": "SKIL Infrastructure Limited"
+    },
+    {
+        "StockSymbol": "SKIPPER",
+        "StockName": "Skipper Limited"
+    },
+    {
+        "StockSymbol": "SKMEGGPROD",
+        "StockName": "SKM Egg Products Export (India) Limited"
+    },
+    {
+        "StockSymbol": "SMARTLINK",
+        "StockName": "Smartlink Holdings Limited"
+    },
+    {
+        "StockSymbol": "SMLISUZU",
+        "StockName": "SML Isuzu Limited"
+    },
+    {
+        "StockSymbol": "SMPL",
+        "StockName": "Splendid Metal Products Limited"
+    },
+    {
+        "StockSymbol": "SMSLIFE",
+        "StockName": "SMS Lifesciences India Limited"
+    },
+    {
+        "StockSymbol": "SMSPHARMA",
+        "StockName": "SMS Pharmaceuticals Limited"
+    },
+    {
+        "StockSymbol": "SNOWMAN",
+        "StockName": "Snowman Logistics Limited"
+    },
+    {
+        "StockSymbol": "SOBHA",
+        "StockName": "Sobha Limited"
+    },
+    {
+        "StockSymbol": "SOLARA",
+        "StockName": "Solara Active Pharma Sciences Limited"
+    },
+    {
+        "StockSymbol": "SOLARINDS",
+        "StockName": "Solar Industries India Limited"
+    },
+    {
+        "StockSymbol": "SOMANYCERA",
+        "StockName": "Somany Ceramics Limited"
+    },
+    {
+        "StockSymbol": "SOMATEX",
+        "StockName": "Soma Textiles & Industries Limited"
+    },
+    {
+        "StockSymbol": "SOMICONVEY",
+        "StockName": "Somi Conveyor Beltings Limited"
+    },
+    {
+        "StockSymbol": "SONATSOFTW",
+        "StockName": "Sonata Software Limited"
+    },
+    {
+        "StockSymbol": "SORILINFRA",
+        "StockName": "SORIL Infra Resources Limited"
+    },
+    {
+        "StockSymbol": "SOTL",
+        "StockName": "Savita Oil Technologies Limited"
+    },
+    {
+        "StockSymbol": "SOUTHBANK",
+        "StockName": "The South Indian Bank Limited"
+    },
+    {
+        "StockSymbol": "SOUTHWEST",
+        "StockName": "South West Pinnacle Exploration Limited"
+    },
+    {
+        "StockSymbol": "SPAL",
+        "StockName": "S. P. Apparels Limited"
+    },
+    {
+        "StockSymbol": "SPANDANA",
+        "StockName": "Spandana Sphoorty Financial Limited"
+    },
+    {
+        "StockSymbol": "SPARC",
+        "StockName": "Sun Pharma Advanced Research Company Limited"
+    },
+    {
+        "StockSymbol": "SPCENET",
+        "StockName": "Spacenet Enterprises India Limited"
+    },
+    {
+        "StockSymbol": "SPECIALITY",
+        "StockName": "Speciality Restaurants Limited"
+    },
+    {
+        "StockSymbol": "SPENCERS",
+        "StockName": "Spencer\u2019s Retail Limited"
+    },
+    {
+        "StockSymbol": "SPENTEX",
+        "StockName": "Spentex Industries Limited"
+    },
+    {
+        "StockSymbol": "SPIC",
+        "StockName": "Southern Petrochemicals Industries Corporation\u00a0 Limited"
+    },
+    {
+        "StockSymbol": "SPICEJET",
+        "StockName": "SPICEJET LTD"
+    },
+    {
+        "StockSymbol": "SPLIL",
+        "StockName": "SPL Industries Limited"
+    },
+    {
+        "StockSymbol": "SPMLINFRA",
+        "StockName": "SPML Infra Limited"
+    },
+    {
+        "StockSymbol": "SPTL",
+        "StockName": "Sintex Plastics Technology Limited"
+    },
+    {
+        "StockSymbol": "SPYL",
+        "StockName": "Shekhawati Poly-Yarn Limited"
+    },
+    {
+        "StockSymbol": "SREEL",
+        "StockName": "Sreeleathers Limited"
+    },
+    {
+        "StockSymbol": "SREINFRA",
+        "StockName": "SREI Infrastructure Finance Limited"
+    },
+    {
+        "StockSymbol": "SRF",
+        "StockName": "SRF Limited"
+    },
+    {
+        "StockSymbol": "SRHHYPOLTD",
+        "StockName": "Sree Rayalaseema Hi-Strength Hypo Limited"
+    },
+    {
+        "StockSymbol": "SRIPIPES",
+        "StockName": "Srikalahasthi Pipes Limited"
+    },
+    {
+        "StockSymbol": "SRTRANSFIN",
+        "StockName": "Shriram Transport Finance Company Limited"
+    },
+    {
+        "StockSymbol": "SSWL",
+        "StockName": "Steel Strips Wheels Limited"
+    },
+    {
+        "StockSymbol": "STAMPEDE",
+        "StockName": "Stampede Capital Limited"
+    },
+    {
+        "StockSymbol": "STAR",
+        "StockName": "Strides Pharma Science Limited"
+    },
+    {
+        "StockSymbol": "STARCEMENT",
+        "StockName": "Star Cement Limited"
+    },
+    {
+        "StockSymbol": "STARPAPER",
+        "StockName": "Star Paper Mills Limited"
+    },
+    {
+        "StockSymbol": "STCINDIA",
+        "StockName": "The State Trading Corporation of India Limited"
+    },
+    {
+        "StockSymbol": "STEELCITY",
+        "StockName": "Steel City Securities Limited"
+    },
+    {
+        "StockSymbol": "STEELXIND",
+        "StockName": "STEEL EXCHANGE INDIA LIMITED"
+    },
+    {
+        "StockSymbol": "STEL",
+        "StockName": "Stel Holdings Limited"
+    },
+    {
+        "StockSymbol": "STERTOOLS",
+        "StockName": "Sterling Tools Limited"
+    },
+    {
+        "StockSymbol": "STINDIA",
+        "StockName": "STI India Limited"
+    },
+    {
+        "StockSymbol": "STRTECH",
+        "StockName": "Sterlite Technologies Limited"
+    },
+    {
+        "StockSymbol": "SUBCAPCITY",
+        "StockName": "International Constructions Limited"
+    },
+    {
+        "StockSymbol": "SUBEX",
+        "StockName": "Subex Limited"
+    },
+    {
+        "StockSymbol": "SUBROS",
+        "StockName": "Subros Limited"
+    },
+    {
+        "StockSymbol": "SUDARSCHEM",
+        "StockName": "Sudarshan Chemical Industries Limited"
+    },
+    {
+        "StockSymbol": "SUJANAUNI",
+        "StockName": "Sujana Universal Industries Limited"
+    },
+    {
+        "StockSymbol": "SUMEETINDS",
+        "StockName": "Sumeet Industries Limited"
+    },
+    {
+        "StockSymbol": "SUMIT",
+        "StockName": "Sumit Woods Limited"
+    },
+    {
+        "StockSymbol": "SUMMITSEC",
+        "StockName": "Summit Securities Limited"
+    },
+    {
+        "StockSymbol": "SUNCLAYLTD",
+        "StockName": "Sundaram Clayton Limited"
+    },
+    {
+        "StockSymbol": "SUNDARAM",
+        "StockName": "Sundaram Multi Pap Limited"
+    },
+    {
+        "StockSymbol": "SUNDARMFIN",
+        "StockName": "Sundaram Finance Limited"
+    },
+    {
+        "StockSymbol": "SUNDARMHLD",
+        "StockName": "Sundaram Finance Holdings Limited"
+    },
+    {
+        "StockSymbol": "SUNDRMBRAK",
+        "StockName": "Sundaram Brake Linings Limited"
+    },
+    {
+        "StockSymbol": "SUNDRMFAST",
+        "StockName": "Sundram Fasteners Limited"
+    },
+    {
+        "StockSymbol": "SUNFLAG",
+        "StockName": "Sunflag Iron And Steel Company Limited"
+    },
+    {
+        "StockSymbol": "SUNPHARMA",
+        "StockName": "Sun Pharmaceutical Industries Limited"
+    },
+    {
+        "StockSymbol": "SUNTECK",
+        "StockName": "Sunteck Realty Limited"
+    },
+    {
+        "StockSymbol": "SUNTV",
+        "StockName": "Sun TV Network Limited"
+    },
+    {
+        "StockSymbol": "SUPERHOUSE",
+        "StockName": "Superhouse Limited"
+    },
+    {
+        "StockSymbol": "SUPERSPIN",
+        "StockName": "Super Spinning Mills Limited"
+    },
+    {
+        "StockSymbol": "SUPPETRO",
+        "StockName": "Supreme Petrochem Limited"
+    },
+    {
+        "StockSymbol": "SUPRAJIT",
+        "StockName": "Suprajit Engineering Limited"
+    },
+    {
+        "StockSymbol": "SUPREMEIND",
+        "StockName": "Supreme Industries Limited"
+    },
+    {
+        "StockSymbol": "SUPREMEINF",
+        "StockName": "Supreme Infrastructure India Limited"
+    },
+    {
+        "StockSymbol": "SURANASOL",
+        "StockName": "Surana Solar Limited"
+    },
+    {
+        "StockSymbol": "SURANAT&P",
+        "StockName": "Surana Telecom and Power Limited"
+    },
+    {
+        "StockSymbol": "SURYALAXMI",
+        "StockName": "Suryalakshmi Cotton Mills Limited"
+    },
+    {
+        "StockSymbol": "SURYAROSNI",
+        "StockName": "Surya Roshni Limited"
+    },
+    {
+        "StockSymbol": "SUTLEJTEX",
+        "StockName": "Sutlej Textiles and Industries Limited"
+    },
+    {
+        "StockSymbol": "SUVEN",
+        "StockName": "Suven Life Sciences Limited"
+    },
+    {
+        "StockSymbol": "SUZLON",
+        "StockName": "Suzlon Energy Limited"
+    },
+    {
+        "StockSymbol": "SWANENERGY",
+        "StockName": "Swan Energy Limited"
+    },
+    {
+        "StockSymbol": "SWARAJENG",
+        "StockName": "Swaraj Engines Limited"
+    },
+    {
+        "StockSymbol": "SWELECTES",
+        "StockName": "Swelect Energy Systems Limited"
+    },
+    {
+        "StockSymbol": "SWSOLAR",
+        "StockName": "Sterling And Wilson Solar Limited"
+    },
+    {
+        "StockSymbol": "SYMPHONY",
+        "StockName": "Symphony Limited"
+    },
+    {
+        "StockSymbol": "SYNCOM",
+        "StockName": "Syncom Healthcare Limited"
+    },
+    {
+        "StockSymbol": "SYNDIBANK",
+        "StockName": "Syndicate Bank"
+    },
+    {
+        "StockSymbol": "SYNGENE",
+        "StockName": "Syngene International Limited"
+    },
+    {
+        "StockSymbol": "TAINWALCHM",
+        "StockName": "Tainwala Chemical and Plastic (I) Limited"
+    },
+    {
+        "StockSymbol": "TAJGVK",
+        "StockName": "Taj GVK Hotels & Resorts Limited"
+    },
+    {
+        "StockSymbol": "TAKE",
+        "StockName": "Take Solutions Limited"
+    },
+    {
+        "StockSymbol": "TALBROAUTO",
+        "StockName": "Talbros Automotive Components Limited"
+    },
+    {
+        "StockSymbol": "TALWALKARS",
+        "StockName": "Talwalkars Better Value Fitness Limited"
+    },
+    {
+        "StockSymbol": "TALWGYM",
+        "StockName": "Talwalkars Healthclubs Limited"
+    },
+    {
+        "StockSymbol": "TANLA",
+        "StockName": "Tanla Solutions Limited"
+    },
+    {
+        "StockSymbol": "TANTIACONS",
+        "StockName": "Tantia Constructions Limited"
+    },
+    {
+        "StockSymbol": "TARAPUR",
+        "StockName": "Tarapur Transformers Limited"
+    },
+    {
+        "StockSymbol": "TARMAT",
+        "StockName": "Tarmat Limited"
+    },
+    {
+        "StockSymbol": "TASTYBITE",
+        "StockName": "Tasty Bite Eatables Limited"
+    },
+    {
+        "StockSymbol": "TATACHEM",
+        "StockName": "Tata Chemicals Limited"
+    },
+    {
+        "StockSymbol": "TATACOFFEE",
+        "StockName": "Tata Coffee Limited"
+    },
+    {
+        "StockSymbol": "TATACOMM",
+        "StockName": "Tata Communications Limited"
+    },
+    {
+        "StockSymbol": "TATAELXSI",
+        "StockName": "Tata Elxsi Limited"
+    },
+    {
+        "StockSymbol": "TATAGLOBAL",
+        "StockName": "Tata Global Beverages Limited"
+    },
+    {
+        "StockSymbol": "TATAINVEST",
+        "StockName": "Tata Investment Corporation Limited"
+    },
+    {
+        "StockSymbol": "TATAMETALI",
+        "StockName": "Tata Metaliks Limited"
+    },
+    {
+        "StockSymbol": "TATAMOTORS",
+        "StockName": "Tata Motors Limited"
+    },
+    {
+        "StockSymbol": "TATAMTRDVR",
+        "StockName": "Tata Motors Limited"
+    },
+    {
+        "StockSymbol": "TATAPOWER",
+        "StockName": "Tata Power Company Limited"
+    },
+    {
+        "StockSymbol": "TATASTEEL",
+        "StockName": "Tata Steel Limited"
+    },
+    {
+        "StockSymbol": "TATASTLBSL",
+        "StockName": "Tata Steel Bsl Limited"
+    },
+    {
+        "StockSymbol": "TATASTLLP",
+        "StockName": "Tata Steel Long Products Limited"
+    },
+    {
+        "StockSymbol": "TBZ",
+        "StockName": "Tribhovandas Bhimji Zaveri Limited"
+    },
+    {
+        "StockSymbol": "TCI",
+        "StockName": "Transport Corporation of India Limited"
+    },
+    {
+        "StockSymbol": "TCIDEVELOP",
+        "StockName": "TCI Developers Limited"
+    },
+    {
+        "StockSymbol": "TCIEXP",
+        "StockName": "TCI Express Limited"
+    },
+    {
+        "StockSymbol": "TCIFINANCE",
+        "StockName": "TCI Finance Limited"
+    },
+    {
+        "StockSymbol": "TCNSBRANDS",
+        "StockName": "TCNS Clothing Co. Limited"
+    },
+    {
+        "StockSymbol": "TCPLPACK",
+        "StockName": "TCPL Packaging Limited"
+    },
+    {
+        "StockSymbol": "TCS",
+        "StockName": "Tata Consultancy Services Limited"
+    },
+    {
+        "StockSymbol": "TDPOWERSYS",
+        "StockName": "TD Power Systems Limited"
+    },
+    {
+        "StockSymbol": "TEAMLEASE",
+        "StockName": "Teamlease Services Limited"
+    },
+    {
+        "StockSymbol": "TECHIN",
+        "StockName": "Techindia Nirman Limited"
+    },
+    {
+        "StockSymbol": "TECHM",
+        "StockName": "Tech Mahindra Limited"
+    },
+    {
+        "StockSymbol": "TECHNOE",
+        "StockName": "Techno Electric & Engineering Company Limited"
+    },
+    {
+        "StockSymbol": "TECHNOFAB",
+        "StockName": "Technofab Engineering Limited"
+    },
+    {
+        "StockSymbol": "TEJASNET",
+        "StockName": "Tejas Networks Limited"
+    },
+    {
+        "StockSymbol": "TERASOFT",
+        "StockName": "Tera Software Limited"
+    },
+    {
+        "StockSymbol": "TEXINFRA",
+        "StockName": "Texmaco Infrastructure & Holdings Limited"
+    },
+    {
+        "StockSymbol": "TEXMOPIPES",
+        "StockName": "Texmo Pipes and Products Limited"
+    },
+    {
+        "StockSymbol": "TEXRAIL",
+        "StockName": "Texmaco Rail & Engineering Limited"
+    },
+    {
+        "StockSymbol": "TEXRAIL",
+        "StockName": "Texmaco Rail & Engineering Limited"
+    },
+    {
+        "StockSymbol": "TFCILTD",
+        "StockName": "Tourism Finance Corporation of India Limited"
+    },
+    {
+        "StockSymbol": "TFL",
+        "StockName": "Transwarranty Finance Limited"
+    },
+    {
+        "StockSymbol": "TGBHOTELS",
+        "StockName": "TGB Banquets And Hotels Limited"
+    },
+    {
+        "StockSymbol": "TGBHOTELS",
+        "StockName": "TGB Banquets And Hotels Limited"
+    },
+    {
+        "StockSymbol": "THANGAMAYL",
+        "StockName": "Thangamayil Jewellery Limited"
+    },
+    {
+        "StockSymbol": "THEINVEST",
+        "StockName": "The Investment Trust Of India Limited"
+    },
+    {
+        "StockSymbol": "THEMISMED",
+        "StockName": "Themis Medicare Limited"
+    },
+    {
+        "StockSymbol": "THERMAX",
+        "StockName": "Thermax Limited"
+    },
+    {
+        "StockSymbol": "THIRUSUGAR",
+        "StockName": "Thiru Arooran Sugars Limited"
+    },
+    {
+        "StockSymbol": "THOMASCOOK",
+        "StockName": "Thomas Cook\u00a0\n  (India)\u00a0 Limited"
+    },
+    {
+        "StockSymbol": "THOMASCOTT",
+        "StockName": "Thomas Scott (India) Limited"
+    },
+    {
+        "StockSymbol": "THYROCARE",
+        "StockName": "Thyrocare Technologies Limited"
+    },
+    {
+        "StockSymbol": "TI",
+        "StockName": "Tilaknagar Industries Limited"
+    },
+    {
+        "StockSymbol": "TIDEWATER",
+        "StockName": "Tide Water Oil Company (India) Limited"
+    },
+    {
+        "StockSymbol": "TIIL",
+        "StockName": "Technocraft Industries (India) Limited"
+    },
+    {
+        "StockSymbol": "TIINDIA",
+        "StockName": "Tube Investments of India Limited"
+    },
+    {
+        "StockSymbol": "TIJARIA",
+        "StockName": "Tijaria Polypipes Limited"
+    },
+    {
+        "StockSymbol": "TIL",
+        "StockName": "TIL Limited"
+    },
+    {
+        "StockSymbol": "TIMESGTY",
+        "StockName": "Times Guaranty Limited"
+    },
+    {
+        "StockSymbol": "TIMETECHNO",
+        "StockName": "Time Technoplast Limited"
+    },
+    {
+        "StockSymbol": "TIMKEN",
+        "StockName": "Timken India Limited"
+    },
+    {
+        "StockSymbol": "TINPLATE",
+        "StockName": "The Tinplate Company of India Limited"
+    },
+    {
+        "StockSymbol": "TIPSINDLTD",
+        "StockName": "TIPS Industries Limited"
+    },
+    {
+        "StockSymbol": "TIRUMALCHM",
+        "StockName": "Thirumalai Chemicals Limited"
+    },
+    {
+        "StockSymbol": "TITAN",
+        "StockName": "Titan Company Limited"
+    },
+    {
+        "StockSymbol": "TMRVL",
+        "StockName": "The Mandhana Retail Ventures Limited"
+    },
+    {
+        "StockSymbol": "TNPETRO",
+        "StockName": "Tamilnadu PetroProducts Limited"
+    },
+    {
+        "StockSymbol": "TNPL",
+        "StockName": "Tamil Nadu Newsprint & Papers Limited"
+    },
+    {
+        "StockSymbol": "TNTELE",
+        "StockName": "Tamilnadu Telecommunication Limited"
+    },
+    {
+        "StockSymbol": "TOKYOPLAST",
+        "StockName": "Tokyo Plast International Limited"
+    },
+    {
+        "StockSymbol": "TORNTPHARM",
+        "StockName": "Torrent Pharmaceuticals Limited"
+    },
+    {
+        "StockSymbol": "TORNTPOWER",
+        "StockName": "Torrent Power Limited"
+    },
+    {
+        "StockSymbol": "TPLPLASTEH",
+        "StockName": "TPL Plastech Limited"
+    },
+    {
+        "StockSymbol": "TREEHOUSE",
+        "StockName": "Tree House Education & Accessories Limited"
+    },
+    {
+        "StockSymbol": "TREJHARA",
+        "StockName": "TREJHARA SOLUTIONS LIMITED"
+    },
+    {
+        "StockSymbol": "TRENT",
+        "StockName": "Trent Limited"
+    },
+    {
+        "StockSymbol": "TRF",
+        "StockName": "TRF Limited"
+    },
+    {
+        "StockSymbol": "TRIDENT",
+        "StockName": "Trident Limited"
+    },
+    {
+        "StockSymbol": "TRIGYN",
+        "StockName": "Trigyn Technologies Limited"
+    },
+    {
+        "StockSymbol": "TRIL",
+        "StockName": "Transformers And Rectifiers (India) Limited"
+    },
+    {
+        "StockSymbol": "TRITURBINE",
+        "StockName": "Triveni Turbine Limited"
+    },
+    {
+        "StockSymbol": "TRIVENI",
+        "StockName": "Triveni Engineering & Industries Limited"
+    },
+    {
+        "StockSymbol": "TTKHLTCARE",
+        "StockName": "TTK Healthcare Limited"
+    },
+    {
+        "StockSymbol": "TTKPRESTIG",
+        "StockName": "TTK Prestige Limited"
+    },
+    {
+        "StockSymbol": "TTL",
+        "StockName": "T T Limited"
+    },
+    {
+        "StockSymbol": "TTML",
+        "StockName": "Tata Teleservices (Maharashtra) Limited"
+    },
+    {
+        "StockSymbol": "TV18BRDCST",
+        "StockName": "TV18 Broadcast Limited"
+    },
+    {
+        "StockSymbol": "TVSELECT",
+        "StockName": "TVS Electronics Limited"
+    },
+    {
+        "StockSymbol": "TVSMOTOR",
+        "StockName": "TVS Motor Company Limited"
+    },
+    {
+        "StockSymbol": "TVSSRICHAK",
+        "StockName": "TVS Srichakra Limited"
+    },
+    {
+        "StockSymbol": "TVTODAY",
+        "StockName": "TV Today Network Limited"
+    },
+    {
+        "StockSymbol": "TVVISION",
+        "StockName": "TV Vision Limited"
+    },
+    {
+        "StockSymbol": "TWL",
+        "StockName": "Titagarh Wagons Limited"
+    },
+    {
+        "StockSymbol": "UBL",
+        "StockName": "United Breweries Limited"
+    },
+    {
+        "StockSymbol": "UCALFUEL",
+        "StockName": "Ucal Fuel Systems Limited"
+    },
+    {
+        "StockSymbol": "UCOBANK",
+        "StockName": "UCO Bank"
+    },
+    {
+        "StockSymbol": "UFLEX",
+        "StockName": "UFLEX Limited"
+    },
+    {
+        "StockSymbol": "UFO",
+        "StockName": "UFO Moviez India Limited"
+    },
+    {
+        "StockSymbol": "UGARSUGAR",
+        "StockName": "The Ugar Sugar Works Limited"
+    },
+    {
+        "StockSymbol": "UJAAS",
+        "StockName": "Ujaas Energy Limited"
+    },
+    {
+        "StockSymbol": "UJJIVAN",
+        "StockName": "Ujjivan Financial Services Limited"
+    },
+    {
+        "StockSymbol": "ULTRACEMCO",
+        "StockName": "UltraTech Cement Limited"
+    },
+    {
+        "StockSymbol": "UMANGDAIRY",
+        "StockName": "Umang Dairies Limited"
+    },
+    {
+        "StockSymbol": "UMESLTD",
+        "StockName": "Usha Martin Education & Solutions Limited"
+    },
+    {
+        "StockSymbol": "UNICHEMLAB",
+        "StockName": "Unichem Laboratories Limited"
+    },
+    {
+        "StockSymbol": "UNIENTER",
+        "StockName": "Uniphos Enterprises Limited"
+    },
+    {
+        "StockSymbol": "UNIONBANK",
+        "StockName": "Union Bank of India"
+    },
+    {
+        "StockSymbol": "UNIPLY",
+        "StockName": "Uniply Industries Limited"
+    },
+    {
+        "StockSymbol": "UNITECH",
+        "StockName": "Unitech Limited"
+    },
+    {
+        "StockSymbol": "UNITEDBNK",
+        "StockName": "United Bank of India"
+    },
+    {
+        "StockSymbol": "UNITEDTEA",
+        "StockName": "The United Nilgiri Tea Estates Company Limited"
+    },
+    {
+        "StockSymbol": "UNITY",
+        "StockName": "Unity Infraprojects Limited"
+    },
+    {
+        "StockSymbol": "UNIVCABLES",
+        "StockName": "Universal Cables Limited"
+    },
+    {
+        "StockSymbol": "UPL",
+        "StockName": "UPL Limited"
+    },
+    {
+        "StockSymbol": "URJA",
+        "StockName": "Urja Global Limited"
+    },
+    {
+        "StockSymbol": "USHAMART",
+        "StockName": "Usha Martin Limited"
+    },
+    {
+        "StockSymbol": "UTTAMSTL",
+        "StockName": "Uttam Galva Steels Limited"
+    },
+    {
+        "StockSymbol": "UTTAMSUGAR",
+        "StockName": "Uttam Sugar Mills Limited"
+    },
+    {
+        "StockSymbol": "UVSL",
+        "StockName": "Uttam Value Steels Limited"
+    },
+    {
+        "StockSymbol": "V2RETAIL",
+        "StockName": "V2 Retail Limited"
+    },
+    {
+        "StockSymbol": "VADILALIND",
+        "StockName": "Vadilal Industries Limited"
+    },
+    {
+        "StockSymbol": "VAIBHAVGBL",
+        "StockName": "Vaibhav Global Limited"
+    },
+    {
+        "StockSymbol": "VAKRANGEE",
+        "StockName": "Vakrangee Limited"
+    },
+    {
+        "StockSymbol": "VARDHACRLC",
+        "StockName": "Vardhman Acrylics Limited"
+    },
+    {
+        "StockSymbol": "VARDMNPOLY",
+        "StockName": "Vardhman Polytex Limited"
+    },
+    {
+        "StockSymbol": "VARROC",
+        "StockName": "Varroc Engineering Limited"
+    },
+    {
+        "StockSymbol": "VASCONEQ",
+        "StockName": "Vascon Engineers Limited"
+    },
+    {
+        "StockSymbol": "VASWANI",
+        "StockName": "Vaswani Industries Limited"
+    },
+    {
+        "StockSymbol": "VBL",
+        "StockName": "Varun Beverages Limited"
+    },
+    {
+        "StockSymbol": "VEDL",
+        "StockName": "Vedanta Limited"
+    },
+    {
+        "StockSymbol": "VENKEYS",
+        "StockName": "Venky\u2019s (India) Limited"
+    },
+    {
+        "StockSymbol": "VENUSREM",
+        "StockName": "Venus Remedies Limited"
+    },
+    {
+        "StockSymbol": "VESUVIUS",
+        "StockName": "Vesuvius India Limited"
+    },
+    {
+        "StockSymbol": "VETO",
+        "StockName": "Veto Switchgears And Cables Limited"
+    },
+    {
+        "StockSymbol": "VGUARD",
+        "StockName": "V-Guard Industries Limited"
+    },
+    {
+        "StockSymbol": "VHL",
+        "StockName": "Vardhman Holdings Limited"
+    },
+    {
+        "StockSymbol": "VICEROY",
+        "StockName": "Viceroy Hotels Limited"
+    },
+    {
+        "StockSymbol": "VIDEOIND",
+        "StockName": "Videocon Industries Limited"
+    },
+    {
+        "StockSymbol": "VIDHIING",
+        "StockName": "Vidhi Specialty Food Ingredients Limited"
+    },
+    {
+        "StockSymbol": "VIJIFIN",
+        "StockName": "Viji Finance Limited"
+    },
+    {
+        "StockSymbol": "VIKASECO",
+        "StockName": "Vikas EcoTech Limited"
+    },
+    {
+        "StockSymbol": "VIKASMCORP",
+        "StockName": "Vikas Multicorp Limited"
+    },
+    {
+        "StockSymbol": "VIKASPROP",
+        "StockName": "Vikas Proppant & Granite Limited"
+    },
+    {
+        "StockSymbol": "VIKASWSP",
+        "StockName": "Vikas WSP Limited"
+    },
+    {
+        "StockSymbol": "VIMALOIL",
+        "StockName": "Vimal Oil & Foods Limited"
+    },
+    {
+        "StockSymbol": "VIMTALABS",
+        "StockName": "Vimta Labs Limited"
+    },
+    {
+        "StockSymbol": "VINATIORGA",
+        "StockName": "Vinati Organics Limited"
+    },
+    {
+        "StockSymbol": "VINDHYATEL",
+        "StockName": "Vindhya Telelinks Limited"
+    },
+    {
+        "StockSymbol": "VINYLINDIA",
+        "StockName": "Vinyl Chemicals (India) Limited"
+    },
+    {
+        "StockSymbol": "VIPCLOTHNG",
+        "StockName": "VIP Clothing Limited"
+    },
+    {
+        "StockSymbol": "VIPIND",
+        "StockName": "VIP Industries Limited"
+    },
+    {
+        "StockSymbol": "VIPULLTD",
+        "StockName": "Vipul Limited"
+    },
+    {
+        "StockSymbol": "VISAKAIND",
+        "StockName": "Visaka Industries Limited"
+    },
+    {
+        "StockSymbol": "VISASTEEL",
+        "StockName": "Visa Steel Limited"
+    },
+    {
+        "StockSymbol": "VISESHINFO",
+        "StockName": "Visesh Infotecnics Limited"
+    },
+    {
+        "StockSymbol": "VISHAL",
+        "StockName": "Vishal Fabrics Limited"
+    },
+    {
+        "StockSymbol": "VISHNU",
+        "StockName": "Vishnu Chemicals Limited"
+    },
+    {
+        "StockSymbol": "VISHWARAJ",
+        "StockName": "Vishwaraj Sugar Industries Limited"
+    },
+    {
+        "StockSymbol": "VIVIDHA",
+        "StockName": "Visagar Polytex Limited"
+    },
+    {
+        "StockSymbol": "VIVIMEDLAB",
+        "StockName": "Vivimed Labs Limited"
+    },
+    {
+        "StockSymbol": "VLSFINANCE",
+        "StockName": "VLS Finance Limited"
+    },
+    {
+        "StockSymbol": "VMART",
+        "StockName": "V-Mart Retail Limited"
+    },
+    {
+        "StockSymbol": "VOLTAMP",
+        "StockName": "Voltamp Transformers Limited"
+    },
+    {
+        "StockSymbol": "VOLTAS",
+        "StockName": "Voltas Limited"
+    },
+    {
+        "StockSymbol": "VRLLOG",
+        "StockName": "VRL Logistics Limited"
+    },
+    {
+        "StockSymbol": "VSSL",
+        "StockName": "Vardhman Special Steels Limited"
+    },
+    {
+        "StockSymbol": "VSTIND",
+        "StockName": "VST Industries Limited"
+    },
+    {
+        "StockSymbol": "VSTTILLERS",
+        "StockName": "V.S.T Tillers Tractors Limited"
+    },
+    {
+        "StockSymbol": "VTL",
+        "StockName": "Vardhman Textiles Limited"
+    },
+    {
+        "StockSymbol": "WABAG",
+        "StockName": "VA Tech Wabag Limited"
+    },
+    {
+        "StockSymbol": "WABCOINDIA",
+        "StockName": "WABCO India Limited"
+    },
+    {
+        "StockSymbol": "WALCHANNAG",
+        "StockName": "Walchandnagar Industries Limited"
+    },
+    {
+        "StockSymbol": "WANBURY",
+        "StockName": "Wanbury Limited"
+    },
+    {
+        "StockSymbol": "WATERBASE",
+        "StockName": "Waterbase Limited"
+    },
+    {
+        "StockSymbol": "WEBELSOLAR",
+        "StockName": "Websol Energy System Limited"
+    },
+    {
+        "StockSymbol": "WEIZFOREX",
+        "StockName": "Weizmann Forex Limited"
+    },
+    {
+        "StockSymbol": "WEIZMANIND",
+        "StockName": "Weizmann Limited"
+    },
+    {
+        "StockSymbol": "WELCORP",
+        "StockName": "Welspun Corp Limited"
+    },
+    {
+        "StockSymbol": "WELENT",
+        "StockName": "Welspun Enterprises Limited"
+    },
+    {
+        "StockSymbol": "WELINV",
+        "StockName": "Welspun Investments and Commercials Limited"
+    },
+    {
+        "StockSymbol": "WELSPUNIND",
+        "StockName": "Welspun India Limited"
+    },
+    {
+        "StockSymbol": "WENDT",
+        "StockName": "Wendt (India) Limited"
+    },
+    {
+        "StockSymbol": "WESTLIFE",
+        "StockName": "Westlife Development Ltd"
+    },
+    {
+        "StockSymbol": "WHEELS",
+        "StockName": "Wheels India Limited"
+    },
+    {
+        "StockSymbol": "WHIRLPOOL",
+        "StockName": "Whirlpool of India Limited"
+    },
+    {
+        "StockSymbol": "WILLAMAGOR",
+        "StockName": "Williamson Magor & Company Limited"
+    },
+    {
+        "StockSymbol": "WINDMACHIN",
+        "StockName": "Windsor Machines Limited"
+    },
+    {
+        "StockSymbol": "WINSOME",
+        "StockName": "Winsome Yarns Limited"
+    },
+    {
+        "StockSymbol": "WIPL",
+        "StockName": "The Western India Plywoods Limited"
+    },
+    {
+        "StockSymbol": "WIPRO",
+        "StockName": "Wipro Limited"
+    },
+    {
+        "StockSymbol": "WOCKPHARMA",
+        "StockName": "Wockhardt Limited"
+    },
+    {
+        "StockSymbol": "WONDERLA",
+        "StockName": "Wonderla Holidays Limited"
+    },
+    {
+        "StockSymbol": "WSI",
+        "StockName": "W S Industries (I) Limited"
+    },
+    {
+        "StockSymbol": "WSTCSTPAPR",
+        "StockName": "West Coast Paper Mills Limited"
+    },
+    {
+        "StockSymbol": "XCHANGING",
+        "StockName": "Xchanging Solutions Limited"
+    },
+    {
+        "StockSymbol": "XELPMOC",
+        "StockName": "Xelpmoc Design And Tech Limited"
+    },
+    {
+        "StockSymbol": "XLENERGY",
+        "StockName": "XL Energy Limited"
+    },
+    {
+        "StockSymbol": "XPROINDIA",
+        "StockName": "Xpro India Limited"
+    },
+    {
+        "StockSymbol": "YESBANK",
+        "StockName": "Yes Bank Limited"
+    },
+    {
+        "StockSymbol": "ZEEL",
+        "StockName": "Zee Entertainment Enterprises Limited"
+    },
+    {
+        "StockSymbol": "ZEELEARN",
+        "StockName": "Zee Learn Limited"
+    },
+    {
+        "StockSymbol": "ZEEMEDIA",
+        "StockName": "Zee Media Corporation Limited"
+    },
+    {
+        "StockSymbol": "ZENITHBIR",
+        "StockName": "Zenith Birla (India) Limited"
+    },
+    {
+        "StockSymbol": "ZENITHEXPO",
+        "StockName": "Zenith Exports Limited"
+    },
+    {
+        "StockSymbol": "ZENSARTECH",
+        "StockName": "Zensar Technologies Limited"
+    },
+    {
+        "StockSymbol": "ZENTEC",
+        "StockName": "Zen Technologies Limited"
+    },
+    {
+        "StockSymbol": "ZICOM",
+        "StockName": "Zicom Electronic Security Systems Limited"
+    },
+    {
+        "StockSymbol": "ZODIACLOTH",
+        "StockName": "Zodiac Clothing Company Limited"
+    },
+    {
+        "StockSymbol": "ZODJRDMKJ",
+        "StockName": "Zodiac JRD- MKJ Limited"
+    },
+    {
+        "StockSymbol": "ZOTA",
+        "StockName": "Zota Health Care LImited"
+    },
+    {
+        "StockSymbol": "ZUARI",
+        "StockName": "Zuari Agro Chemicals Limited"
+    },
+    {
+        "StockSymbol": "ZUARIGLOB",
+        "StockName": "Zuari Global Limited"
+    },
+    {
+        "StockSymbol": "ZYDUSWELL",
+        "StockName": "Zydus Wellness Limited"
+    }
+]

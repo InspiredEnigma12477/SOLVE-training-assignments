@@ -12,6 +12,7 @@ using System.Net.Http;
 using System.Security.Policy;
 using Microsoft.AspNetCore.Cors;
 using StockMarketAPI.Scrapper;
+using Microsoft.AspNetCore.Http;
 
 namespace StockMarketAPI.Controllers
 {
@@ -47,7 +48,7 @@ namespace StockMarketAPI.Controllers
         public IActionResult UpdatePricesOnline()
         {
             LogError("Updating Price in DB Online");
-            if(StockPrice_Insertion.InsertPrice())
+            if (StockPrice_Insertion.InsertPrice())
                 return StatusCode(StatusCodes.Status200OK);
             return BadRequest(ErrorMessages.Errors[128]);
 
@@ -59,7 +60,7 @@ namespace StockMarketAPI.Controllers
         {
             LogError("Get All Stocks Called");
             return new JsonResult(DbManager.GetAllStocks());
-            
+
         }
         [HttpGet]
         [Route("GetAllStocksWithPrice")]
@@ -75,6 +76,21 @@ namespace StockMarketAPI.Controllers
         public IActionResult GetStocksWithoutPrice()
         {
             return new JsonResult(DbManager.StockWithoutPrice());
+        }
+
+        [HttpGet]
+        [Route("SearchByNameAndSymbol/{searchText}")]
+        public IActionResult GetStockNameByNameAndSymbol(string searchText)
+        {
+            using (StreamWriter writer = new StreamWriter("D:\\APICALLINGSEARCH.txt"))
+            {
+                writer.WriteLine(searchText);
+
+                searchText = Uri.UnescapeDataString(searchText).ToUpper();
+                writer.WriteLine(searchText);
+
+                return StatusCode(StatusCodes.Status200OK, DbManager.GetAllStocks().Where(s => s.StockName.ToUpper().Contains(searchText) || s.StockSymbol.ToUpper().Contains(searchText)).Select(s => new { StockName = s.StockName, StockId = s.StockId }).ToList());
+            }
         }
 
         [HttpGet]
@@ -110,12 +126,12 @@ namespace StockMarketAPI.Controllers
             {
                 return BadRequest(ErrorMessages.Errors[129]);
             }
-            return new JsonResult(new { StockSymbol = symbol.ToUpper(), StockPrice = stockPrice});
+            return new JsonResult(new { StockSymbol = symbol.ToUpper(), StockPrice = stockPrice });
         }
 
         [HttpGet]
         [Route("StockByIdWithPrices/{id}")]
-        public IActionResult StockByIdWithPrices(int id)    
+        public IActionResult StockByIdWithPrices(int id)
         {
             var stock = DbManager.StockById(id);
             if (stock == null)
@@ -131,11 +147,11 @@ namespace StockMarketAPI.Controllers
         {
             var stock = DbManager.StockById(id);
             if (stock == null)
-                return BadRequest(ErrorMessages.Errors[131] );
+                return BadRequest(ErrorMessages.Errors[131]);
 
             var operation = StockService.MathFunctions(id, oprand);
 
-            if(operation is ErrorMessage)
+            if (operation is ErrorMessage)
             {
                 return StatusCode(StatusCodes.Status400BadRequest, operation);
             }
