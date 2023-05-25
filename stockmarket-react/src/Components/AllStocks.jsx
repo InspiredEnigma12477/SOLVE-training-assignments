@@ -50,7 +50,7 @@ function AllStocks() {
           return valueB - valueA;
         }
       }
-       else {
+      else {
         const valueA = a[column].toLowerCase();
         const valueB = b[column].toLowerCase();
         if (sortOrder[column] === 'asc') {
@@ -229,7 +229,7 @@ function AllStocks() {
           </thead>
           <tbody>
             <TransitionGroup component={null}>
-              {loading ? loadingSpinner : stockRows.length === 0 ? <tr><td colSpan={6} className='noStocks'>No Stocks Found</td></tr> : stockRows}
+              {false ? loadingSpinner : false ? <tr><td colSpan={6} className='noStocks'>No Stocks Found</td></tr> : stockRows}
             </TransitionGroup>
           </tbody>
         </table>

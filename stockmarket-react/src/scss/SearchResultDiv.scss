@@ -3,11 +3,14 @@
 .search-container {
   flex: 2;
   position: relative;
-  width: 100%; /* Adjust the width as needed */
+  margin: 0 5rem;
+  width: 100%; 
+  // width: 300px;
+  z-index: 99;
 }
 
 #search-bar {
-  width: 70%;
+  width: 100%;
   padding: 10px;
   border-bottom: none;
 }
@@ -20,6 +23,8 @@
   left: 0;
 
   width: 100%;
+  justify-content: center;
+  align-items: center;
 
   background-color: #fff;
   color: black;

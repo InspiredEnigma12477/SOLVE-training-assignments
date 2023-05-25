@@ -7,35 +7,16 @@ import api from '../Helpers/api';
 
 function Navbar() {
     const [searchResults, setSearchResults] = useState([]);
-    const [stocks, setStocks] = useState([]);
 
-    const stocksData = () => {
-        api.get('/GetAllStocks')
+    const stocksData = (event) => {
+        api.get('/SearchByNameAndSymbol/' + encodeURIComponent(event.target.value))
             .then((response) => {
-                const formattedStocks = response.data.map((stock) => {
-                    const formattedDate = new Date(stock.creationDate).toLocaleString();
-                    return {
-                        ...stock,
-                        creationDate: formattedDate,
-                    };
-                });
-                setStocks(formattedStocks);
+
+                setSearchResults(response.data);
             })
             .catch((error) => {
                 console.log(error);
             });
-    };
-
-
-    const SearchList = (event) => {
-        stocksData()
-
-        const searchText = event.target.value;
-        const filteredStocks = stocks.filter((stock) => {
-            return stock.stockName.toLowerCase().includes(searchText.toLowerCase());
-        });
-        console.log(filteredStocks);
-        setSearchResults(filteredStocks);
     };
 
     return (
@@ -50,7 +31,7 @@ function Navbar() {
                 </a>
 
                 <div className="search-container">
-                    <input type="text" id="search-bar" onChange={SearchList} placeholder="Search..." />
+                    <input type="text" id="search-bar" onChange={stocksData} placeholder="Search..." />
                     <SearchResultDiv searchResults={searchResults} />
                 </div>
                 <div className="links">

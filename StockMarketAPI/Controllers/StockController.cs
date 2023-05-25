@@ -80,17 +80,10 @@ namespace StockMarketAPI.Controllers
 
         [HttpGet]
         [Route("SearchByNameAndSymbol/{searchText}")]
-        public IActionResult GetStockNameByNameAndSymbol(string searchText)
-        {
-            using (StreamWriter writer = new StreamWriter("D:\\APICALLINGSEARCH.txt"))
-            {
-                writer.WriteLine(searchText);
-
-                searchText = Uri.UnescapeDataString(searchText).ToUpper();
-                writer.WriteLine(searchText);
-
-                return StatusCode(StatusCodes.Status200OK, DbManager.GetAllStocks().Where(s => s.StockName.ToUpper().Contains(searchText) || s.StockSymbol.ToUpper().Contains(searchText)).Select(s => new { StockName = s.StockName, StockId = s.StockId }).ToList());
-            }
+        public  IActionResult GetStockNameByNameAndSymbol(string searchText)
+        {           
+                searchText = Uri.UnescapeDataString(searchText).ToUpper();        
+                return StatusCode(StatusCodes.Status200OK, DbManager.GetAllStocks().Where(s => s.StockName.ToUpper().Contains(searchText) || s.StockSymbol.ToUpper().Contains(searchText)).Select(s => new { StockName = s.StockName, StockSymbol = s.StockSymbol }).ToList());          
         }
 
         [HttpGet]

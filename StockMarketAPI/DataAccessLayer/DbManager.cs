@@ -161,7 +161,7 @@ namespace StockMarketAPI.DataAccessLayer
             MySqlConnection con = DatabaseConnection.Instance.GetConnection();
             try
             {
-                string query = "SELECT s.* FROM stocks s LEFT JOIN stocks_price sp on s.StockId = sp.StockId WHERE sp.StockId IS NULL";
+                string query = "SELECT s.* FROM stocks s LEFT JOIN stock_price sp on s.StockId = sp.StockId WHERE sp.StockId IS NULL";
 
                 con.Open();
                 MySqlCommand cmd = new MySqlCommand();
