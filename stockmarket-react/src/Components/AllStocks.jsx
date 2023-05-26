@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import '../scss/AllStocks.scss'
 import api from '../Helpers/api'
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import { EditStock } from './EditStock';
 
 function AllStocks() {
   const [heading, setHeading] = useState('All Stocks');
@@ -9,6 +10,7 @@ function AllStocks() {
   const [searchResults, setSearchResults] = useState([]);
   const [loading, setLoading] = useState(false);
   const [priceFlag, setPriceFlag] = useState(false);
+  const [date, setDate] = useState(new Date());
   const [sortOrder, setSortOrder] = useState({
     id: 'asc',
     name: 'asc',
@@ -22,7 +24,7 @@ function AllStocks() {
     window.location.href = `/Stock/${symbol}`
   }
   const Edit = (event) => {
-    const id = event.target.closest('tr').querySelector('td').innerText
+    const id = event.target.closest('tr').querySelector('td').innerText;
     window.location.href = `/Edit/${id}`
   }
   function Delete(event) {
@@ -75,7 +77,7 @@ function AllStocks() {
     api.get('/GetAllStocks')
       .then((response) => {
         const formattedStocks = response.data.map(stock => {
-          const formattedDate = new Date(stock.creationDate).toLocaleString();
+          const formattedDate = new Date(stock.creationDate).toDateString();
           return {
             ...stock,
             creationDate: formattedDate
@@ -87,6 +89,10 @@ function AllStocks() {
       })
       .catch((error) => {
         console.log(error)
+        setLoading(false);
+      })
+      .finally(() => {
+        window.location.href = "#top";
         setLoading(false);
       })
   }
@@ -114,6 +120,10 @@ function AllStocks() {
         console.log(error)
         setLoading(false);
       })
+      .finally(() => {
+        window.location.href = "#top";
+        setLoading(false);
+      })
   }
 
   const fetchStocksWithoutPrice = () => {
@@ -139,27 +149,32 @@ function AllStocks() {
         console.log(error)
         setLoading(false);
       })
+      .finally(() => {
+        window.location.href = "#top";
+        setLoading(false);
+      })
   }
 
   useEffect(() => {
     fetchStocks();
   }, []);
 
-  const stockRows = searchResults.map((stock) => {
+  const stockRows = searchResults.map((stock, index) => {
+
     return (
-      <CSSTransition key={stock.stockId} className="stock-item" timeout={500} >
-        <tr key={stock.stockId} className="stock-item">
-          <td id='id'>{stock.stockId}</td>
-          <td id='name' onClick={StockPage}>
-            {stock.stockName}
-          </td>
-          <td id='symbol'>{stock.stockSymbol}</td>
-          {priceFlag ? <td>{stock.stockPrice}</td> : null}
-          <td id='date'>{stock.creationDate}</td>
-          <td className='editButton' onClick={Edit}>Edit</td>
-          <td className='deleteButton' onClick={Delete}>Delete</td>
-        </tr>
-      </CSSTransition>
+      // <CSSTransition key={index} className="stock-item" timeout={500} >
+      // </CSSTransition>
+      <tr key={stock.stockId} className="stock-item">
+        <td id='id'>{stock.stockId}</td>
+        <td id='name' onClick={StockPage}>
+          {stock.stockName}
+        </td>
+        <td id='symbol'>{stock.stockSymbol}</td>
+        {priceFlag ? <td>{stock.stockPrice}</td> : null}
+        <td id='date'>{stock.creationDate}</td>
+        <td className='editButton' onClick={Edit}>Edit</td>
+        <td className='deleteButton' onClick={Delete}>Delete</td>
+      </tr>
     )
   })
 
@@ -185,6 +200,17 @@ function AllStocks() {
     setSearchResults(searchResults);
   }
 
+
+  const SearchByDate = () => {
+
+    const searchResults = stocks.filter((stock) => {
+      const stockDate = new Date(stock.creationDate).setHours(0, 0, 0, 0);
+      const searchDate = new Date(date).setHours(0, 0, 0, 0);
+      return stockDate === searchDate;
+    });
+    setSearchResults(searchResults);
+  }
+
   const loadingSpinner = (
     <td colSpan={6} className='loading-td'>
       <div className="loading" colSpan={6}>
@@ -204,7 +230,10 @@ function AllStocks() {
       <div className="header">
         <div className="search-table">
           <input type="text" id="search" onChange={SearchTable} placeholder="Search Table..." />
-          <p>Search is based on Name and Symbol</p>
+
+          <input type="date" id="button1" onChange={(e) => (setDate(e.target.value))} placeholder="Search Date..." />
+          <input type="submit" id="button2" onClick={SearchByDate} value="Search" />
+
         </div>
 
         <div className="filters">
@@ -213,6 +242,7 @@ function AllStocks() {
           <input type="submit" id="button2" onClick={fetchStocksWithPrice} value="Stock With Price" />
         </div>
       </div>
+      {/* <p>Search is based on Name and Symbol</p> */}
 
 
       <div className="stocktable">
@@ -228,9 +258,9 @@ function AllStocks() {
             </tr>
           </thead>
           <tbody>
-            <TransitionGroup component={null}>
-              {false ? loadingSpinner : false ? <tr><td colSpan={6} className='noStocks'>No Stocks Found</td></tr> : stockRows}
-            </TransitionGroup>
+            {/* <TransitionGroup component={null}>
+            </TransitionGroup> */}
+            {loading ? loadingSpinner : stockRows.length === 0 ? <tr><td colSpan={6} className='noStocks'>No Stocks Found</td></tr> : stockRows}
           </tbody>
         </table>
       </div>

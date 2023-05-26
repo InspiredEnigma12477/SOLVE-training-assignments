@@ -6,12 +6,16 @@ namespace StockMarketAPI.Scrapper
     public class StockPrice_Insertion
     {
 
+        private static List<StockPrice> staticlist = new List<StockPrice>();
+
         public static bool InsertPrice()
-        { 
+        {
+            staticlist.Clear();
+
             List<Thread> threads = new List<Thread>();
             List<Stock> stocks = DbManager.GetAllStocks();
 
-            int numThreads = 20;
+            int numThreads = 10;
             int stocksPerThread = stocks.Count / numThreads;
 
             // Create and start threads
@@ -22,9 +26,9 @@ namespace StockMarketAPI.Scrapper
 
                 List<Stock> threadStocks = stocks.GetRange(startIndex, endIndex - startIndex);
 
-                Thread thread = new Thread(() => ProcessStocks(threadStocks));
-                thread.Start();
-                threads.Add(thread);
+                //Thread thread = new Thread(() => ProcessStocks(threadStocks));
+                //thread.Start();
+                //threads.Add(thread);
             }
 
             // Wait for all threads to complete
@@ -34,6 +38,8 @@ namespace StockMarketAPI.Scrapper
             }
 
             Console.WriteLine("All threads completed. Press any key to exit.");
+            InsertInDB();
+            Console.WriteLine("Inserted the data");
 
             return true;
 
@@ -42,23 +48,42 @@ namespace StockMarketAPI.Scrapper
         {
             foreach (Stock stock in stocks)
             {
-                double? price = StockPrice_Scraper.GetOnlineStockPrice(stock.StockSymbol);
-
                 try
                 {
-                    DbManager.InsertStockPriceById(new StockPrice
+                    double? price = StockPrice_Scraper.GetOnlineStockPrice(stock.StockSymbol);
+                    if (price != null)
                     {
-                        StockId = stock.StockId,
-                        Price = (double)price,
-                        AtTime = DateTime.Now
-                    });
+                        staticlist.Add(new StockPrice
+                        {
+                            StockId = stock.StockId,
+                            Price = (double)price,
+                            AtTime = DateTime.Now
+                        });
+                    }
                 }
                 catch
                 {
-                    Console.WriteLine("Got an error");
+                    Console.WriteLine("Got an error while Scrapping");
                     continue;
                 }
             }
+        }
+
+        public static bool InsertInDB()
+        {
+            foreach (StockPrice stock in staticlist)
+            {
+                try
+                {
+                    DbManager.InsertStockPriceById(stock);
+                }
+                catch
+                {
+                    Console.WriteLine("Got an error while inserting");
+                    continue;
+                }
+            }
+            return true;
         }
         public static bool InsertPriceT()
         {

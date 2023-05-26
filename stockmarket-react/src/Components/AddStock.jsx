@@ -90,13 +90,12 @@ function AddStock() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    const data = new FormData(event.target);
-    console.log(data);
+    console.log(stock);
 
-    api.post('/AddStock', data)
+    api.post('/InsertOneStock', stock)
       .then((response) => {
         console.log(response);
-        window.location.href = '/';
+        window.location.href = '/GetAllStocks';
       })
       .catch((error) => {
         console.log(error);
@@ -130,10 +129,11 @@ function AddStock() {
               name="stockName"
               id="stockName"
               value={stock.stockName}
-              onChange={handleChange}
+              onChange={(e) => setStock({ ...stock, stockName: e.target.value })}
               onBlur={handleBlur}
               tabIndex={1} />
           </formgroup>
+
           <formgroup className="symbol-group flex">
             <label htmlFor="">Stock Symbol</label>
             {handleErrors('stockSymbol')}
@@ -143,7 +143,7 @@ function AddStock() {
               name="stockSymbol"
               id="stockSymbol"
               value={stock.stockSymbol}
-              onChange={handleChange}
+              onChange={(e) => setStock({ ...stock, stockSymbol: e.target.value })}
               onBlur={handleBlur}
               tabIndex={2} />
           </formgroup>

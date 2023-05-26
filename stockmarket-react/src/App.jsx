@@ -25,6 +25,7 @@ function App() {
         <Route path="/GetAllStocks" element={<AllStocks/>} />
         <Route path="/Edit/:id" element={<EditStock />} />
         <Route path="/Stock/:symbol" element={<Stock />} />
+        <Route path="/NotFound" element={<NotFound/>} />
         <Route path="*" element={<NotFound/>} />
       </Routes>
 

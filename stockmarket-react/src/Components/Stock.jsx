@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import api from '../Helpers/api';
 import '../scss/Stock.scss'
-import LineGraph from './LineGraph';
 
 function Stock() {
     const [stock, setStock] = useState([]);
@@ -9,11 +8,10 @@ function Stock() {
     const [loading, setLoading] = useState(false);
     const [symbol, setSymbol] = useState('');
 
-
-
-
     useEffect(() => {
+        setLoading(true);
         setSymbol(window.location.pathname.split('/')[2])
+        
         api.get(`/StockBySymbol/${symbol}`)
             .then((response) => {
                 setStock(response.data);
@@ -21,6 +19,7 @@ function Stock() {
             })
             .catch((error) => {
                 console.log(error);
+                // window.location.href = "/NotFound";
             });
 
         api.get(`/StockPriceOnline/${symbol}`)
@@ -34,12 +33,33 @@ function Stock() {
                 console.log(error);
             }
             );
+
     }, [symbol]);
 
-
+    const StockPriceh1 = () => {
+        setLoading(true);
+        api.get(`/StockPriceOnline/${symbol}`)
+            .then((response) => {
+                console.log(response.data);
+                setStockPrice(response.data.stockPrice);
+                setLoading(false);
+                return (
+                    <h1 className='stockprice-h1'> Stock Price :
+                        <span id="symbol-h1-price">
+                            {stockPrice}
+                        </span>
+                        <button className='addToDB'> Add to DB </button>
+                    </h1>
+                )
+            }
+            )
+            .catch((error) => {
+                console.log(error);
+            }
+            );
+    }
     const LoadingAnimation = (
-
-        <div className="loading" colSpan={6}>
+        <div className="loading " id='stock-loading' colSpan={6}>
             <div className="spinner">Loading</div>
         </div>
     );
@@ -47,14 +67,23 @@ function Stock() {
 
 
     const DisplayStock = (stock) => {
+        
+        
         return (
-            <h1 className='stockprice-h1'> Stock Price :
-                <span id="symbol-h1-price">
-                    {stockPrice}
-                </span>
+            <>
+                <h1 className="stockName">{stock.stockName} </h1>
 
-                <button className='addToDB'> Add to DB </button>
-            </h1>
+                <h1><span id="symbol-h1"> {symbol} </span></h1>
+                {StockPriceh1}
+
+                <h1 className='stockprice-h1'> Stock Price :
+                    <span id="symbol-h1-price">
+                        {stockPrice}
+                    </span>
+                    <button className='addToDB'> Add to DB </button>
+                </h1>
+
+            </>
         )
     }
 
@@ -62,8 +91,8 @@ function Stock() {
 
     return (
         <main className="mainContainer stockpage">
-            <h1 className="stockName">{stock.stockName} </h1>
-            <h1><span id="symbol-h1"> {symbol} </span></h1>
+
+
             {loading ? LoadingAnimation : DisplayStock(stock)}
 
         </main>

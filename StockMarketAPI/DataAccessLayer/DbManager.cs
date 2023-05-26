@@ -516,10 +516,9 @@ namespace StockMarketAPI.DataAccessLayer
         #endregion
 
         #region POST Methods
-        public static bool InsertOneStock(Stock stock)
+        public static bool InsertOneStock(StockInsertDTO stock)
         {
             bool status = false;
-            stock.CreationDate = DateTime.Now;
 
             string query = $"INSERT INTO stocks (StockName, StockSymbol, CreationDate) VALUES('{stock.StockName}', '{stock.StockSymbol}', NOW())";
 

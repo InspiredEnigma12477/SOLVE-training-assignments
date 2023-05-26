@@ -1,0 +1,23 @@
+@import './root';
+
+.edit-div{
+
+    background-color: wheat;
+    .edit-h1{
+        text-align: left;
+        font-size: 2rem;
+        margin: 1rem;
+    }
+
+    form{
+        margin: 2rem; 
+        input{
+            width: 40%;
+            margin: 0.2rem 0;    
+            outline: none;
+            transition: all 0.2s ease-in-out;
+           
+
+        }
+    }
+}

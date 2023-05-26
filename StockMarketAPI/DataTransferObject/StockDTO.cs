@@ -41,4 +41,10 @@ namespace StockMarketAPI.DataTransferObject
         public string StockName { get; set; }
         public string StockSymbol { get; set; }
     }
+
+    public class StockInsertDTO
+    { 
+        public string StockName { get; set; }
+        public string StockSymbol { get; set; }
+    }
 }

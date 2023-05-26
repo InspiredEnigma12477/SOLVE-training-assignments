@@ -1,45 +1,75 @@
-@import './root';
+@import "./root";
+@import "./loading.scss";
 
 .mainContainer-allstocks {
-    background-image: linear-gradient(20deg,#a59eff,#efc4ff);
+    background-image: linear-gradient(20deg, #a59eff, #efc4ff);
     // margin: 12vh auto 0 auto;
     height: 100%;
     width: 100%;
-    
+
     min-height: 60vh;
 }
 
-.header, .stocktable, .navbar{
+.header,
+.stocktable,
+.navbar {
     width: 80%;
     transition: all 0.2s ease-in-out;
 }
 
-.header{
+.header {
     margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    .search-table{
-        p{
+    .search-table {
+        display: flex;
+        flex-direction: row;
+        p {
             font-weight: 600;
             margin: 10px 10px 0 5px;
+            display: none;
+        }
+        input {
+            margin: 0 10px;
+        }
+        input:nth-child(2) {
+            margin: 0 0 10px 0;
+            border-radius: 8px 0 0 8px;
+            padding: 0 0 0 10px;
+        }
+        input:last-child {
+            margin: 0 0 0 0;
+            border-radius: 0 8px 8px 0;
+            padding: 0 10px 0 0;
+        }
+
+        input:nth-child(2):focus,
+        input:last-child:focus {
+            background-color: $input-background-color-light;
+            box-shadow: none;
+            transition: all 200ms ease-in-out;
         }
     }
-    .filters{
-        display: flex;
-         input{
-            margin: 0 10px;
-         }
-         input:hover{
-            box-shadow: 0 0 100px 30px rgba(255, 255, 255, 0.2);
-         }
-         #button1,#button2{
-            background: #E0EAFC;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-            
-         }
 
+    .filters {
+        display: flex;
+        input {
+            margin: 0 10px;
+        }
+        input:hover {
+            box-shadow: 0 0 100px 30px rgba(255, 255, 255, 0.2);
+        }
+        #button1,
+        #button2 {
+            background: #e0eafc; /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #cfdef3, #e0eafc); /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(
+                to right,
+                #cfdef3,
+                #e0eafc
+            ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
     }
 }
 
@@ -48,18 +78,16 @@
     margin: 0 auto;
     align-items: center;
     justify-content: center;
-    padding: 12vh 0 2vh 0 ;
+    padding: 12vh 0 2vh 0;
     width: 80vw;
     transition: content 0.2s ease-in-out;
 }
-#bottom{
+#bottom {
     height: 5vh;
 }
 .stocktable {
-
-
     background-color: white;
-    
+
     padding: 10px 10px;
     margin: 10px auto 0 auto;
     height: 100%;
@@ -71,24 +99,24 @@
         width: 100%;
         color: black;
         font-family: monospace;
-        font-size: 1.0rem;
+        font-size: 1rem;
         text-align: left;
         padding: 5px;
-        // transition: all 0.1s ease-in;
+        transition: all 0.1s ease-in;
 
         th,
         td,
         tr {
             padding: 10px;
             // border: 0.1px solid #d5d5d5;
-            transition: all 0.2s ease-in-out;
+            transition: all 100ms ease-in-out;
             border-bottom: 1px solid #d5d5d5;
         }
-        th:first-child{
+        th:first-child {
             border-radius: 8px 0 0 0;
         }
-        
-        th:last-child{
+
+        th:last-child {
             border-radius: 0 8px 0 0;
         }
         thead {
@@ -96,13 +124,13 @@
             color: white;
             padding: 5px;
             border-radius: 8px;
-            th:hover{
+            th:hover {
                 outline: none;
                 cursor: pointer;
             }
-            th:active{
-                background-color: $accent-color-light1;
-
+            th:active {
+                background-color: $accent-color-light-40;
+                border-radius: 8px;
             }
         }
         tbody {
@@ -175,83 +203,5 @@
     }
     a.down-arrow {
         content: 👇;
-    }
-}
-
-.loading-td {
-    border: none !important;
-}
-.loading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    margin: 100px auto 50px auto;
-    height: 100%;
-    width: 80px;
-    font-size: 4rem;
-    font-weight: 600;
-    color: #d5d5d5;
-
-    .spinner {
-        display: inline-block;
-        transition: all 0.2s ease-in-out;
-        &:after {
-            content: ".";
-            display: block;
-            // width: 4rem;
-            // height: 4rem;
-            height: 100%;
-            width: 100%;
-            margin: 8px;
-            border-radius: 50%;
-            border: 6px solid #ffffff;
-            border-color: #ffffff transparent #ffffff transparent;
-            animation: spinner 1.2s linear infinite;
-        }
-    }
-
-    @keyframes spinner {
-        from {
-            content: ". ";
-            // transform: rotate(0deg);
-            // transform-origin: center;
-        }
-        10% {
-            content: "..";
-        }
-        20% {
-            content: "...";
-        }
-        30% {
-            content: "....";
-        }
-        40% {
-            content: ".....";
-        }
-        50% {
-            content: "......";
-        }
-        60% {
-            content: ".....";
-        }
-        70% {
-            content: "......";
-        }
-        80%{
-            content: "...";
-        }
-        90% {
-            content: "..";
-        }
-        to {
-            content: "..";
-            // transform: rotate(360deg);
-            // transform-origin: center;
-        }
-    }
-
-    .rotate {
-        animation: spinner 3s infinite linear;
     }
 }

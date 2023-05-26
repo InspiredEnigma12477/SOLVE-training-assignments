@@ -163,7 +163,7 @@ namespace StockMarketAPI.Controllers
 
         #region PUT
         [HttpPut]
-        [Route("UpdateStockById")]
+        [Route("UpdateStock")]
         public HttpResponseMessage UpdateStockById(StockUpdateDTO stock1)
         {
             using (StreamWriter writer = new StreamWriter("D:\\apiUpdate.txt"))
@@ -186,7 +186,7 @@ namespace StockMarketAPI.Controllers
 
         [HttpPost]
         [Route("InsertOneStock")]
-        public IActionResult InsertOneStock(Stock stock)
+        public IActionResult InsertOneStock(StockInsertDTO stock)
         { /*
             List<ErrorMessage> validationErrors = Validation.ValidateStock(stock);
             if (validationErrors.Any())

@@ -2,7 +2,7 @@ $accent-color-light: #FCFFE7;
 $accent-color-dark: #55788e;
 
 $accent-color-light1: #070513;
-$accent-color-light-40: #07051366;
+$accent-color-light-40: #5a58698f;
 $accent-color-light-shadow: #0705131A;
 
 $accent-color-dark1: #2B3467;
@@ -35,9 +35,9 @@ body {
 
   background-image: linear-gradient(120deg,#ffffff,#bcdef6);
 
-  background: linear-gradient(-45deg, #e53935, #e35d5b, #ee9ca7, #ffdde1);
-  background: linear-gradient(-45deg, #8e9eab, #abbabb,#eef2f3, #ffffff);
-	background-size: 400% 400%;
+  background: linear-gradient(45deg, #59a9ff, #0095ff, #ee9ca7, #ffdde1);
+  // background: linear-gradient(-45deg, #8e9eab, #abbabb,#eef2f3, #ffffff);
+	background-size: 800%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
 }
@@ -74,7 +74,7 @@ body {
 
 .mainContainer {
   margin: 0 auto 0 auto;
-  padding: 50px 0 0 0;
+  padding: 12vh 0 0 0;
   width: 80%;
   min-height: 96vh;
 }
