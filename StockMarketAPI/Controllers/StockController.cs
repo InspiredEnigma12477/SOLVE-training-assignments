@@ -8,8 +8,6 @@ using log4net.Core;
 using log4net;
 using System.Reflection;
 using System.Net;
-using System.Net.Http;
-using System.Security.Policy;
 using Microsoft.AspNetCore.Cors;
 using StockMarketAPI.Scrapper;
 using Microsoft.AspNetCore.Http;
@@ -48,9 +46,18 @@ namespace StockMarketAPI.Controllers
         public IActionResult UpdatePricesOnline()
         {
             LogError("Updating Price in DB Online");
-            if (StockPrice_Insertion.InsertPrice())
+            if (new StockPrice_Insertion().InsertPrice())
                 return StatusCode(StatusCodes.Status200OK);
             return BadRequest(ErrorMessages.Errors[128]);
+
+        }
+
+        [HttpGet]
+        [Route("GetStocksCount")]
+        public IActionResult GetStocksCount()
+        {
+            LogError("Get Stocks Count Called");
+            return new JsonResult(new { StocksCount = DbManager.GetStocksCount() });
 
         }
 
@@ -60,6 +67,15 @@ namespace StockMarketAPI.Controllers
         {
             LogError("Get All Stocks Called");
             return new JsonResult(DbManager.GetAllStocks());
+
+        }
+
+        [HttpGet]
+        [Route("GetStockPage/{id}")]
+        public IActionResult GetAllStocksPagination(int id)
+        {
+            LogError("Get All Stocks Pagination Called with id = " + id);
+            return new JsonResult(DbManager.GetAllStocksPagination(id));
 
         }
         [HttpGet]
@@ -80,10 +96,12 @@ namespace StockMarketAPI.Controllers
 
         [HttpGet]
         [Route("SearchByNameAndSymbol/{searchText}")]
-        public  IActionResult GetStockNameByNameAndSymbol(string searchText)
-        {           
-                searchText = Uri.UnescapeDataString(searchText).ToUpper();        
-                return StatusCode(StatusCodes.Status200OK, DbManager.GetAllStocks().Where(s => s.StockName.ToUpper().Contains(searchText) || s.StockSymbol.ToUpper().Contains(searchText)).Select(s => new { StockName = s.StockName, StockSymbol = s.StockSymbol }).ToList());          
+        public IActionResult GetStockNameByNameAndSymbol(string searchText)
+        {
+            searchText = Uri.UnescapeDataString(searchText).ToUpper();
+            if (searchText == "--null")
+                return StatusCode(StatusCodes.Status204NoContent, ErrorMessages.Errors[132]);
+            return StatusCode(StatusCodes.Status200OK, DbManager.GetAllStocks().Where(s => s.StockName.ToUpper().Contains(searchText) || s.StockSymbol.ToUpper().Contains(searchText)).Select(s => new { StockName = s.StockName, StockSymbol = s.StockSymbol }).ToList());
         }
 
         [HttpGet]
@@ -159,6 +177,32 @@ namespace StockMarketAPI.Controllers
                     operation
                 });
         }
+
+        [HttpGet]
+        [Route("MathFunctionsWithDate/{id}")]
+        public IActionResult MathFunctionsWithDate(int id, MathOperationDTO oprand)
+        {
+            var stock = DbManager.StockById(id);
+            if (stock == null)
+                return BadRequest(ErrorMessages.Errors[131]);
+
+            var operation = StockService.MathFunctionsWithDate(id, oprand);
+
+            if (operation is ErrorMessage)
+            {
+                return StatusCode(StatusCodes.Status400BadRequest, operation);
+            }
+
+            return StatusCode(StatusCodes.Status200OK,
+                operation == null ? ErrorMessages.Errors[127] : new
+                {
+                    stock.StockId,
+                    stock.StockName,
+                    stock.StockSymbol,
+                    stock.CreationDate,
+                    operation
+                });
+        }
         #endregion
 
         #region PUT
@@ -166,10 +210,6 @@ namespace StockMarketAPI.Controllers
         [Route("UpdateStock")]
         public HttpResponseMessage UpdateStockById(StockUpdateDTO stock1)
         {
-            using (StreamWriter writer = new StreamWriter("D:\\apiUpdate.txt"))
-            {
-                writer.WriteLine("Reached to update stock");
-            }
             var stock = DbManager.UpdateStockById(stock1);
             if (stock == false)
             {

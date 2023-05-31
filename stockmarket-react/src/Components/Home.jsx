@@ -10,6 +10,14 @@ function Home() {
         <li><a href='/GetAllStocks'>Get All Stocks</a></li>
       </ul>
 
+      <dialog id="dialog" className="dialog">
+        <div className="dialog__content">
+
+          <h1>Shivam sakore</h1>
+          <p>Stock Market App</p>
+        </div>
+      </dialog>
+
       <p>
         This is a simple stock management application. It is built using ReactJS and ASP.NET.
         <br/>

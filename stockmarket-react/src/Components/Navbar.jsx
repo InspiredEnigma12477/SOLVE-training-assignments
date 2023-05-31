@@ -9,9 +9,9 @@ function Navbar() {
     const [searchResults, setSearchResults] = useState([]);
 
     const stocksData = (event) => {
-        api.get('/SearchByNameAndSymbol/' + encodeURIComponent(event.target.value))
+        let searchtext = (encodeURIComponent(event.target.value) === "" ) ? "--null" : encodeURIComponent(event.target.value);
+        api.get('/SearchByNameAndSymbol/' + searchtext)
             .then((response) => {
-
                 setSearchResults(response.data);
             })
             .catch((error) => {

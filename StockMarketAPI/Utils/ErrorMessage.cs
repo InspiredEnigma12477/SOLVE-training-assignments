@@ -47,7 +47,7 @@ namespace StockMarketAPI.Utils
             { 129, new ErrorMessage { Code = 129, Message = "InValid StockSymbol" } },
             { 130, new ErrorMessage { Code = 130, Message = "InValid Date" } },
             { 131, new ErrorMessage { Code = 131, Message = "Stock Doesn't exist of id" } },
-            { 132, new ErrorMessage { Code = 132, Message = "'{propertyName}' must be an email address." } },
+            { 132, new ErrorMessage { Code = 132, Message = "SearchNameAndSymbol Is Empty ." } },
             { 133, new ErrorMessage { Code = 133, Message = "'{propertyName}' must be a valid URL." } },
             { 134, new ErrorMessage { Code = 134, Message = "'{propertyName}' must be a valid date in the format '{dateFormat}'." } },
             { 135, new ErrorMessage { Code = 135, Message = "'{propertyName}' must be a boolean value (true or false)." } },

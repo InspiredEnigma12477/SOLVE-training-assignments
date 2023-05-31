@@ -20,16 +20,16 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path='\' exact element={<Home/>}/>
+        <Route path='\' exact element={<Home />} />
         <Route path="/AddStock" element={<AddStock />} />
-        <Route path="/GetAllStocks" element={<AllStocks/>} />
+        <Route path="/GetAllStocks" element={<AllStocks />} />
         <Route path="/Edit/:id" element={<EditStock />} />
         <Route path="/Stock/:symbol" element={<Stock />} />
-        <Route path="/NotFound" element={<NotFound/>} />
-        <Route path="*" element={<NotFound/>} />
+        <Route path="/NotFound" element={<NotFound />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
 
-      <Footer/>
+      <Footer />
     </BrowserRouter>
   );
 }

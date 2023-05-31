@@ -143,7 +143,7 @@ function AddStock() {
               name="stockSymbol"
               id="stockSymbol"
               value={stock.stockSymbol}
-              onChange={(e) => setStock({ ...stock, stockSymbol: e.target.value })}
+              onChange={(e) => setStock({ ...stock, stockSymbol: e.target.value })}  
               onBlur={handleBlur}
               tabIndex={2} />
           </formgroup>

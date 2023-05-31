@@ -10,6 +10,43 @@ namespace StockMarketAPI.DataAccessLayer
         public DbManager() { }
 
         #region GET Methods
+        public static int? GetStocksCount()
+        {
+            int? result = null;
+
+            MySqlConnection con = DatabaseConnection.Instance.GetConnection();
+            try
+            {
+                con.Open();
+
+                MySqlCommand cmd = new MySqlCommand();
+                cmd.Connection = con;
+
+                string query = "SELECT Count(*) \"Count\" FROM stocks ";
+                cmd.CommandText = query;
+
+                MySqlDataReader reader = cmd.ExecuteReader();
+
+                reader.Read();
+                result = int.Parse(reader["Count"].ToString());
+
+                using (StreamWriter writer = new StreamWriter("D:\\Coumt.txt"))
+                {
+                    writer.Write(result);
+                }
+
+            }
+            catch (Exception ee)
+            {
+                Console.WriteLine(ee.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+
+            return result;
+        }
         public static List<Stock> GetAllStocks()
         {
             List<Stock> allStocks = new List<Stock>();
@@ -23,6 +60,50 @@ namespace StockMarketAPI.DataAccessLayer
                 cmd.Connection = con;
 
                 string query = "SELECT * FROM stocks";
+                cmd.CommandText = query;
+
+                MySqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    var id = int.Parse(reader["StockId"].ToString());
+                    var stockName = reader["StockName"].ToString();
+                    var stockSymbol = reader["StockSymbol"].ToString();
+                    var creationDate = reader["CreationDate"].ToString();
+
+                    Stock stock = new Stock
+                    {
+                        StockId = id,
+                        StockName = stockName,
+                        StockSymbol = stockSymbol,
+                        CreationDate = DateTime.Parse(creationDate)
+                    };
+                    allStocks.Add(stock);
+                }
+            }
+            catch (Exception ee)
+            {
+                Console.WriteLine(ee.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+
+            return allStocks;
+        }
+        public static List<Stock> GetAllStocksPagination(int Pageid)
+        {
+            List<Stock> allStocks = new List<Stock>();
+
+            MySqlConnection con = DatabaseConnection.Instance.GetConnection();
+            try
+            {
+                con.Open();
+
+                MySqlCommand cmd = new MySqlCommand();
+                cmd.Connection = con;
+
+                string query = $"SELECT * FROM stocks LIMIT {Pageid * 100},100 ";
                 cmd.CommandText = query;
 
                 MySqlDataReader reader = cmd.ExecuteReader();
@@ -541,6 +622,35 @@ namespace StockMarketAPI.DataAccessLayer
             }
 
             return status;
+        }
+        public static bool InsertMultipleStock(List<StockInsertDTO> stocks)
+        {
+            bool status = false;
+
+
+            MySqlConnection con = DatabaseConnection.Instance.GetConnection();
+            try
+            {
+                con.Open();
+                foreach (StockInsertDTO stock in stocks)
+                {
+                    string query = $"INSERT INTO stocks (StockName, StockSymbol, CreationDate) VALUES('{stock.StockName}', '{stock.StockSymbol}', NOW())";
+
+                    MySqlCommand command = new MySqlCommand(query, con);
+                    command.ExecuteNonQuery();
+                    status = true;
+                }
+            }
+            catch (Exception ee)
+            {
+                Console.WriteLine(ee.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+
+            return status;
 
         }
         public static bool InsertStockPriceById(StockPrice stock)
@@ -558,6 +668,37 @@ namespace StockMarketAPI.DataAccessLayer
                 command.ExecuteNonQuery();
                 status = true;
 
+            }
+            catch (Exception ee)
+            {
+                Console.WriteLine(ee.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+
+            return status;
+
+        }
+
+        public static bool InsertMultipleStockPriceById(List<StockPrice> stocks)
+        {
+            bool status = false;
+
+            MySqlConnection con = DatabaseConnection.Instance.GetConnection();
+            try
+            {
+                con.Open();
+                foreach (StockPrice stock in stocks)
+                {
+                    stock.AtTime = DateTime.Now;
+                    string query = $"INSERT INTO stock_Price (StockId, Price, PriceAtTime) VALUES('{stock.StockId}', '{stock.Price}', NOW())";
+
+                    MySqlCommand command = new MySqlCommand(query, con);
+                    command.ExecuteNonQuery();
+                }
+                status = true;
             }
             catch (Exception ee)
             {

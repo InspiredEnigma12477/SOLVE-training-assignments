@@ -1,0 +1,15 @@
+C:\Users\AUMNI\source\repos\ThreadTrials\bin\Debug\net7.0\ThreadTrials.exe
+C:\Users\AUMNI\source\repos\ThreadTrials\bin\Debug\net7.0\ThreadTrials.deps.json
+C:\Users\AUMNI\source\repos\ThreadTrials\bin\Debug\net7.0\ThreadTrials.runtimeconfig.json
+C:\Users\AUMNI\source\repos\ThreadTrials\bin\Debug\net7.0\ThreadTrials.dll
+C:\Users\AUMNI\source\repos\ThreadTrials\bin\Debug\net7.0\ThreadTrials.pdb
+C:\Users\AUMNI\source\repos\ThreadTrials\obj\Debug\net7.0\ThreadTrials.csproj.AssemblyReference.cache
+C:\Users\AUMNI\source\repos\ThreadTrials\obj\Debug\net7.0\ThreadTrials.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AUMNI\source\repos\ThreadTrials\obj\Debug\net7.0\ThreadTrials.AssemblyInfoInputs.cache
+C:\Users\AUMNI\source\repos\ThreadTrials\obj\Debug\net7.0\ThreadTrials.AssemblyInfo.cs
+C:\Users\AUMNI\source\repos\ThreadTrials\obj\Debug\net7.0\ThreadTrials.csproj.CoreCompileInputs.cache
+C:\Users\AUMNI\source\repos\ThreadTrials\obj\Debug\net7.0\ThreadTrials.dll
+C:\Users\AUMNI\source\repos\ThreadTrials\obj\Debug\net7.0\refint\ThreadTrials.dll
+C:\Users\AUMNI\source\repos\ThreadTrials\obj\Debug\net7.0\ThreadTrials.pdb
+C:\Users\AUMNI\source\repos\ThreadTrials\obj\Debug\net7.0\ThreadTrials.genruntimeconfig.cache
+C:\Users\AUMNI\source\repos\ThreadTrials\obj\Debug\net7.0\ref\ThreadTrials.dll

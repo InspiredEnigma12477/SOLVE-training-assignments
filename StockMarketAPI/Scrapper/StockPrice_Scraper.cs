@@ -28,7 +28,7 @@ namespace StockMarketAPI.Scrapper
                 foreach (HtmlNode node in nodes)
                 {
                     string data = node.InnerHtml; // Extract the desired data from the element
-                    Console.WriteLine(data.Substring(1)); // Output the extracted data
+                    //Console.WriteLine(data.Substring(1)); // Output the extracted data
                     price = double.Parse(data.Substring(1));
                 }
             }

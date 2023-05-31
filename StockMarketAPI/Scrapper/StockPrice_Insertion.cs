@@ -1,22 +1,29 @@
 ﻿using StockMarketAPI.DataAccessLayer;
 using StockMarketAPI.Models;
+using System.Diagnostics;
+using System.Threading;
 
 namespace StockMarketAPI.Scrapper
 {
     public class StockPrice_Insertion
     {
-
-        private static List<StockPrice> staticlist = new List<StockPrice>();
-
-        public static bool InsertPrice()
+        private List<StockPrice> staticlist;
+        private List<Thread> threads;
+        private Semaphore dbSemaphore;
+        
+        public StockPrice_Insertion()
         {
-            staticlist.Clear();
+            staticlist = new List<StockPrice>();
+            threads = new List<Thread>();
+            dbSemaphore = new Semaphore(initialCount: 0, maximumCount: 3);
+            
+        }
+        public bool InsertPrice()
+        {
+            List<Stock> stocks = DbManager.GetAllStocks();   
 
-            List<Thread> threads = new List<Thread>();
-            List<Stock> stocks = DbManager.GetAllStocks();
-
-            int numThreads = 10;
-            int stocksPerThread = stocks.Count / numThreads;
+            int numThreads = 320;
+            int stocksPerThread = 5;
 
             // Create and start threads
             for (int i = 0; i < numThreads; i++)
@@ -26,10 +33,13 @@ namespace StockMarketAPI.Scrapper
 
                 List<Stock> threadStocks = stocks.GetRange(startIndex, endIndex - startIndex);
 
-                //Thread thread = new Thread(() => ProcessStocks(threadStocks));
-                //thread.Start();
-                //threads.Add(thread);
+                Thread thread = new Thread(() => ProcessStocks(threadStocks)) { Name = "thread" + i };
+                thread.Start();
+                threads.Add(thread);
+                Console.ForegroundColor = ConsoleColor.White;
             }
+
+            dbSemaphore.Release(releaseCount: 3);
 
             // Wait for all threads to complete
             foreach (Thread thread in threads)
@@ -38,14 +48,21 @@ namespace StockMarketAPI.Scrapper
             }
 
             Console.WriteLine("All threads completed. Press any key to exit.");
-            InsertInDB();
-            Console.WriteLine("Inserted the data");
+            //InsertInDB();
+            //Console.WriteLine("Inserted the data");
 
             return true;
-
         }
-        static void ProcessStocks(List<Stock> stocks)
+        void ProcessStocks(List<Stock> stocks)
         {
+            Console.ForegroundColor = ConsoleColor.White;
+
+            Stopwatch sw = Stopwatch.StartNew();
+
+            sw.Start();
+            List<StockPrice> list = new List<StockPrice>();
+
+            Console.WriteLine(Thread.CurrentThread.Name + "Stocks Count " + stocks.Count);
             foreach (Stock stock in stocks)
             {
                 try
@@ -53,13 +70,14 @@ namespace StockMarketAPI.Scrapper
                     double? price = StockPrice_Scraper.GetOnlineStockPrice(stock.StockSymbol);
                     if (price != null)
                     {
-                        staticlist.Add(new StockPrice
+                        list.Add(new StockPrice
                         {
                             StockId = stock.StockId,
                             Price = (double)price,
                             AtTime = DateTime.Now
                         });
                     }
+
                 }
                 catch
                 {
@@ -67,11 +85,35 @@ namespace StockMarketAPI.Scrapper
                     continue;
                 }
             }
+            sw.Stop();
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Scraping completed in " + sw.Elapsed +  " for " + Thread.CurrentThread.Name);
+            Console.ForegroundColor = ConsoleColor.White;
+
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Insertion  Stopped for " + Thread.CurrentThread.Name);
+            Console.ForegroundColor = ConsoleColor.White;
+
+            dbSemaphore.WaitOne();// Wait until a DB connection is available
+            InsertInDB(list);
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Insertion  Started for " + Thread.CurrentThread.Name);
+            Console.ForegroundColor = ConsoleColor.White;
+
+            dbSemaphore.Release(); // Release the DB connection
+
+            
+            Console.WriteLine("\nInserted     in DB for "  + Thread.CurrentThread.Name + " *****************");
+            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.White;
+
         }
 
-        public static bool InsertInDB()
+        //public bool InsertInDB()
+        public bool InsertInDB(List<StockPrice> list)
         {
-            foreach (StockPrice stock in staticlist)
+            foreach (StockPrice stock in list)
             {
                 try
                 {
@@ -85,7 +127,7 @@ namespace StockMarketAPI.Scrapper
             }
             return true;
         }
-        public static bool InsertPriceT()
+        public bool InsertPriceT()
         {
             List<Stock> stocks = DbManager.GetAllStocks();
             ProcessStocks(stocks);

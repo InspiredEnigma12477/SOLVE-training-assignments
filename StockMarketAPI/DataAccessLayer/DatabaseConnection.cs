@@ -4,8 +4,8 @@ namespace StockMarketAPI.DataAccessLayer
 {
     public class DatabaseConnection
     {
-        private static DatabaseConnection instance = null;
-        private static MySqlConnection connection = null;
+        private DatabaseConnection instance = null;
+        private MySqlConnection connection = null;
         string connectionString = @"server=localhost; port=3306; user=root; password=1234567890; database=SolveTraining";
 
         private DatabaseConnection()
@@ -17,11 +17,8 @@ namespace StockMarketAPI.DataAccessLayer
         {
             get
             {
-                if (instance == null)
-                {
-                    instance = new DatabaseConnection();
-                }
-                return instance;
+                return new DatabaseConnection();
+
             }
         }
 
