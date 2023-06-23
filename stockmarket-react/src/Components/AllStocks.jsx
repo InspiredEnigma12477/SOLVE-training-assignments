@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Scrollbars } from 'react-custom-scrollbars';
 import '../scss/AllStocks.scss';
 import api from '../Helpers/api';
+import axios from 'axios';
 
 function AllStocks() {
   const [heading, setHeading] = useState('All Stocks');
@@ -79,6 +80,7 @@ function AllStocks() {
     setLoading(true);
     setPriceFlag(false);
     api.get('/GetAllStocks')
+    // axios.get(localStorage.getItem('baseURL') +'GetAllStocks')
       .then((response) => {
         const formattedStocks = response.data.map(stock => {
           const formattedDate = new Date(stock.creationDate).toDateString();
@@ -251,7 +253,6 @@ function AllStocks() {
     setSearchResults(searchResults);
   }
 
-
   const SearchByDate = () => {
 
     const searchResults = stocks.filter((stock) => {
@@ -322,7 +323,6 @@ function AllStocks() {
       })
     );
   };
-  
 
   const Pagination = (
     <div className="pagination">
@@ -364,6 +364,14 @@ function AllStocks() {
     </tr>
   );
 
+  const ArrowButton = (
+    <span className='ArrowButton'>
+      <i className={`  fas fa-arrow-${sortOrder.id === 'asc' ? 'up' : 'down'}`}>
+      <svg height="48" viewBox="0 -960 960 960" width="48"><path d="M480-360 280-559h400L480-360Z"/></svg>
+      </i>
+    </span>
+  );
+
   return (
     <div className="mainContainer-allstocks" >
       <div id="top"></div>
@@ -398,7 +406,7 @@ function AllStocks() {
           <table>
             <thead>
               <tr>
-                <th onClick={() => sortByColumn('stockId')}>Id</th>
+                <th onClick={() => sortByColumn('stockId')}>Id {ArrowButton} </th>
                 <th onClick={() => sortByColumn('stockName')}>Name</th>
                 <th onClick={() => sortByColumn('stockSymbol')}>Symbol</th>
                 {priceFlag ? <th onClick={() => sortByColumn('stockPrice')}>Price</th> : null}

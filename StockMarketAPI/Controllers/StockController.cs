@@ -41,6 +41,13 @@ namespace StockMarketAPI.Controllers
 
         #region GET
 
+        public IActionResult Get()
+        {
+            LogError("Default Get Method called.");
+            return StatusCode(StatusCodes.Status200OK, ErrorMessages.Errors[135]);
+
+        }
+
         [HttpGet]
         [Route("UpdatePricesOnline")]
         public IActionResult UpdatePricesOnline()

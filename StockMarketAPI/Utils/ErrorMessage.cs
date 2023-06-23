@@ -50,7 +50,7 @@ namespace StockMarketAPI.Utils
             { 132, new ErrorMessage { Code = 132, Message = "SearchNameAndSymbol Is Empty ." } },
             { 133, new ErrorMessage { Code = 133, Message = "'{propertyName}' must be a valid URL." } },
             { 134, new ErrorMessage { Code = 134, Message = "'{propertyName}' must be a valid date in the format '{dateFormat}'." } },
-            { 135, new ErrorMessage { Code = 135, Message = "'{propertyName}' must be a boolean value (true or false)." } },
+            { 135, new ErrorMessage { Code = 135, Message = "Welcome To Stock Market API's " } },
             { 136, new ErrorMessage { Code = 136, Message = "Invalid JSON data" } },
 
         };
